@@ -30,7 +30,6 @@ class MaintenanceService(Workflow, ModelSQL, ModelView):
     _rec_name = 'rec_name'
     _order_name = 'code'
 
-    # _states = {'readonly': If(Eval('state') != 'draft', True)}
     _states = {}
 
     code = fields.Char(
@@ -662,60 +661,6 @@ class MaintenanceServiceLine(Workflow, ModelSQL, ModelView):
         uncertain_type_A = dev_std / mt.sqrt(n_samples)
 
         return uncertain_type_A
-
-    def get_uncertain_pattern(self):
-        '''
-        uncertain_pattern = 0,25 constante viene del equipo
-        '''
-        uncertain_pattern = 0.25
-
-        return uncertain_pattern
-
-    def get_k_certificated_calibration(self):
-        return 2
-
-    def get_uncertain_U_b1(self):
-        uncertain_b1 = MEP / mt.sqrt(3)
-
-        return uncertain_b1
-
-    def default_d_resolution(self):
-        return d
-
-    def get_uncertain_b2_digital(self):
-        uncertain_b2 = d / 2 * mt.sqrt(3)
-
-        return uncertain_b2
-
-    def get_uncertain_b2_analog(self):
-        '''
-        Incertidumbre por resolución Análoga
-        a contante que viene del equipo
-        '''
-        uncertain_b2_analog = d / a * math.sqrt(3)
-
-        return uncertain_b2_analog
-
-    def get_uncertain_combinated(self):
-        '''
-        Incertidumbre Combinada
-        '''
-        sum_uncertain_c = uncertain_type_A**2 + uncertain_b1**2 + uncertain_b2**2
-        uncertain_c = math.sqrt(sum_uncertain_c)
-
-        return uncertain_c
-
-    def get_uncertain_eff(self):
-        '''
-        Grados Efectivos de libertad
-        '''
-        uncertain_eff = uncertain_c**4 / (
-            (uncertain_type_A**4) / (len(sample) - 1)
-            + (uncertain_b1**4 / U_subi)
-            + (uncertain_b2**4 / U_subi)
-        )
-
-        return uncertain_eff
 
     def get_create_graph(matrix, patterns, resolution, equipment_risk):
         image = BytesIO()
