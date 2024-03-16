@@ -19,40 +19,52 @@ def process_sale(moves_field):
             transaction = Transaction()
             context = transaction.context
             with without_check_access():
-                sales = set(m.sale for s in cls.browse(shipments)
-                            for m in getattr(s, moves_field) if m.sale)
+                sales = set(
+                    m.sale
+                    for s in cls.browse(shipments)
+                    for m in getattr(s, moves_field)
+                    if m.sale
+                )
             func(cls, shipments)
             if sales:
                 with transaction.set_context(
-                        queue_batch=context.get('queue_batch', True)):
+                    queue_batch=context.get('queue_batch', True)
+                ):
                     Sale.__queue__.process(sales)
+
         return wrapper
+
     return _process_sale
 
 
 class Move(metaclass=PoolMeta):
-    "Stock Move"
-    __name__ = "stock.move"
+    'Stock Move'
+    __name__ = 'stock.move'
 
-    return_equipment = fields.Boolean("Devolución", 
-                                      #states={'invisible': If(~Eval('product_equipment'), True),
-                                      #                      'readonly': (Eval('state').in_(['cancelled', 'done'])), }
-                                      )
-    equipment = fields.Many2One('optical_equipment.equipment', "Equipment",
-                                domain=[If(Eval('return_equipment', True),
-                                           ('state', 'in', ['uncontrated', 'contrated']),
-                                           ('state', '=', 'registred')),
-                                        ('product', '=', Eval('product'))
-                                        ],
-                                #states={'invisible': If(~Eval('product_equipment'), True),
-                                #        'readonly': (Eval('state').in_(['cancelled', 'done'])), },
-                                depends=['product_equipment', 'move_type'])
-    equipment_serial = fields.Function(fields.Char('Serial',
-                                                   #states={'readonly': True,
-                                                   #        'invisible': If(~Eval('product_equipment'), True)},
-                                                   depends=['product_equipment']),
-                                       'get_equipment_serial')
-    product_equipment = fields.Function(fields.Boolean("It Equipment"), 'get_product_equipment')
+    return_equipment = fields.Boolean('Devolución')
+    equipment = fields.Many2One(
+        'optical_equipment.equipment',
+        'Equipment',
+        domain=[
+            If(
+                Eval('return_equipment', True),
+                ('state', 'in', ['uncontrated', 'contrated']),
+                ('state', '=', 'registred'),
+            ),
+            ('product', '=', Eval('product')),
+        ],
+        depends=['product_equipment', 'move_type'],
+    )
+    equipment_serial = fields.Function(
+        fields.Char(
+            'Serial',
+            depends=['product_equipment'],
+        ),
+        'get_equipment_serial',
+    )
+    product_equipment = fields.Function(
+        fields.Boolean('It Equipment'), 'get_product_equipment'
+    )
 
     @classmethod
     def __setup__(cls):
@@ -75,10 +87,12 @@ class Move(metaclass=PoolMeta):
 
     @fields.depends('product', 'equipment', 'uom')
     def on_change_product(self):
-        if self.product:
-            if (not self.uom
-                    or self.uom.category != self.product.default_uom.category):
-                self.uom = self.product.default_uom
+        if not self.product:
+            return
+
+        defaultCategory = self.product.default_uom.category
+        if not self.uom or self.uom.category != defaultCategory:
+            self.uom = self.product.default_uom
 
     @fields.depends(methods=['get_equipment_serial'])
     def on_change_equipment(self):
@@ -90,27 +104,39 @@ class Move(metaclass=PoolMeta):
 
 
 class ShipmentOut(metaclass=PoolMeta):
-    "Customer Shipment"
+    'Customer Shipment'
     __name__ = 'stock.shipment.out'
 
-    service_maintenance_initial = fields.Boolean('Maintenance Initial', states={'readonly': True})
+    service_maintenance_initial = fields.Boolean(
+        'Maintenance Initial', states={'readonly': True}
+    )
     sale_type = fields.Char('Type sale origin')
 
     @classmethod
     def __setup__(cls):
         super(ShipmentOut, cls).__setup__()
-        cls._buttons.update({
-            'maintenance_initial': {
-                'invisible': ((Eval('service_maintenance_initial', True))
-                              | (Eval('sale_type').in_(['maintenance', 'replaces'])))}
-        })
+        cls._buttons.update(
+            {
+                'maintenance_initial': {
+                    'invisible': (
+                        (Eval('service_maintenance_initial', True))
+                        | (Eval('sale_type').in_(['maintenance', 'replaces']))
+                    )
+                }
+            }
+        )
 
     @classmethod
     def view_attributes(cls):
         return super(ShipmentOut, cls).view_attributes() + [
-            ('//page[@name="inventory_moves"]', 'states', {
-                'invisible': False,
-            }),]
+            (
+                "//page[@name='inventory_moves']",
+                'states',
+                {
+                    'invisible': False,
+                },
+            ),
+        ]
 
     @classmethod
     @ModelView.button
@@ -126,35 +152,47 @@ class ShipmentOut(metaclass=PoolMeta):
         for shipment in shipments:
             for move in shipment.inventory_moves:
                 count = 0
-                if move.equipment:
-                    equipment = move.equipment
-                    Id = equipment.id
-                    equipment = Equipments.search(['id', '=', Id])[0]
-                    equipment.propietary = shipment.customer.id
-                    equipment.propietary_address = shipment.delivery_address.id
-                    equipment.location = Locations.search(['name', '=', 'Cliente'])[0].id
-                    equipment.state = "uncontrated"
-                    equipment.shipment_destination = shipment
-                    equipment.sale_destination = shipment.outgoing_moves[count].origin
-                    equipment.propietarys += (shipment.customer,)
-                    equipment.maintenance_frequency = "6" if shipment.customer.customer_type == "ips" else "12"
+                if not move.equipment:
                     count += 1
-                    equipment.save()
-                else:
-                    count += 1
+                    continue
+
+                equipment = move.equipment
+                Id = equipment.id
+                equipment = Equipments.search(['id', '=', Id])[0]
+                equipment.propietary = shipment.customer.id
+                equipment.propietary_address = shipment.delivery_address.id
+                equipment.location = Locations.search(
+                    ['name', '=', 'Cliente'])[0].id
+                equipment.state = 'uncontrated'
+                equipment.shipment_destination = shipment
+                equipment.sale_destination =\
+                    shipment.outgoing_moves[count].origin
+                equipment.propietarys += (shipment.customer,)
+                equipment.maintenance_frequency = (
+                    '6'
+                    if shipment.customer.customer_type == 'ips'
+                    else '12'
+                )
+                count += 1
+                equipment.save()
 
         Move.delete([
-            m for s in shipments for m in s.outgoing_moves
-            if m.state == 'staging'])
+            m for s in shipments
+            for m in s.outgoing_moves
+            if m.state == 'staging'
+        ])
 
         Move.do([m for s in shipments for m in s.outgoing_moves])
-        for company, c_shipments in groupby(
-                shipments, key=lambda s: s.company):
+        iterator = groupby(shipments, key=lambda s: s.company)
+        for company, c_shipments in iterator:
             with Transaction().set_context(company=company.id):
                 today = Date.today()
-            cls.write([s for s in c_shipments if not s.effective_date], {
-                'effective_date': today,
-            })
+            cls.write(
+                [s for s in c_shipments if not s.effective_date],
+                {
+                    'effective_date': today,
+                },
+            )
 
     @classmethod
     @ModelView.button
@@ -162,9 +200,6 @@ class ShipmentOut(metaclass=PoolMeta):
         pool = Pool()
         MaintenanceService = pool.get('optical_equipment_maintenance.service')
         Maintenance = pool.get('optical_equipment.maintenance')
-        SaleLine = pool.get('sale.line')
-
-        Equipments = pool.get('optical_equipment.equipment')
 
         for shipment in shipments:
             serial = False
@@ -184,11 +219,12 @@ class ShipmentOut(metaclass=PoolMeta):
             if number_equipments < 1 or maintenance_required < 1:
                 shipment.service_maintenance_initial = True
                 shipment.save()
-                # raise UserError(str("No se generó un mantenimiento inicial dado que los equipos no requiren mantenimiento, ó no se encontró ningún producto de tipo equipo en este envío."))
                 break
 
             sale_origin = shipment.outgoing_moves[0].origin.sale
-            maintenanceService = MaintenanceService.search(['sale_origin', '=', sale_origin])
+            maintenanceService = MaintenanceService.search(
+                ['sale_origin', '=', sale_origin]
+            )
             if maintenanceService == []:
                 maintenanceService = MaintenanceService(
                     sale_date=shipment.outgoing_moves[0].origin.sale.sale_date,
@@ -196,41 +232,55 @@ class ShipmentOut(metaclass=PoolMeta):
                     maintenance_type='initial',
                     propietary=shipment.customer.id,
                     propietary_address=shipment.delivery_address.id,
-                    state='draft')
+                    state='draft',
+                )
                 maintenanceService.save()
             else:
                 maintenanceService = maintenanceService[0]
                 maintenanceService.state = 'draft'
                 maintenanceService.save()
 
-            if serial == True:
-                for move in shipment.inventory_moves:
-                    if move.product_equipment and move.equipment and move.equipment.product.template.maintenance_required:
-                        maintenance = Maintenance(
-                            service_maintenance=maintenanceService.id,
-                            maintenance_type='initial',
-                            propietary=shipment.customer.id,
-                            equipment_calibrate=True if move.equipment.product.calibration else False,
-                            propietary_address=shipment.delivery_address.id,
-                            equipment=move.equipment.id,
-                            initial_operation=move.equipment.product.initial_operation,
-                            check_equipment=move.equipment.product.template.check_equipment,
-                            check_electric_system=move.equipment.product.template.check_electric_system,
-                            clean_int_ext=move.equipment.product.template.clean_int_ext,
-                            clean_eyes=move.equipment.product.template.clean_eyes,
-                            check_calibration=move.equipment.product.template.check_calibration,
-                            temperature_min=maintenanceService.temperature_min,
-                            temperature_max=maintenanceService.temperature_max,
-                            temperature_uom=maintenanceService.temperature_uom.id,
-                            moisture_min=maintenanceService.moisture_min,
-                            moisture_max=maintenanceService.moisture_max,
-                            moisture_uom=maintenanceService.moisture_uom.id)
-                        maintenance.save()
-                shipment.service_maintenance_initial = True
-                shipment.save()
-            else:
-                raise UserError(
-                    str('Por favor Primero debe Asignar un serial a todos los Equipos.'))
+            if not serial:
+                error = 'Por favor Primero debe Asignar'
+                + 'un serial a todos los Equipos.'
+                raise UserError(str(error))
+
+            for move in shipment.inventory_moves:
+                valid = \
+                    move.product_equipment \
+                    and move.equipment \
+                    and move.equipment.product.template.maintenance_required
+
+                if (not valid):
+                    continue
+
+                template = move.equipment.product.template
+                maintenance = Maintenance(
+                    service_maintenance=maintenanceService.id,
+                    maintenance_type='initial',
+                    propietary=shipment.customer.id,
+                    equipment_calibrate=(
+                        True if move.equipment.product.calibration else False
+                    ),
+                    propietary_address=shipment.delivery_address.id,
+                    equipment=move.equipment.id,
+                    initial_operation=move.equipment.product.initial_operation,
+                    check_equipment=template.check_equipment,
+                    check_electric_system=template.check_electric_system,
+                    clean_int_ext=template.clean_int_ext,
+                    clean_eyes=template.clean_eyes,
+                    check_calibration=template.check_calibration,
+                    temperature_min=maintenanceService.temperature_min,
+                    temperature_max=maintenanceService.temperature_max,
+                    temperature_uom=maintenanceService.temperature_uom.id,
+                    moisture_min=maintenanceService.moisture_min,
+                    moisture_max=maintenanceService.moisture_max,
+                    moisture_uom=maintenanceService.moisture_uom.id,
+                )
+                maintenance.save()
+
+            shipment.service_maintenance_initial = True
+            shipment.save()
 
 
 class ShipmentInternal(metaclass=PoolMeta):
@@ -253,15 +303,21 @@ class ShipmentInternal(metaclass=PoolMeta):
                     move.equipment.save()
 
         Move.do([m for s in shipments for m in s.incoming_moves])
-        cls.write([s for s in shipments if not s.effective_date], {
-            'effective_date': Date.today(), })
+        cls.write(
+            [s for s in shipments if not s.effective_date],
+            {
+                'effective_date': Date.today(),
+            },
+        )
 
 
 class ShipmentOutReturn(metaclass=PoolMeta):
-    "Customer Shipment Return"
+    'Customer Shipment Return'
     __name__ = 'stock.shipment.out.return'
 
-    service_maintenance_initial = fields.Boolean('Maintenance Initial', states={'readonly': True})
+    service_maintenance_initial = fields.Boolean(
+        'Maintenance Initial', states={'readonly': True}
+    )
     sale_type = fields.Char('Type sale origin')
 
     @classmethod
@@ -271,25 +327,26 @@ class ShipmentOutReturn(metaclass=PoolMeta):
     def receive(cls, shipments):
         Move = Pool().get('stock.move')
         Equipments = Pool().get('optical_equipment.equipment')
-        Locations = Pool().get('stock.location')
         Move.do([m for s in shipments for m in s.incoming_moves])
         for s in shipments:
             for m in s.incoming_moves:
-                if m.equipment:
-                    equipment = m.equipment
-                    Id = equipment.id
-                    equipment = Equipments.search(['id', '=', Id])[0]
-                    equipment.propietary = s.company.party.id
-                    equipment.propietary_address = s.company.party.addresses[0].id
-                    equipment.location = m.to_location.id
-                    equipment.state = "registred"
-                    equipment.save()
+                if not m.equipment:
+                    continue
+
+                equipment = m.equipment
+                Id = equipment.id
+                equipment = Equipments.search(['id', '=', Id])[0]
+                equipment.propietary = s.company.party.id
+                equipment.propietary_address = s.company.party.addresses[0].id
+                equipment.location = m.to_location.id
+                equipment.state = 'registred'
+                equipment.save()
 
         cls.create_inventory_moves(shipments)
         # Set received state to allow done transition
         cls.write(shipments, {'state': 'received'})
-        to_do = [s for s in shipments
-                 if s.warehouse_storage == s.warehouse_input]
+        to_do = [
+            s for s in shipments if s.warehouse_storage == s.warehouse_input]
 
         if to_do:
             cls.done(to_do)
