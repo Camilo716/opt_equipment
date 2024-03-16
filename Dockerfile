@@ -13,4 +13,3 @@ RUN apt-get update && apt-get install -y postgresql-client
 
 # TOMADO DE: https://hg.tryton.org/tryton-docker/file/tip/6.6/Dockerfile
 COPY --from=builder-node /package /var/lib/trytond/www
-COPY sao_custom/ /var/lib/trytond/www/
