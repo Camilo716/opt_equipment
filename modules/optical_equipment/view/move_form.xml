@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/field[@name='product']" position="after">
+	<newline/>
+	<label name="return_equipment"/>
+	<field name="return_equipment"/>
+	<newline/>
+	<label name="equipment"/>
+	<field name="equipment"/>	
+	<label name="equipment_serial"/>
+	<field name="equipment_serial"/>
+    </xpath>
+</data>

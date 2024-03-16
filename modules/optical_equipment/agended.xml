@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+	<record model="ir.ui.view" id="assing_agended_view_form">
+	    <field name="model">optical_equipment_maintenance.agended</field>
+	    <field name="type">form</field>
+	    <field name="name">assing_agended_form</field>
+	</record>
+	<record model="ir.action.wizard" id="act_assing_agended">
+	    <field name="name">Assing Agended</field>
+	    <field name="wiz_name">optical_equipment_maintenance.assing_agended</field>
+	</record>
+	<record model="ir.ui.view" id="reassing_agended_view_form">
+	    <field name="model">optical_equipment_maintenance.reagended</field>
+	    <field name="type">form</field>
+	    <field name="name">reassing_agended_form</field>
+	</record>
+	<record model="ir.action.wizard" id="act_reassing_agended">
+	    <field name="name">ReAssing Agended</field>
+	    <field name="wiz_name">optical_equipment_maintenance.reassing_agended</field>
+	</record>
+	<menuitem parent="menu_diary"
+		  action="act_assing_agended"
+		  sequence="30"
+		  id="menu_assing_agended_form"/>
+	<menuitem parent="menu_diary"
+		  action="act_reassing_agended"
+		  sequence="40"
+		  id="menu_reassing_agended_form"/>
+    </data>
+</tryton>

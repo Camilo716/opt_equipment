@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="party"/>
+    <field name="party"/>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="start_period"/>
+    <field name="start_period"/>
+    <label name="end_period"/>
+    <field name="end_period"/>
+    <label name="party_type"/>
+    <field name="party_type"/>
+</form>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <separator id="sequences" string="Sequences" colspan="4"/>
+    <newline/>
+    <label name="equipment_sequence"/>
+    <field name="equipment_sequence"/>
+    <newline/>
+    <label name="maintenance_sequence"/>
+    <field name="maintenance_sequence"/>
+    <newline/> 
+    <label name="agended_sequence"/>
+    <field name="agended_sequence"/>
+    <newline/>
+    <label name="contract_sequence"/>
+    <field name="contract_sequence"/>
+    <newline/>
+    <label name="sale_quote_number"/>
+    <field name="sale_quote_number"/>
+    <newline/>
+    
+    <separator id="environmental_conditions" string="Environmental Conditions" colspan="4"/>
+    <newline/>
+    <label name="temperature_min"/>
+    <field name="temperature_min"/>
+    <newline/>
+    <label name="temperature_max"/>
+    <field name="temperature_max"/>
+    <newline/>
+    <label name="temperature_uom"/>
+    <field name="temperature_uom"/>
+    <newline/> 
+    <label name="moisture_min"/>
+    <field name="moisture_min"/>
+    <newline/> 
+    <label name="moisture_max"/>
+    <field name="moisture_max"/>
+    <newline/>
+    <label name="moisture_uom"/>
+    <field name="moisture_uom"/>
+    <newline/>
+    
+    <separator id="technician_responsible" string="Technician Responsible" colspan="4"/>
+    <label name="technician_responsible"/>
+    <field name="technician_responsible"/>
+
+    <label name="invima"/>
+    <field name="invima"/>
+
+    <label name="technician_signature"/>
+    <field name="technician_signature"/>
+</form>

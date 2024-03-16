@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+	<record model="ir.ui.view" id="maintenance_calibration_view_form">
+            <field name="model">optical_equipment.maintenance.calibration_sample</field>
+            <field name="type">form</field>
+            <field name="name">maintenance_sample_form</field>
+        </record>
+        <record model="ir.ui.view" id="maintenance_calibration_view_tree">
+            <field name="model">optical_equipment.maintenance.calibration_sample</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="10"/>
+            <field name="name">maintenance_calibration_tree</field>
+        </record>
+	<record model="ir.ui.view" id="calibration_total_view_tree">
+            <field name="model">optical_equipment.maintenance.calibration</field>
+            <field name="type">tree</field>
+            <field name="name">calibration_total_tree</field>
+        </record>
+	<record model="ir.ui.view" id="calibration_total_view_form">
+            <field name="model">optical_equipment.maintenance.calibration</field>
+            <field name="type">form</field>
+            <field name="name">calibration_total_form</field>
+        </record>
+	<record model="ir.action.report" id="report_calibration">
+            <field name="name">Calibration</field>
+            <field name="model">optical_equipment.maintenance</field>
+            <field name="report_name">optical_equipment.maintenance</field>
+            <field name="report">optical_equipment/report/Calibration.fodt</field>
+            <field name="single" eval="True"/>
+        </record>
+	<record model="ir.action.keyword" id="report_calibration_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">optical_equipment.maintenance,-1</field>
+            <field name="action" ref="report_calibration"/>
+    	</record>
+	<record model="ir.action.report" id="report_calibrations">
+            <field name="name">Calibrations</field>
+            <field name="model">optical_equipment_maintenance.service</field>
+            <field name="report_name">optical_equipment_maintenance.service</field>
+            <field name="report">optical_equipment/report/Calibrations.fodt</field>
+            <field name="single" eval="True"/>
+        </record>
+	<record model="ir.action.keyword" id="report_calibrations_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">optical_equipment_maintenance.service,-1</field>
+            <field name="action" ref="report_calibrations"/>
+    	</record>
+    </data>
+</tryton>

@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
+ <office:meta><meta:creation-date>2015-03-21T09:18:00.143995121</meta:creation-date><meta:editing-duration>P0D</meta:editing-duration><meta:editing-cycles>1</meta:editing-cycles><meta:generator>LibreOffice/7.4.7.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="47" meta:object-count="0"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">187</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">31339</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">10797</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item-map-named config:name="Tables">
+      <config:config-item-map-entry config:name="Hoja1">
+       <config:config-item config:name="CursorPositionX" config:type="int">2</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">12</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">160</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">false</config:config-item>
+       <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+      </config:config-item-map-entry>
+     </config:config-item-map-named>
+     <config:config-item config:name="ActiveTable" config:type="string">Hoja1</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1853</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+     <config:config-item config:name="PageViewZoomValue" config:type="int">160</config:config-item>
+     <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
+     <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="FormulaBarHeight" config:type="short">1</config:config-item>
+     <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsValueHighlightingEnabled" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+     <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item-map-indexed config:name="ForbiddenCharacters">
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">en</config:config-item>
+     <config:config-item config:name="Country" config:type="string">US</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">es</config:config-item>
+     <config:config-item config:name="Country" config:type="string">CO</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+   <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
+   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ImagePreferredDPI" config:type="int">0</config:config-item>
+   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string">Generic Printer</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">pAH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAxQAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luYWRqdXN0bWVudD0wLDAsMCwwCmNvbG9yZGVwdGg9MjQKcHNsZXZlbD0wCnBkZmRldmljZT0xCmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4dERhdGEKRHVwbGV4Ok5vbmUAUGFnZVNpemU6TGV0dGVyAAASAENPTVBBVF9EVVBMRVhfTU9ERQ8ARHVwbGV4TW9kZTo6T2Zm</config:config-item>
+   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SyntaxStringRef" config:type="short">0</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item-map-named config:name="ScriptConfiguration">
+    <config:config-item-map-entry config:name="Hoja1">
+     <config:config-item config:name="CodeName" config:type="string">Sheet1</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-named>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Sans Condensed" svg:font-family="&apos;DejaVu Sans Condensed&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Sans Light" svg:font-family="&apos;DejaVu Sans Light&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Sans1" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Droid Sans Devanagari" svg:font-family="&apos;Droid Sans Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Droid Sans Fallback" svg:font-family="&apos;Droid Sans Fallback&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Sans1" svg:font-family="&apos;Liberation Sans&apos;" style:font-adornments="Normal" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Lohit Hindi" svg:font-family="&apos;Lohit Hindi&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="table-cell">
+   <style:paragraph-properties style:tab-stop-distance="0.4921in"/>
+   <style:text-properties style:font-name="Arial" fo:font-size="10pt" fo:language="es" fo:country="CO" style:font-name-asian="DejaVu Sans1" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="DejaVu Sans1" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <number:number-style style:name="N0">
+   <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:currency-style style:name="N122P0" style:volatile="true">
+   <number:currency-symbol number:language="es" number:country="CO">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:currency-style>
+  <number:currency-style style:name="N122">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:currency-symbol number:language="es" number:country="CO">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N122P0"/>
+  </number:currency-style>
+  <number:number-style style:name="N123">
+   <number:scientific-number number:decimal-places="1" number:min-decimal-places="1" number:min-integer-digits="1" number:min-exponent-digits="1" number:exponent-interval="3" number:forced-exponent-sign="true"/>
+  </number:number-style>
+  <number:currency-style style:name="N125P0" style:volatile="true">
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N125">
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N125P0"/>
+  </number:currency-style>
+  <number:time-style style:name="N126">
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:number-style style:name="N130P0" style:volatile="true">
+   <number:text> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N130P1" style:volatile="true">
+   <number:text> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:number-style>
+  <number:number-style style:name="N130P2" style:volatile="true">
+   <number:text> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:text>- </number:text>
+  </number:number-style>
+  <number:text-style style:name="N130">
+   <number:text> </number:text>
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N130P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N130P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N130P2"/>
+  </number:text-style>
+  <number:number-style style:name="N131P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N131">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N131P0"/>
+  </number:number-style>
+  <number:number-style style:name="N133P0" style:volatile="true">
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N133">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N133P0"/>
+  </number:number-style>
+  <number:number-style style:name="N137P0" style:volatile="true">
+   <number:text> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N137P1" style:volatile="true">
+   <number:text> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:number-style>
+  <number:number-style style:name="N137P2" style:volatile="true">
+   <number:text> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="0"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:text-style style:name="N137">
+   <number:text> </number:text>
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N137P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N137P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N137P2"/>
+  </number:text-style>
+  <number:currency-style style:name="N139P0" style:volatile="true">
+   <number:currency-symbol number:language="es" number:country="CO">$</number:currency-symbol>
+   <number:number number:decimal-places="3" number:min-decimal-places="3" number:min-integer-digits="1" number:grouping="true"/>
+  </number:currency-style>
+  <number:currency-style style:name="N139">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:currency-symbol number:language="es" number:country="CO">$</number:currency-symbol>
+   <number:number number:decimal-places="3" number:min-decimal-places="3" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N139P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N140P0" style:volatile="true">
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N140">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N140P0"/>
+  </number:currency-style>
+  <number:number-style style:name="N141P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:number-style style:name="N141">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N141P0"/>
+  </number:number-style>
+  <number:number-style style:name="N142P0" style:volatile="true">
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N142">
+   <number:text>(</number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N142P0"/>
+  </number:number-style>
+  <number:number-style style:name="N143">
+   <number:text>(</number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:number-style>
+  <number:currency-style style:name="N145P0" style:volatile="true">
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N145">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N145P0"/>
+  </number:currency-style>
+  <number:date-style style:name="N146">
+   <number:day number:style="long"/>
+   <number:text>-</number:text>
+   <number:month number:textual="true"/>
+   <number:text>-</number:text>
+   <number:year/>
+  </number:date-style>
+  <number:time-style style:name="N147">
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long" number:decimal-places="1"/>
+  </number:time-style>
+  <number:date-style style:name="N148">
+   <number:day number:style="long"/>
+   <number:text>-</number:text>
+   <number:month number:textual="true"/>
+  </number:date-style>
+  <number:currency-style style:name="N149P0" style:volatile="true">
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N149">
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N149P0"/>
+  </number:currency-style>
+  <number:date-style style:name="N150">
+   <number:month number:textual="true"/>
+   <number:text>-</number:text>
+   <number:year/>
+  </number:date-style>
+  <number:currency-style style:name="N152P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+   <number:currency-symbol number:language="fr" number:country="BE">€</number:currency-symbol>
+  </number:currency-style>
+  <number:currency-style style:name="N152">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+   <number:currency-symbol number:language="fr" number:country="BE">€</number:currency-symbol>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N152P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N156P0" style:volatile="true">
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N156P1" style:volatile="true">
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N156P2" style:volatile="true">
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:text>- </number:text>
+  </number:currency-style>
+  <number:text-style style:name="N156">
+   <number:text> </number:text>
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N156P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N156P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N156P2"/>
+  </number:text-style>
+  <number:number-style style:name="N157P0" style:volatile="true">
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N157">
+   <number:text>(</number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N157P0"/>
+  </number:number-style>
+  <number:percentage-style style:name="N158">
+   <number:number number:decimal-places="1" number:min-decimal-places="1" number:min-integer-digits="1"/>
+   <number:text>%</number:text>
+  </number:percentage-style>
+  <number:number-style style:name="N160P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N160">
+   <number:text>(</number:text>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N160P0"/>
+  </number:number-style>
+  <number:time-style style:name="N161" number:truncate-on-overflow="false">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:currency-style style:name="N165P0" style:volatile="true">
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N165P1" style:volatile="true">
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N165P2" style:volatile="true">
+   <number:currency-symbol/>
+   <number:text> </number:text>
+   <number:fill-character> </number:fill-character>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="0"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:text-style style:name="N165">
+   <number:text> </number:text>
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N165P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N165P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N165P2"/>
+  </number:text-style>
+  <number:number-style style:name="N166P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N166">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N166P0"/>
+  </number:number-style>
+  <number:currency-style style:name="N10108P0" style:volatile="true" number:language="sl" number:country="SI">
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+   <number:currency-symbol number:language="sl" number:country="SI">€</number:currency-symbol>
+  </number:currency-style>
+  <number:currency-style style:name="N10108" number:language="sl" number:country="SI">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+   <number:currency-symbol number:language="sl" number:country="SI">€</number:currency-symbol>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N10108P0"/>
+  </number:currency-style>
+  <style:style style:name="Default" style:family="table-cell">
+   <style:text-properties style:font-name-asian="Droid Sans Fallback" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-name-complex="Lohit Hindi" style:font-family-complex="&apos;Lohit Hindi&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable"/>
+  </style:style>
+  <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="16pt" fo:font-style="italic" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Heading_20_1" style:display-name="Heading 1" style:family="table-cell" style:parent-style-name="Heading">
+   <style:table-cell-properties style:rotation-angle="90"/>
+  </style:style>
+  <style:style style:name="Heading_20_2" style:display-name="Heading 2" style:family="table-cell" style:parent-style-name="Heading">
+   <style:text-properties fo:color="#000000" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Text" style:family="table-cell" style:parent-style-name="Default"/>
+  <style:style style:name="Note" style:family="table-cell" style:parent-style-name="Text">
+   <style:table-cell-properties fo:background-color="#ffffcc" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" fo:border="0.74pt solid #808080"/>
+   <style:text-properties fo:color="#333333" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Footnote" style:family="table-cell" style:parent-style-name="Text">
+   <style:text-properties fo:color="#808080" fo:font-size="10pt" fo:font-style="italic" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Hyperlink" style:family="table-cell" style:parent-style-name="Text">
+   <style:text-properties fo:color="#0000ee" fo:font-size="10pt" fo:font-style="normal" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="#0000ee" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Status" style:family="table-cell" style:parent-style-name="Default"/>
+  <style:style style:name="Good" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#ccffcc"/>
+   <style:text-properties fo:color="#006600" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Neutral" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#ffffcc"/>
+   <style:text-properties fo:color="#996600" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Bad" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#ffcccc"/>
+   <style:text-properties fo:color="#cc0000" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Warning" style:family="table-cell" style:parent-style-name="Status">
+   <style:text-properties fo:color="#cc0000" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Error" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#cc0000"/>
+   <style:text-properties fo:color="#ffffff" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Accent" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:color="#000000" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Accent_20_1" style:display-name="Accent 1" style:family="table-cell" style:parent-style-name="Accent">
+   <style:table-cell-properties fo:background-color="#000000"/>
+   <style:text-properties fo:color="#ffffff" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Accent_20_2" style:display-name="Accent 2" style:family="table-cell" style:parent-style-name="Accent">
+   <style:table-cell-properties fo:background-color="#808080"/>
+   <style:text-properties fo:color="#ffffff" fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="Accent_20_3" style:display-name="Accent 3" style:family="table-cell" style:parent-style-name="Accent">
+   <style:table-cell-properties fo:background-color="#dddddd"/>
+  </style:style>
+  <style:style style:name="Result" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Result2" style:family="table-cell" style:parent-style-name="Result" style:data-style-name="N122"/>
+  <style:style style:name="Sin_20_nombre1" style:display-name="Sin nombre1" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:color="#ff0000" style:font-name="Liberation Sans1" fo:font-family="&apos;Liberation Sans&apos;" style:font-style-name="Normal" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  </style:style>
+  <style:style style:name="Sin_20_nombre2" style:display-name="Sin nombre2" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:color="#ff0000"/>
+  </style:style>
+  <style:style style:name="Sin_20_nombre3" style:display-name="Sin nombre3" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:color="#ff0000"/>
+  </style:style>
+  <style:style style:name="Sin_20_nombre4" style:display-name="Sin nombre4" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:color="#ff0000"/>
+  </style:style>
+  <style:style style:name="Sin_20_nombre5" style:display-name="Sin nombre5" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:color="#ff0000"/>
+  </style:style>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.4693in"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.6429in"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.889in"/>
+  </style:style>
+  <style:style style:name="co4" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.2689in"/>
+  </style:style>
+  <style:style style:name="co5" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.7638in"/>
+  </style:style>
+  <style:style style:name="co6" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.6764in"/>
+  </style:style>
+  <style:style style:name="co7" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.2189in"/>
+  </style:style>
+  <style:style style:name="co8" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.1902in"/>
+  </style:style>
+  <style:style style:name="co9" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.6992in"/>
+  </style:style>
+  <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="0.0736in" fo:break-before="auto" style:use-optimal-row-height="false"/>
+  </style:style>
+  <style:style style:name="ro2" style:family="table-row">
+   <style:table-row-properties style:row-height="0.2146in" fo:break-before="auto" style:use-optimal-row-height="false"/>
+  </style:style>
+  <style:style style:name="ro3" style:family="table-row">
+   <style:table-row-properties style:row-height="0.2299in" fo:break-before="auto" style:use-optimal-row-height="false"/>
+  </style:style>
+  <style:style style:name="ro4" style:family="table-row">
+   <style:table-row-properties style:row-height="0.1917in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro5" style:family="table-row">
+   <style:table-row-properties style:row-height="0.2083in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro6" style:family="table-row">
+   <style:table-row-properties style:row-height="0.148in" fo:break-before="auto" style:use-optimal-row-height="false"/>
+  </style:style>
+  <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <number:date-style style:name="N36" number:automatic-order="true">
+   <number:month number:style="long"/>
+   <number:text>/</number:text>
+   <number:day number:style="long"/>
+   <number:text>/</number:text>
+   <number:year number:style="long"/>
+  </number:date-style>
+  <number:text-style style:name="N100">
+   <number:text-content/>
+  </number:text-style>
+  <number:number-style style:name="N20003" number:language="es" number:country="CO">
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:currency-style style:name="N20103P0" style:volatile="true" number:language="es" number:country="CO">
+   <number:currency-symbol number:language="es" number:country="CO">$</number:currency-symbol>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+  </number:currency-style>
+  <number:currency-style style:name="N20103" number:language="es" number:country="CO">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:currency-symbol number:language="es" number:country="CO">$</number:currency-symbol>
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N20103P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N20104P0" style:volatile="true" number:language="es" number:country="CO">
+   <number:currency-symbol number:language="es" number:country="CO">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:currency-style>
+  <number:currency-style style:name="N20104" number:language="es" number:country="CO">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:currency-symbol number:language="es" number:country="CO">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N20104P0"/>
+  </number:currency-style>
+  <number:number-style style:name="N30000" number:language="en" number:country="US">
+   <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <style:style style:name="ce82" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="DejaVu Sans" fo:font-size="11pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="11pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="11pt" style:language-complex="en" style:country-complex="US" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce83" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N30000">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#666666" style:font-name="DejaVu Sans Condensed" fo:font-size="9pt" fo:font-weight="normal" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="9pt" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="9pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce84" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N20103">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#333333" style:font-name="DejaVu Sans Condensed" fo:font-size="9pt" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="9pt" style:font-name-complex="Lohit Hindi" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="ce85" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N20103">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#333333" style:font-name="DejaVu Sans" fo:font-size="6pt" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="6pt" style:font-name-complex="Lohit Hindi" style:font-size-complex="6pt"/>
+  </style:style>
+  <style:style style:name="ce5" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
+   <style:table-cell-properties fo:border-bottom="0.06pt solid #eeeeee" style:text-align-source="fix" style:repeat-content="false" fo:border-left="none" fo:border-right="none" fo:border-top="0.06pt solid #eeeeee" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="DejaVu Sans" fo:font-size="7pt" fo:language="es" fo:country="CO" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="7pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="7pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce87" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:background-color="#cfe7f5" style:vertical-align="middle"/>
+   <style:text-properties fo:color="#333333" style:font-name="DejaVu Sans" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="ce7" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N30000">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#000000" style:font-name="DejaVu Sans" fo:font-size="7pt" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="7pt" style:font-name-complex="Lohit Hindi" style:font-size-complex="7pt"/>
+  </style:style>
+  <style:style style:name="ce89" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N30000">
+   <style:table-cell-properties fo:background-color="#dddddd" style:text-align-source="fix" style:repeat-content="false" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#666666" style:font-name="DejaVu Sans" fo:font-size="9pt" fo:font-weight="bold" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Hindi" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce90" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="7pt" style:font-size-asian="7pt" style:font-size-complex="7pt"/>
+  </style:style>
+  <style:style style:name="ce11" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:background-color="#eeeeee" style:text-align-source="fix" style:repeat-content="false" fo:border="0.06pt solid #ffffff" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#1c1c1c" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="DejaVu Sans" fo:font-size="6pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="6pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="6pt" style:language-complex="en" style:country-complex="US" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce12" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N36">
+   <style:table-cell-properties fo:border-bottom="0.06pt solid #eeeeee" style:text-align-source="fix" style:repeat-content="false" fo:border-left="none" fo:border-right="none" fo:border-top="0.06pt solid #eeeeee" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="DejaVu Sans" fo:font-size="7pt" fo:language="es" fo:country="CO" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="7pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="7pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce93" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="11pt" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
+  </style:style>
+  <style:style style:name="ce14" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#666666" style:font-name="DejaVu Sans Condensed" fo:font-size="9pt" fo:font-weight="bold" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce95" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:font-name="DejaVu Sans Condensed" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="ce96" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent" fo:border="0.06pt solid #ffffff" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#808080" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="DejaVu Sans Light" fo:font-size="12pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="12pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:language-complex="en" style:country-complex="US" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce97" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="6pt" style:font-size-asian="6pt" style:font-size-complex="6pt"/>
+  </style:style>
+  <style:style style:name="ce98" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N30000">
+   <style:table-cell-properties fo:background-color="#cfe7f5" style:text-align-source="fix" style:repeat-content="false" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#666666" style:font-name="DejaVu Sans" fo:font-size="9pt" fo:font-weight="normal" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="9pt" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="9pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce19" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N30000">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#333333" style:font-name="DejaVu Sans" fo:font-size="6pt" fo:font-weight="bold" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="6pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Hindi" style:font-size-complex="6pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce101" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:background-color="#eeeeee" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border="0.06pt solid #ffffff" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#1c1c1c" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="DejaVu Sans" fo:font-size="6pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="6pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="6pt" style:language-complex="en" style:country-complex="US" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce102" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+  </style:style>
+  <style:style style:name="ce103" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="11pt" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
+  </style:style>
+  <style:style style:name="ce105" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N30000">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#666666" style:font-name="DejaVu Sans Condensed" fo:font-size="9pt" fo:font-weight="normal" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="9pt" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="9pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce24" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties style:font-name="DejaVu Sans Condensed" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="ce108" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N30000">
+   <style:table-cell-properties fo:background-color="#cfe7f5" style:text-align-source="fix" style:repeat-content="false" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#000000" style:font-name="DejaVu Sans" fo:font-size="9pt" fo:font-weight="bold" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Hindi" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce109" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N36">
+   <style:table-cell-properties fo:border-bottom="0.06pt solid #eeeeee" style:text-align-source="fix" style:repeat-content="false" fo:border-left="none" fo:border-right="none" fo:border-top="0.06pt solid #eeeeee" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0in"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="DejaVu Sans" fo:font-size="7pt" fo:language="es" fo:country="CO" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="7pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="7pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce110" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="DejaVu Sans Condensed" fo:font-size="9pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="9pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:language-complex="en" style:country-complex="US" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce111" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:vertical-align="middle"/>
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="6pt" style:font-size-asian="6pt" style:font-size-complex="6pt"/>
+  </style:style>
+  <style:style style:name="ce112" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N30000">
+   <style:table-cell-properties fo:background-color="#cfe7f5" style:text-align-source="fix" style:repeat-content="false" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#666666" style:font-name="DejaVu Sans" fo:font-size="9pt" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="9pt" style:font-name-complex="Lohit Hindi" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="ce113" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N30000">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#333333" style:font-name="DejaVu Sans" fo:font-size="6pt" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="6pt" style:font-name-complex="Lohit Hindi" style:font-size-complex="6pt"/>
+  </style:style>
+  <style:style style:name="ce114" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
+   <style:table-cell-properties fo:border-bottom="0.74pt solid #000000" fo:background-color="#ffffff" style:text-align-source="fix" style:repeat-content="false" fo:border-left="none" fo:border-right="none" fo:border-top="0.74pt solid #000000" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0in"/>
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="7pt" fo:font-weight="normal" style:font-size-asian="7pt" style:font-weight-asian="normal" style:font-size-complex="7pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce115" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N30000">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#ffffff" style:font-name="DejaVu Sans" fo:font-size="6pt" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="6pt" style:font-name-complex="Lohit Hindi" style:font-size-complex="6pt"/>
+  </style:style>
+  <style:style style:name="ce116" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:border-bottom="0.74pt solid #000000" fo:background-color="#ffffff" style:text-align-source="fix" style:repeat-content="false" fo:border-left="none" fo:border-right="none" fo:border-top="0.74pt solid #000000" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0in"/>
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="6pt" fo:font-weight="normal" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="6pt" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="6pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce117" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="11pt" style:text-underline-style="none" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
+  </style:style>
+  <style:style style:name="ce118" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:border-bottom="none" style:text-align-source="fix" style:repeat-content="false" fo:border-left="0.26pt solid #cfe7f5" fo:border-right="none" fo:border-top="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:color="#666666" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="DejaVu Sans Condensed" fo:font-size="9pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="9pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:language-complex="en" style:country-complex="US" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce120" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:border-bottom="none" style:text-align-source="fix" style:repeat-content="false" fo:border-left="0.26pt solid #cfe7f5" fo:border-right="none" fo:border-top="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="DejaVu Sans Condensed" fo:font-size="9pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="9pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:language-complex="en" style:country-complex="US" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce121" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:border-bottom="0.74pt solid #000000" fo:border-left="none" fo:border-right="none" fo:border-top="0.74pt solid #000000"/>
+  </style:style>
+  <style:style style:name="ce124" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N30000">
+   <style:table-cell-properties fo:background-color="#cfe7f5" style:text-align-source="fix" style:repeat-content="false" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#000000" style:font-name="DejaVu Sans" fo:font-size="9pt" fo:font-weight="normal" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="9pt" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="9pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce125" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N30000">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent" fo:border="none" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#ffffff" style:font-name="DejaVu Sans" fo:font-size="6pt" fo:font-weight="bold" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="6pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Hindi" style:font-size-complex="6pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce126" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:background-color="#31465c" style:text-align-source="fix" style:repeat-content="false" fo:border="0.06pt solid #ffffff" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#ffffff" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="DejaVu Sans" fo:font-size="6pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="6pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="6pt" style:language-complex="en" style:country-complex="US" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce127" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N122">
+   <style:table-cell-properties fo:border-bottom="0.06pt solid #eeeeee" style:text-align-source="fix" style:repeat-content="false" fo:border-left="none" fo:border-right="none" fo:border-top="0.06pt solid #eeeeee" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0in"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="DejaVu Sans" fo:font-size="7pt" fo:language="es" fo:country="CO" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="7pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="7pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce41" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N20104">
+   <style:table-cell-properties fo:border-bottom="0.74pt solid #000000" fo:background-color="#ffffff" style:text-align-source="fix" style:repeat-content="false" fo:border-left="none" fo:border-right="none" fo:border-top="0.74pt solid #000000" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#000000" style:font-name="DejaVu Sans" fo:font-size="7pt" fo:font-weight="normal" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="7pt" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="7pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce129" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:vertical-align="middle"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="DejaVu Sans" fo:font-size="7pt" fo:language="es" fo:country="CO" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="7pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="7pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce130" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:vertical-align="middle"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="11pt" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
+  </style:style>
+  <style:style style:name="ce131" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:vertical-align="middle"/>
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="11pt" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
+  </style:style>
+  <style:style style:name="ce133" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="ce135" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:vertical-align="middle"/>
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="ce136" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N20003">
+   <style:table-cell-properties fo:border-bottom="0.74pt solid #000000" fo:background-color="#ffffff" style:text-align-source="fix" style:repeat-content="false" fo:border-left="none" fo:border-right="none" fo:border-top="0.74pt solid #000000" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0in"/>
+   <style:text-properties fo:color="#000000" style:font-name="DejaVu Sans" fo:font-size="6pt" fo:font-weight="normal" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="6pt" style:font-weight-asian="normal" style:font-name-complex="Lohit Hindi" style:font-size-complex="6pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce137" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N20003">
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-size="6pt" style:font-size-asian="6pt" style:font-size-complex="6pt"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties fo:page-width="11in" fo:page-height="8.5in" style:num-format="1" style:print-orientation="landscape" fo:margin-top="0.3937in" fo:margin-bottom="0.3937in" fo:margin-left="0.1in" fo:margin-right="0.1in" style:scale-to="85%" style:table-centering="horizontal" style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.1965in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0in"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in"/>
+   </style:footer-style>
+  </style:page-layout>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Default" style:page-layout-name="pm1">
+   <style:header style:display="false">
+    <text:p><text:sheet-name>???</text:sheet-name></text:p>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:header-first style:display="false"/>
+   <style:footer style:display="false">
+    <text:p>Página <text:page-number>1</text:page-number></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+   <style:footer-first style:display="false"/>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:spreadsheet>
+   <table:table table:name="Hoja1" table:style-name="ta1" table:print-ranges="Hoja1.A1:Hoja1.I22">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false">
+     <form:form form:name="Formulario" form:apply-filter="true" form:command-type="table" form:control-implementation="ooo:com.sun.star.form.component.Form" office:target-frame="">
+      <form:properties>
+       <form:property form:property-name="PropertyChangeNotificationEnabled" office:value-type="boolean" office:boolean-value="true"/>
+       <form:property form:property-name="TargetURL" office:value-type="string" office:string-value=""/>
+      </form:properties>
+     </form:form>
+    </office:forms>
+    <table:table-column table:style-name="co1" table:default-cell-style-name="ce93"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="ce93"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="ce93"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="ce93"/>
+    <table:table-column table:style-name="co5" table:default-cell-style-name="ce93"/>
+    <table:table-column table:style-name="co6" table:default-cell-style-name="ce93"/>
+    <table:table-column table:style-name="co7" table:default-cell-style-name="ce93"/>
+    <table:table-column table:style-name="co7" table:default-cell-style-name="ce130"/>
+    <table:table-column table:style-name="co8" table:default-cell-style-name="ce130"/>
+    <table:table-column table:style-name="co9" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co3" table:number-columns-repeated="56" table:default-cell-style-name="ce130"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce82" table:number-columns-repeated="8"/>
+     <table:table-cell table:style-name="ce131"/>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce83" office:value-type="string" calcext:value-type="string">
+      <text:p>Nombre:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://company.rec_name" xlink:type="simple">company.rec_name</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce110" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="ce133"/>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:style-name="ce83" office:value-type="string" calcext:value-type="string">
+      <text:p>NIT / C.C.:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://company.party.identifiers%20and%20company.party.identifiers[0].code" xlink:type="simple">company.party.identifiers and company.party.identifiers[0].code</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="ce110" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce135"/>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce83" office:value-type="string" calcext:value-type="string">
+      <text:p>Dirección:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://company.party.address_get().full_address" xlink:type="simple">company.party.address_get().full_address</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14"/>
+     <table:table-cell table:style-name="ce105" office:value-type="string" calcext:value-type="string">
+      <text:p>Teléfono:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="1"><text:p><text:a xlink:href="relatorio://company.party.get_contact_mechanism(&apos;phone&apos;)" xlink:type="simple">company.party.get_contact_mechanism(&apos;phone&apos;)</text:a></text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="ce24" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce133"/>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce84"/>
+     <table:table-cell table:style-name="ce95" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce24" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:style-name="ce118"/>
+     <table:table-cell table:style-name="ce118" office:value-type="string" calcext:value-type="string">
+      <text:p>PERIODO INICIAL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce118" office:value-type="string" calcext:value-type="string">
+      <text:p>PERIODO FINAL</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro5">
+     <table:table-cell table:style-name="ce85"/>
+     <table:table-cell table:style-name="ce96" office:value-type="string" calcext:value-type="string">
+      <text:p>ESTADO DE CUENTAS POR TERCERO</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce96"/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce120"/>
+     <table:table-cell table:style-name="ce120" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://start_period" xlink:type="simple">start_period</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce120" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://end_period" xlink:type="simple">end_period</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro6">
+     <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://for%20each=&apos;record%20in%20records&apos;" xlink:type="simple">for each=&apos;record in records&apos;</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce97" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce111" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce87"/>
+     <table:table-cell table:style-name="ce98" office:value-type="string" calcext:value-type="string">
+      <text:p>ID:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce98"/>
+     <table:table-cell table:style-name="ce108" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://record[&apos;id_number&apos;]%20or%20&apos;&apos;" xlink:type="simple">record[&apos;id_number&apos;] or &apos;&apos;</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce112" office:value-type="string" calcext:value-type="string">
+      <text:p>TERCERO:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce108" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://record[&apos;name&apos;]" xlink:type="simple">record[&apos;name&apos;]</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce108"/>
+     <table:table-cell table:style-name="ce124" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://for%20each=&apos;sale%20in%20record[&apos;sales&apos;]&apos;" xlink:type="simple">for each=&apos;sale in record[&apos;sales&apos;]&apos;</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce113"/>
+     <table:table-cell table:style-name="ce115" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce125"/>
+     <table:table-cell table:style-name="ce111"/>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce7" table:number-columns-spanned="4" table:number-rows-spanned="1"/>
+     <table:covered-table-cell table:number-columns-repeated="3" table:style-name="ce19"/>
+     <table:table-cell table:style-name="ce113"/>
+     <table:table-cell table:style-name="ce115" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce125"/>
+     <table:table-cell table:style-name="ce111"/>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce89" office:value-type="string" calcext:value-type="string">
+      <text:p>Orden de <text:s/>Venta #:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://sale.number" xlink:type="simple">sale.number</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12"/>
+     <table:table-cell table:style-name="ce19"/>
+     <table:table-cell table:style-name="ce113"/>
+     <table:table-cell table:style-name="ce115" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce125"/>
+     <table:table-cell table:style-name="ce111"/>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce90"/>
+     <table:table-cell table:style-name="ce19" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce113"/>
+     <table:table-cell table:style-name="ce115" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce125"/>
+     <table:table-cell table:style-name="ce111"/>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>FECHA</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce101" office:value-type="string" calcext:value-type="string">
+      <text:p>No DOC</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce101" office:value-type="string" calcext:value-type="string">
+      <text:p>Número</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="1">
+      <text:p>DESCRIPCIÓN</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce11"/>
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="1">
+      <text:p>METODO DE PAGO</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce11"/>
+     <table:table-cell table:style-name="ce126" office:value-type="string" calcext:value-type="string">
+      <text:p>VENTA</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce126" office:value-type="string" calcext:value-type="string">
+      <text:p>ABONO</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="54"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://sale.sale_date" xlink:type="simple">sale.sale_date</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://sale.number" xlink:type="simple">sale.number</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12"/>
+     <table:table-cell table:style-name="ce109" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="1"><text:p><text:a xlink:href="relatorio://sale.reference" xlink:type="simple">sale.reference</text:a></text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce12"/>
+     <table:table-cell table:style-name="ce12" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce127" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://sale.total_amount" xlink:type="simple">sale.total_amount</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce127" office:value-type="currency" office:currency="COP" office:value="0" calcext:value-type="currency">
+      <text:p>$0.00</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="54"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://for%20each=&apos;payment%20in%20sale.payments&apos;" xlink:type="simple">for each=&apos;payment in sale.payments&apos;</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" table:number-columns-repeated="8"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="54"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://payment.date" xlink:type="simple">payment.date</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12"/>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://payment.id" xlink:type="simple">payment.id</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce109" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="1"><text:p><text:a xlink:href="relatorio://payment.description" xlink:type="simple">payment.description</text:a></text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce5"/>
+     <table:table-cell table:style-name="ce109" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="1"><text:p><text:a xlink:href="relatorio://payment.statement.journal.name" xlink:type="simple">payment.statement.journal.name</text:a></text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce5"/>
+     <table:table-cell table:style-name="ce127" office:value-type="currency" office:currency="COP" office:value="0" calcext:value-type="currency">
+      <text:p>$0.00</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce127" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio://payment.amount" xlink:type="simple">payment.amount</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="54"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce90" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio:///for" xlink:type="simple">/for</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="8"/>
+     <table:table-cell table:style-name="ce137"/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="54"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:style-name="ce102" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce114" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="1">
+      <text:p>SALDO (VENTA – ABONOS)</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce116"/>
+     <table:table-cell table:style-name="ce121"/>
+     <table:table-cell table:style-name="ce41" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="1"><text:p><text:a xlink:href="relatorio://sale.residual_amount" xlink:type="simple">sale.residual_amount</text:a></text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce136"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="55"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:style-name="ce103" table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce117" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce129"/>
+     <table:table-cell table:number-columns-repeated="58"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce90" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio:///for" xlink:type="simple">/for</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="65"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce90"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce114" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="1">
+      <text:p>SALDO X COBRAR</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce116"/>
+     <table:table-cell table:style-name="ce121"/>
+     <table:table-cell table:style-name="ce41" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="1"><text:p><text:a xlink:href="relatorio://residual_amount" xlink:type="simple">residual_amount</text:a></text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce136"/>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce90" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="relatorio:///for" xlink:type="simple">/for</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="65"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="Default" table:number-columns-spanned="2" table:number-rows-spanned="1"/>
+     <table:covered-table-cell table:style-name="ce136"/>
+     <table:table-cell table:number-columns-repeated="57"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4" table:number-rows-repeated="1048552">
+     <table:table-cell table:number-columns-repeated="66"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="66"/>
+    </table:table-row>
+   </table:table>
+   <table:named-expressions/>
+  </office:spreadsheet>
+ </office:body>
+</office:document>

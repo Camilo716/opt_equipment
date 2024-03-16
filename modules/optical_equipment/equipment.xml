@@ -1,0 +1,171 @@
+<?xml version="1.0"?> 
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+	<record model="res.group" id="group_equipment_admin">
+            <field name="name">Equipment Administration</field>
+        </record>
+	<record model="res.user-res.group"
+            id="user_admin_group_equipment_admin">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_equipment_admin"/>
+        </record>
+	<menuitem
+            name="Equipment"
+            sequence="40"
+            id="menu_equipment"/>
+	<record model="ir.action.act_window" id="act_optical_equipment_form">
+	    <field name="name">Equipments</field>
+	    <field name="res_model">optical_equipment.equipment</field>
+	    <field name="search_value"></field>
+	</record>
+	<record model="ir.ui.view" id="optical_equipment_view_tree">
+            <field name="model">optical_equipment.equipment</field>
+            <field name="type">tree</field>
+            <field name="name">equipment_tree</field>
+        </record>
+	<record model="ir.ui.view" id="optical_equipment_view_form">
+            <field name="model">optical_equipment.equipment</field>
+            <field name="type">form</field>
+            <field name="name">equipment_form</field>
+        </record>
+	<record model="ir.action.act_window.view" id="act_optical_equipment_view1">
+            <field name="sequence" eval="10"/>
+	    <field name="view" ref="optical_equipment_view_tree"/>
+            <field name="act_window" ref="act_optical_equipment_form"/>
+	</record>
+        <record model="ir.action.act_window.view" id="act_optical_equipment_view2">
+            <field name="sequence" eval="20"/>
+	    <field name="view" ref="optical_equipment_view_form"/>
+            <field name="act_window" ref="act_optical_equipment_form"/>
+	</record>
+        <record model="ir.action.act_window.domain" id="act_optical_equipment_form_domain_draft">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain"
+                eval="[('state', '=', 'draft')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_optical_equipment_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_optical_equipment_form_domain_registred">
+            <field name="name">Registred</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain"
+                eval="[('state', '=', 'registred')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_optical_equipment_form"/>
+        </record>
+	<record model="ir.action.act_window.domain" id="act_optical_equipment_form_domain_uncontrated">
+            <field name="name">UnContrated</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain"
+                eval="[('state', '=', 'uncontrated')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_optical_equipment_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_optical_equipment_form_domain_contrated">
+            <field name="name">Contrated</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain"
+                eval="[('state', '=', 'contrated')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_optical_equipment_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_optical_equipment_form_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain"></field>
+            <field name="act_window" ref="act_optical_equipment_form"/>
+        </record>
+	<record model="ir.model.button" id="draft_equipment_button">
+	    <field name="name">draft</field>
+	    <field name="string">Draft</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment.equipment')]"/>
+	</record>
+	<record model="ir.model.button" id="registred_equipment_button">
+	    <field name="name">registred</field>
+	    <field name="string">Registred</field>
+	    <field name="confirm">Are you sure you want to registred these equipments?</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment.equipment')]"/>
+	</record>
+	<menuitem parent="menu_equipment"
+		  action="act_optical_equipment_form"
+		  sequence="60"
+		  id="menu_optical_equipment_form"/>
+
+	<record model="ir.action.act_window" id="act_optical_equipment_form1">
+	    <field name="name">Serials</field>
+	    <field name="res_model">optical_equipment.equipment</field>
+	    <field name="search_value"></field>
+	</record>
+	<record model="ir.ui.view" id="optical_equipment_view_tree1">
+            <field name="model">optical_equipment.equipment</field>
+            <field name="type">tree</field>
+            <field name="name">equipment_serial_tree</field>
+        </record>
+	<record model="ir.action.act_window.view" id="act_optical_equipment_view3">
+            <field name="sequence" eval="10"/>
+	    <field name="view" ref="optical_equipment_view_tree1"/>
+            <field name="act_window" ref="act_optical_equipment_form1"/>
+	</record>
+	<record model="ir.action.act_window.domain" id="act_optical_equipment_serial_form_domain_draft">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain"
+                eval="[('state', '=', 'draft')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_optical_equipment_form1"/>
+        </record>
+	<menuitem
+	    parent="menu_equipment"
+	    action="act_optical_equipment_form1"
+	    sequence="70"
+	    id="menu_optical_equipment_serial_form"/>
+	
+	<record model="ir.action.report" id="report_equipment">
+            <field name="name">Equipment</field>
+            <field name="model">optical_equipment.equipment</field>
+            <field name="report_name">optical_equipment.equipment</field>
+            <field name="report">optical_equipment/report/CV_Equipment.fodt</field>
+            <field name="single" eval="True"/>
+        </record>
+	<record model="ir.action.keyword" id="report_equipment_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">optical_equipment.equipment,-1</field>
+            <field name="action" ref="report_equipment"/>
+    	</record>
+	<record model="ir.action.report" id="report_history_maintenance">
+            <field name="name">Maintenance History</field>
+            <field name="model">optical_equipment.equipment</field>
+            <field name="report_name">optical_equipment.equipment</field>
+            <field name="report">optical_equipment/report/Maintenance_History.fodt</field>
+            <field name="single" eval="True"/>
+        </record>
+	<record model="ir.action.keyword" id="report_history_maintenance_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">optical_equipment.equipment,-1</field>
+            <field name="action" ref="report_history_maintenance"/>
+        </record>
+	<record model="ir.ui.view" id="change_propietary_view_form">
+	    <field name="model">optical_equipment.change_propietary.form</field>
+	    <field name="type">form</field>
+	    <field name="name">change_propietary_form</field>
+	</record>
+	<record model="ir.action.wizard" id="equipment_change_propietary">
+	    <field name="name">Change Propietary</field>
+	    <field name="wiz_name">optical_equipment.change_propietary</field>
+	    <field name="model">optical_equipment.equipment</field>
+	</record>
+	<record model="ir.action.keyword" id="equipment_change_propietary_keyword">
+	    <field name="keyword">form_action</field>
+	    <field name="model">optical_equipment.equipment,-1</field>
+	    <field name="action" ref="equipment_change_propietary"/>
+	</record>
+    </data>
+</tryton>

@@ -1,0 +1,80 @@
+<?xml version="1.0"?> 
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<form col="6">
+    <label name="code"/>
+    <field name="code"/>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="active"/>
+    <field name="active"/>
+    <newline/>
+    <label name="propietary"/>
+    <field name="propietary"/>
+    <label name="propietary_address"/>
+    <field name="propietary_address"/>
+    <notebook colspan="6">
+	<page string="General" id="general_equipment">
+	    <label name="location"/>
+	    <field name="location"/>
+	    <label name="product"/>
+	    <field name="product"/>
+	    <label name="equipment_type"/>
+	    <field name="equipment_type"/>
+	    <label name="use"/>
+	    <field name="use"/>
+	    <label name="biomedical_class"/>
+	    <field name="biomedical_class"/>
+	    <label name="calibration"/>
+	    <field name="calibration"/>
+	    <newline/>
+	    <label name="mark_category"/>
+	    <field name="mark_category"/>
+	    <label name="model_category"/>
+	    <field name="model_category"/>
+	    <label name="reference_category"/>
+	    <field name="reference_category"/>
+	    <label name="refurbish"/>
+	    <field name="refurbish"/>
+	    <label name="software_version"/>
+	    <field name="software_version"/>
+	    <label name="useful_life"/>
+	    <field name="useful_life"/>
+	    <label name="warranty"/>
+	    <field name="warranty"/>
+	    <newline/>
+	    <label name="maintenance_frequency"/>
+	    <field name="maintenance_frequency"/>
+	    <label name="serial"/>
+	    <field name="serial"/>
+	    <label name="health_register"/>
+	    <field name="health_register"/>
+	    <label name="origin_country"/>
+	    <field name="origin_country"/>
+	</page>
+	<page string="Contracts" id="contract_equipment">
+	    <field name="contract_history"/>
+	</page>
+	<page string="Maintenances" id="maintenances_equipment">
+	    <field name="maintenance_history"/>
+	</page>
+	<page string="Propietarys" id="propietarys_equipment">
+	    <field name="propietarys"/>
+	</page>
+	<page string="Origins" id="origins_equipment">
+	    <separator id="purchase_origin" string="Purchase Origin" colspan="4"/> 
+	    <field name="purchase_origin"/>
+	    <newline/>
+	    <separator id="sale_destination" string="Sale Destination" colspan="4"/>
+	    <field name="sale_destination"/>
+	    <separator id="shipment_destination" string="Shipment Destination" colspan="4"/>
+	    <field name="shipment_destination"/>
+	</page>
+    </notebook>
+    <group col="2" colspan="2" id="button">
+	<button name="draft"/>
+	<button name="registred"/>
+    </group>
+    <label name="state"/>
+    <field name="state"/>
+</form>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<form col="6">
+    <label name="maintenance_service"/>
+    <field name="maintenance_service"/>
+    <label name="code"/>
+    <field name="code"/>
+    <newline/>
+    <notebook colspan="6">
+	<page string="Dates" id="dates_agended">
+	    <label name="date_expected"/>
+	    <field name="date_expected"/>
+	    <label name="date_estimated"/>
+	    <field name="date_estimated"/>
+	    <label name="date_end"/>
+	    <field name="date_end"/>
+	</page>
+    </notebook>
+    <label name="technical"/>
+    <field name="technical"/>
+    <label name="state"/>
+    <field name="state"/>    
+</form>

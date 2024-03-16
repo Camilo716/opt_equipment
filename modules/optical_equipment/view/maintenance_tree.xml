@@ -1,0 +1,13 @@
+<?xml version="1.0"?> 
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms.-->
+<tree>
+    <field name="code"/>
+    <field name="maintenance_type" expand="0"/>
+    <field name="service_maintenance" expand="1"/>
+    <field name="propietary"/>
+    <field name="propietary_address"/>
+    <field name="equipment"/>
+    <field name="state"/>
+    <button name="finished"/>
+</tree>

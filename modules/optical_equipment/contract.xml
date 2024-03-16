@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+	<record model="ir.ui.view" id="contract_view_form">
+	    <field name="model">optical_equipment.contract</field>
+            <field name="type">form</field>
+            <field name="name">contract_form</field>
+	</record>
+	<record model="ir.ui.view" id="contract_view_list">
+	    <field name="model">optical_equipment.contract</field>
+	    <field name="type">tree</field>
+	    <field name="name">contract_list</field>
+	</record>
+	<record model="ir.action.act_window" id="act_contract_form">
+	    <field name="name">Contracts</field>
+	    <field name="res_model">optical_equipment.contract</field>
+	</record>
+	<record model="ir.action.act_window.view"
+		id="act_contract_form_view1">
+	    <field name="sequence" eval="10"/>
+	    <field name="view" ref="contract_view_list"/>
+	    <field name="act_window" ref="act_contract_form"/>
+	</record>
+	<record model="ir.action.act_window.view"
+		id="act_contract_form_view2">
+	    <field name="sequence" eval="20"/>
+	    <field name="view" ref="contract_view_form"/>
+	    <field name="act_window" ref="act_contract_form"/>
+	</record>
+	<record model="ir.action.act_window.domain"
+		id="act_contract_form_domain_draft">
+	    <field name="name">Draft</field>
+	    <field name="sequence" eval="10"/>
+	    <field name="domain" eval="[('state', '=', 'draft')]" pyson="1"/>
+	    <field name="count" eval="True"/>
+	    <field name="act_window" ref="act_contract_form"/>
+	</record>
+	<record model="ir.action.act_window.domain"
+		id="act_contract_form_domain_running">
+	    <field name="name">Running</field>
+	    <field name="sequence" eval="30"/>
+	    <field name="domain" eval="[('state', '=', 'running')]" pyson="1"/>
+	    <field name="count" eval="True"/>
+	    <field name="act_window" ref="act_contract_form"/>
+	</record>
+	<record model="ir.action.act_window.domain"
+		id="act_contract_form_domain_closed">
+	    <field name="name">Closed</field>
+	    <field name="sequence" eval="40"/>
+	    <field name="domain" eval="[('state', '=', 'closed')]" pyson="1"/>
+	    <field name="count" eval="True"/>
+	    <field name="act_window" ref="act_contract_form"/>
+	</record>
+	<record model="ir.action.act_window.domain"
+		id="act_contract_form_domain_all">
+	    <field name="name">All</field>
+	    <field name="sequence" eval="9999"/>
+	    <field name="domain"></field>
+	    <field name="act_window" ref="act_contract_form"/>
+	</record>
+	<record model="ir.model.button" id="draft_running_button">
+	    <field name="name">draft</field>
+	    <field name="string">Draft</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment.contract')]"/>
+	</record>
+	<record model="ir.model.button" id="contrac_running_button">
+	    <field name="name">running</field>
+	    <field name="string">Run</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment.contract')]"/>
+	</record>
+	<record model="ir.model.button" id="contract_closed_button">
+	    <field name="name">closed</field>
+	    <field name="string">Closed</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment.contract')]"/>
+	</record>
+	<record model="ir.model.button" id="contract_cancelled_button">
+	    <field name="name">cancelled</field>
+	    <field name="string">Cancel</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment.contract')]"/>
+	</record>
+	<record model="res.group" id="group_contract_admin">
+	    <field name="name">Contract Administration</field>
+	</record>
+	<record model="res.user-res.group"
+	    id="user_admin_group_contract_admin">
+            <field name="user" ref="res.user_admin"/>
+	    <field name="group" ref="group_contract_admin"/>
+	</record>
+	<record model="ir.sequence.type" id="sequence_type_contract">
+	    <field name="name">Contract</field>
+	</record>
+	<record model="ir.sequence.type-res.group"
+		id="sequence_type_contract_group_admin">
+	    <field name="sequence_type" ref="sequence_type_contract"/>
+            <field name="group" ref="res.group_admin"/>
+	</record>
+	<record model="ir.sequence.type-res.group"
+		id="sequence_type_contract_group_contract_admin">
+	    <field name="sequence_type" ref="sequence_type_contract"/>
+            <field name="group" ref="group_contract_admin"/>
+	</record>
+	<record model="ir.sequence" id="sequence_contract">
+	    <field name="name">Contract</field>
+            <field name="sequence_type" ref="sequence_type_contract"/>
+	</record>
+	<record model="ir.ui.view" id="create_contract_view_form">
+	    <field name="model">optical_equipment_create.contract</field>
+	    <field name="type">form</field>
+	    <field name="name">create_contract_form</field>
+	</record>
+	<record model="ir.action.wizard" id="maintenance_create_contract">
+	    <field name="name">Create Contract</field>
+	    <field name="wiz_name">optical_equipment.maintenance.contract</field>
+	    <field name="model">optical_equipment_maintenance.service</field>
+	</record>
+	<record model="ir.action.keyword" id="maintenance_create_contract_keyword">
+	    <field name="keyword">form_action</field>
+	    <field name="model">optical_equipment_maintenance.service,-1</field>
+	    <field name="action" ref="maintenance_create_contract"/>
+	</record>
+	<record model="ir.action.report" id="report_contract">
+	    <field name="name">Contract</field>
+            <field name="model">optical_equipment.contract</field>
+            <field name="report_name">optical_equipment.contract</field>
+            <field name="report">optical_equipment/report/Contract.fodt</field>
+            <field name="single" eval="True"/>
+	</record>
+	<record model="ir.action.keyword" id="report_contract_keyword">
+	    <field name="keyword">form_print</field>
+	    <field name="model">optical_equipment.contract,-1</field>
+	    <field name="action" ref="report_contract"/>
+	</record>
+	<record model="ir.action.report" id="report_prorrogation">
+	    <field name="name">Prorrogation</field>
+            <field name="model">optical_equipment.contract</field>
+            <field name="report_name">optical_equipment.contract</field>
+            <field name="report">optical_equipment/report/Prorrogation.fodt</field>
+            <field name="single" eval="True"/>
+	</record>
+	<record model="ir.action.keyword" id="report_prorrogation_keyword">
+	    <field name="keyword">form_print</field>
+	    <field name="model">optical_equipment.contract,-1</field>
+	    <field name="action" ref="report_prorrogation"/>
+	</record>
+	<menuitem
+	    parent="menu_equipment"
+	    name="Contracts Management"
+	    sequence="50"
+	    id="menu_contracts"/>
+	<menuitem
+	    parent="menu_contracts"
+	    action="act_contract_form"
+            sequence="30"
+            id="menu_contract_form"/>
+	<record model="ir.cron" id="cron_fe_delivery">
+	    <field name="method">optical_equipment.contract|contract_expiration</field>
+	    <field name="interval_number" eval="1"/>
+	    <field name="interval_type">hours</field>
+	</record>
+    </data>
+</tryton>

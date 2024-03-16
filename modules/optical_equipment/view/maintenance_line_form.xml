@@ -1,0 +1,24 @@
+<?xml version="1.0"?> 
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<form col="6">
+    <label name="line_replace"/>
+    <field name="line_replace"/>
+    <label name="line_maintenance_activity"/>
+    <field name="line_maintenance_activity"/>
+    <label name="maintenance"/>
+    <field name="maintenance"/>
+    <label name="replacement"/>
+    <field name="replacement"/>
+    <newline/>
+    <label name="maintenance_activity"/>
+    <field name="maintenance_activity"/>
+    <newline/>
+    <label name="quantity"/>
+    <field name="quantity"/>
+    <label name="unit"/>
+    <field name="unit"/>
+    <newline/>
+    <label name="description"/>
+    <field name="description" xexpand="1"/>
+</form>

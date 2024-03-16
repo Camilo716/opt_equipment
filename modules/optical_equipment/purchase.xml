@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+	<record model="ir.ui.view" id="purchase_view_form">
+            <field name="model">purchase.purchase</field>
+            <field name="inherit" ref="purchase.purchase_view_form"/>
+            <field name="name">purchase_form</field>
+        </record>
+	<record model="ir.ui.view" id="purchase_line_view_form">
+            <field name="model">purchase.line</field>
+            <field name="inherit" ref="purchase.purchase_line_view_form"/>
+            <field name="name">purchase_line_form</field>
+        </record>
+	<record model="ir.ui.view" id="product_view_list_purchase_line">
+	    <field name="model">product.product</field>
+	    <field name="inherit" ref="purchase.product_view_list_purchase_line"/>
+	    <field name="name">product_list_purchase_line</field>
+	</record>
+	<record model="ir.model.button" id="purchase_create_equipments">
+	    <field name="name">create_equipments</field>
+	    <field name="string">Create Equipments</field>
+	    <field name="model" search="[('model', '=', 'purchase.purchase')]"/>
+	</record>
+	<record model="ir.action.report" id="purchase.report_purchase">
+            <field name="active" eval="False"/>
+        </record>
+	<record model="ir.action.report" id="report_purchase">
+            <field name="name">Purchase</field>
+            <field name="model">purchase.purchase</field>
+            <field name="report_name">purchase.purchase</field>
+            <field name="report">optical_equipment/report/Purchase.fodt</field>
+            <field name="single" eval="True"/>
+        </record>
+	<record model="ir.action.keyword" id="report_purchase_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">purchase.purchase,-1</field>
+            <field name="action" ref="report_purchase"/>
+        </record>	
+    </data>
+</tryton>

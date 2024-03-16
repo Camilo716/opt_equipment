@@ -1,0 +1,19 @@
+<?xml version="1.0"?> 
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<tree>
+    <field name="diopter" expand="1"/>	
+    <field name="dev_std" expand="1"/>
+    <field name="uncertain_type_A" expand="1"/>
+    <field name="uncertain_pattern" expand="1"/>
+    <field name="k_c_calibration" expand="1"/>
+    <field name="uncertain_U_b1" expand="1"/>
+    <field name="d_resolution" expand="1"/>
+    <field name="uncertain_U_b2_dig" expand="1"/>
+    <field name="uncertain_U_b2_ana" expand="1"/>
+    <field name="uncertain_combinated" expand="1"/>
+    <field name="uncertain_eff" expand="1"/>
+    <field name="t_student" expand="1"/>
+    <field name="uncertain_expanded" expand="1"/>
+    <field name="state" expand="1"/>
+</tree>

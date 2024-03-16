@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+	<record model="ir.action.act_window" id="act_maintenance_service_form">
+	    <field name="name">Services Maintenance</field>
+	    <field name="res_model">optical_equipment_maintenance.service</field>
+	    <field name="search_value"></field>
+	</record>
+	<record model="ir.ui.view" id="maintenance_service_view_tree">
+	    <field name="model">optical_equipment_maintenance.service</field>
+	    <field name="type">tree</field>
+	    <field name="name">maintenance_service_tree</field>
+	</record>
+	<record model="ir.ui.view" id="maintenance_service_view_form">
+	    <field name="model">optical_equipment_maintenance.service</field>
+	    <field name="type">form</field>
+	    <field name="name">maintenance_service_form</field>
+	</record>
+	<record model="ir.action.act_window.view" id="act_maintenance_service_view1">
+            <field name="sequence" eval="10"/>
+	    <field name="view" ref="maintenance_service_view_tree"/>
+            <field name="act_window" ref="act_maintenance_service_form"/>
+	</record>
+	<record model="ir.action.act_window.view" id="act_maintenance_service_view2">
+            <field name="sequence" eval="20"/>
+	    <field name="view" ref="maintenance_service_view_form"/>
+            <field name="act_window" ref="act_maintenance_service_form"/>
+	</record>
+	<record model="ir.action.act_window.domain" id="act_maintenance_service_form_domain_draft">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain"
+                eval="[('state', '=', 'draft')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_maintenance_service_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_maintenance_service_form_domain_agended">
+            <field name="name">Agended</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain"
+                eval="[('state', '=', 'agended')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_maintenance_service_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_maintenance_service_form_domain_in_progress">
+            <field name="name">In progress</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain"
+                eval="[('state', '=', 'in_progress')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_maintenance_service_form"/>
+        </record>
+	<record model="ir.action.act_window.domain" id="act_maintenance_service_form_domain_failed">
+            <field name="name">Failed</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain"
+                eval="[('state', '=', 'failed')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_maintenance_service_form"/>
+        </record>
+	<record model="ir.action.act_window.domain" id="act_maintenance_service_form_domain_finished">
+            <field name="name">Finished</field>
+            <field name="sequence" eval="40"/>
+            <field name="domain"
+                eval="[('state', '=', 'finished')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_maintenance_service_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_maintenance_service_form_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain"></field>
+            <field name="act_window" ref="act_maintenance_service_form"/>
+        </record>
+	<record model="ir.action.act_window" id="act_maintenance_form">
+	    <field name="name">Maintenance Lines</field>
+	    <field name="res_model">optical_equipment.maintenance</field>
+	    <field name="search_value"></field>
+	</record>
+	<record model="ir.ui.view" id= "maintenance_view_tree">
+	    <field name="model">optical_equipment.maintenance</field>
+	    <field name="type">tree</field>
+	    <field name="name">maintenance_tree</field>
+	</record>
+	<record model="ir.ui.view" id="maintenance_view_form">
+	    <field name="model">optical_equipment.maintenance</field>
+	    <field name="type">form</field>
+	    <field name="name">maintenance_form</field>
+	</record>
+	<record model="ir.action.act_window.view" id="act_maintenance_view1">
+            <field name="sequence" eval="10"/>
+	    <field name="view" ref="maintenance_view_tree"/>
+            <field name="act_window" ref="act_maintenance_form"/>
+	</record>
+	<record model="ir.action.act_window.view" id="act_maintenance_view2">
+            <field name="sequence" eval="20"/>
+	    <field name="view" ref="maintenance_view_form"/>
+            <field name="act_window" ref="act_maintenance_form"/>
+	</record>
+	<record model="ir.ui.view" id="change_propietary_maintenance_view_form">
+	    <field name="model">optical_equipment.change_propietary_maintenance.form</field>
+	    <field name="type">form</field>
+	    <field name="name">change_propietary_maintenance_form</field>
+	</record>
+	<record model="ir.ui.view" id= "maintenance_equipment_view_form">
+	    <field name="model">optical_equipment.maintenance-optical_equipment.equipment</field>
+	    <field name="inherit" ref="maintenance_view_form"/>
+	    <field name="name">maintenance_equipment_form</field>
+	</record>
+	<record model="ir.ui.view" id="maintenance_activity_view_form">
+	    <field name="model">optical_equipment_maintenance.activity</field>
+	    <field name="type">form</field>
+	    <field name="name">maintenance_activity_form</field>
+	</record>
+	<record model="ir.ui.view" id="maintenance_activity_view_tree">
+            <field name="model">optical_equipment_maintenance.activity</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="10"/>
+            <field name="name">maintenance_activity_tree</field>
+        </record>
+	<record model="ir.action.act_window.domain" id="act_maintenance_form_domain_draft">
+	    <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain"
+                eval="[('state', '=', 'draft')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_maintenance_form"/>
+        </record>
+	<record model="ir.action.act_window.domain" id="act_maintenance_form_domain_finished">
+            <field name="name">Finished</field>
+            <field name="sequence" eval="40"/>
+            <field name="domain"
+                eval="[('state', '=', 'finished')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_maintenance_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_maintenance_form_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain"></field>
+            <field name="act_window" ref="act_maintenance_form"/>
+        </record>
+	<record model="ir.ui.view" id="maintenance_line_view_form">
+	    <field name="model">optical_equipment.maintenance.line</field>
+	    <field name="type">form</field>
+	    <field name="name">maintenance_line_form</field>
+	</record>
+	<record model="ir.ui.view" id="maintenance_line_view_tree">
+	    <field name="model">optical_equipment.maintenance.line</field>
+	    <field name="type">tree</field>
+	    <field name="name">maintenance_line_tree</field>
+	</record>
+	<record model="ir.model.button" id="assing_agended_button">
+	    <field name="name">assing_agended</field>
+	    <field name="string">Assing Agended</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment_maintenance.service')]"/>
+	</record>
+	<record model="ir.model.button" id="reassing_agended_button">
+	    <field name="name">reassing_agended</field>
+	    <field name="string">Reassing Agended</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment_maintenance.service')]"/>
+	</record>
+	<record model="ir.model.button" id="maintenance_service_draft_button">
+	    <field name="name">draft</field>
+	    <field name="string">Draft</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment_maintenance.service')]"/>
+	</record>
+	<record model="ir.model.button" id="maintenance_service_in_progress_button">
+	    <field name="name">in_progress</field>
+	    <field name="string">In progress</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment_maintenance.service')]"/>
+	</record>
+	<record model="ir.model.button" id="maintenance_service_finished_button">
+	    <field name="name">finished</field>
+	    <field name="string">Finished</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment_maintenance.service')]"/>
+	</record>
+	<record model="ir.model.button" id="maintenance_finished_button">
+	    <field name="name">finished</field>
+	    <field name="string">Finished</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment.maintenance')]"/>
+    	</record>
+	<record model="ir.model.button" id="maintenance_samples_button">
+	    <field name="name">samples</field>
+	    <field name="string">Generate Samples</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment.maintenance')]"/>
+	</record>
+	<record model="ir.model.button" id="maintenance_calibrate_button">
+	    <field name="name">calibrate</field>
+	    <field name="string">Calibrate</field>
+	    <field name="model" search="[('model', '=', 'optical_equipment.maintenance')]"/>
+	</record>
+	<record model="ir.action.report" id="report_service">
+            <field name="name">Service</field>
+            <field name="model">optical_equipment_maintenance.service</field>
+            <field name="report_name">optical_equipment_maintenance.service</field>
+            <field name="report">optical_equipment/report/Service.fodt</field>
+            <field name="single" eval="True"/>
+        </record>
+	<record model="ir.action.keyword" id="report_service_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">optical_equipment_maintenance.service,-1</field>
+            <field name="action" ref="report_service"/>
+        </record>
+	<record model="ir.action.report" id="report_cvs">
+            <field name="name">Hojas de Vida</field>
+            <field name="model">optical_equipment_maintenance.service</field>
+            <field name="report_name">optical_equipment_maintenance.service</field>
+            <field name="report">optical_equipment/report/CVS_Equipments.fodt</field>
+            <field name="single" eval="True"/>
+        </record>
+	<record model="ir.action.keyword" id="report_cvs_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">optical_equipment_maintenance.service,-1</field>
+            <field name="action" ref="report_cvs"/>
+        </record>
+	<record model="ir.action.report" id="report_maintenance_service">
+            <field name="name">Maintenance Service</field>
+            <field name="model">optical_equipment.maintenance</field>
+            <field name="report_name">optical_equipment.maintenance</field>
+            <field name="report">optical_equipment/report/Maintenance_Service.fodt</field>
+            <field name="single" eval="True"/>
+        </record>
+	<record model="ir.action.keyword" id="report_maintenance_service_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">optical_equipment.maintenance,-1</field>
+            <field name="action" ref="report_maintenance_service"/>
+        </record>
+	<record model="ir.action.report" id="report_maintenance_timeline">
+            <field name="name">Time Line Maintenance Service</field>
+            <field name="model">optical_equipment_maintenance.service</field>
+            <field name="report_name">optical_equipment_maintenance.service</field>
+            <field name="report">optical_equipment/report/Maintenance_Timeline.fodt</field>
+            <field name="single" eval="True"/>
+        </record>
+	<record model="ir.action.keyword" id="report_maintenance_timeline_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">optical_equipment_maintenance.service,-1</field>
+            <field name="action" ref="report_maintenance_timeline"/>
+        </record>
+	<record model="ir.action.report" id="report_historys_maintenances">
+            <field name="name">Maintenances Historys</field>
+            <field name="model">optical_equipment_maintenance.service</field>
+            <field name="report_name">optical_equipment_maintenance.service</field>
+            <field name="report">optical_equipment/report/Maintenances_Historys.fodt</field>
+            <field name="single" eval="True"/>
+        </record>
+	<record model="ir.action.keyword" id="report_historys_maintenances_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">optical_equipment_maintenance.service,-1</field>
+            <field name="action" ref="report_historys_maintenances"/>
+        </record>
+	<record model="ir.action.wizard" id="equipment_change_propietary_maintenance">
+	    <field name="name">Change Propietary Maintenance</field>
+	    <field name="wiz_name">optical_equipment.change_propietary_maintenance</field>
+	    <field name="model">optical_equipment_maintenance.service</field>
+	</record>
+	<record model="ir.action.keyword" id="equipment_change_propietary_maintenance_keyword">
+	    <field name="keyword">form_action</field>
+	    <field name="model">optical_equipment_maintenance.service,-1</field>
+	    <field name="action" ref="equipment_change_propietary_maintenance"/>
+	</record>
+	<menuitem parent="menu_equipment"
+		  action="act_maintenance_service_form"
+		  sequence="20"
+		  id="menu_maintenance_service_form"/>
+	<menuitem parent="menu_maintenance_service_form"
+		  action="act_maintenance_form"
+		  sequence="30"
+		  id="menu_maintenance_form"/>
+    </data>
+</tryton>

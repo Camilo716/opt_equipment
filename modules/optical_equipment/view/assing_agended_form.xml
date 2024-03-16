@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level 
+this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="maintenance_service"/>
+    <field name="maintenance_service" colspan="3"/>
+    <newline/>
+    <label name="estimated_agended"/>
+    <field name="estimated_agended" colspan="3" widget="date"/>
+    <newline/>
+    <label name="estimated_agended" string="Hora:"/>
+    <field name="estimated_agended" colspan="3" widget="time"/>
+    <newline/>
+    <label name="technical"/>
+    <field name="technical" colspan="3"/>
+</form>

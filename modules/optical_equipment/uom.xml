@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="product.uom.category" id="uom_cat_electrical_tension">
+            <field name="name">Electric Tension</field>
+        </record>
+        <record model="product.uom" id="uom_electrical">
+            <field name="name">Volt</field>
+            <field name="symbol">V</field>
+            <field name="category" ref="uom_cat_electrical_tension"/>
+            <field name="rate" eval="1."/>
+            <field name="factor" eval="1."/>
+            <field name="rounding" eval="1."/>
+            <field name="digits" eval="0"/>
+        </record>
+	<record model="product.uom.category" id="uom_cat_electrical_power">
+            <field name="name">Radian Power</field>
+        </record>
+	<record model="product.uom" id="uom_electrical1">
+            <field name="name">Watt</field>
+            <field name="symbol">W</field>
+            <field name="category" ref="uom_cat_electrical_power"/>
+            <field name="rate" eval="1."/>
+            <field name="factor" eval="1."/>
+            <field name="rounding" eval="1."/>
+            <field name="digits" eval="0"/>
+        </record>
+	<record model="product.uom.category" id="uom_cat_frequency">
+            <field name="name">Frequency</field>
+        </record>
+	<record model="product.uom" id="uom_electrical2">
+            <field name="name">Hertz</field>
+            <field name="symbol">Hrz</field>
+            <field name="category" ref="uom_cat_frequency"/>
+            <field name="rate" eval="1."/>
+            <field name="factor" eval="1."/>
+            <field name="rounding" eval="1."/>
+            <field name="digits" eval="0"/>
+	</record>
+	<record model="product.uom.category" id="uom_cat_temperature">
+            <field name="name">Temperature</field>
+        </record>
+	<record model="product.uom" id="uom_celsius">
+            <field name="name">Celsius</field>
+            <field name="symbol">°C</field>
+            <field name="category" ref="uom_cat_temperature"/>
+            <field name="rate" eval="1."/>
+            <field name="factor" eval="1."/>
+            <field name="rounding" eval="1."/>
+            <field name="digits" eval="0"/>
+	</record>
+	<record model="product.uom" id="uom_fahrenheit">
+            <field name="name">Fahrenheit</field>
+            <field name="symbol">°F</field>
+            <field name="category" ref="uom_cat_temperature"/>
+            <field name="rate" eval="1."/>
+            <field name="factor" eval="1."/>
+            <field name="rounding" eval="1."/>
+            <field name="digits" eval="0"/>
+	</record>
+	<record model="product.uom" id="uom_kelvin">
+            <field name="name">Kelvin</field>
+            <field name="symbol">°K</field>
+            <field name="category" ref="uom_cat_temperature"/>
+            <field name="rate" eval="1."/>
+            <field name="factor" eval="1."/>
+            <field name="rounding" eval="1."/>
+            <field name="digits" eval="0"/>
+	</record>
+	<record model="product.uom.category" id="uom_cat_relative_humedity">
+            <field name="name">Relative Humedity</field>
+        </record>
+	<record model="product.uom" id="uom_relative_humedity">
+            <field name="name">Relative Humedity</field>
+            <field name="symbol">%HR</field>
+            <field name="category" ref="uom_cat_relative_humedity"/>
+            <field name="rate" eval="1."/>
+            <field name="factor" eval="1."/>
+            <field name="rounding" eval="1."/>
+            <field name="digits" eval="0"/>
+	</record>
+    </data>
+</tryton>

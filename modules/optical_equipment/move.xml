@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--This file file is part of Tryton. The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <record model="ir.ui.view" id="move_view_list_shipment">
+	<field name="model">stock.move</field>
+	<field name="inherit" ref="stock.move_view_list_shipment"/>
+	<field name="name">move_list_shipment</field>
+    </record>
+    <record model="ir.ui.view" id="move_view_form">
+	<field name="model">stock.move</field>
+	<field name="inherit" ref="stock.move_view_form"/>
+        <field name="name">move_form</field>
+    </record>
+    <record model="ir.model.button" id="maintenance_initial_button">
+	<field name="name">maintenance_initial</field>
+	<field name="string">Maintenance Initial</field>
+	<field name="model" search="[('model', '=', 'stock.shipment.out')]"/>
+    </record>
+    <record model="ir.action.report" id="report_shipment_out_picking_list1">
+            <field name="name">Acta Entrega</field>
+            <field name="model">stock.shipment.out</field>
+            <field name="report_name">stock.shipment.out.picking_list1</field>
+            <field name="report">optical_equipment/report/Delivery_Certificated.fodt</field>
+    </record>
+    <record model="ir.action.keyword" id="report_shipment_out_picking_list1_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">stock.shipment.out,-1</field>
+            <field name="action" ref="report_shipment_out_picking_list1"/>
+    </record>
+    <record model="ir.action.report" id="report_capacitation">
+	    <field name="name">Capacitation</field>
+            <field name="model">stock.shipment.out</field>
+            <field name="report_name">stock.shipment.out.picking_list1</field>
+            <field name="report">optical_equipment/report/Capacitation.fodt</field>
+    </record>
+    <record model="ir.action.keyword" id="report_capacitation_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">stock.shipment.out,-1</field>
+            <field name="action" ref="report_capacitation"/>
+    </record>
+</tryton>

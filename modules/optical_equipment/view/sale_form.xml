@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="//label[@name='payment_term']" position="replace"></xpath>
+    <xpath expr="//field[@name='payment_term']" position="replace"></xpath>
+    <xpath expr="//field[@name='warehouse']" position="after">
+	<label name="payment_term_description"/>
+	<field name="payment_term_description" colspan="5"/>
+	<newline/>
+    </xpath>
+    <xpath expr="//field[@name='reference']" position="after">
+	<newline/>
+	<label name="quote_number"/>
+	<field name="quote_number"/>
+    	<label name="sale_type"/>
+	<field name="sale_type"/>
+	<label name="maintenance_type"/>
+	<field name="maintenance_type"/>
+	<label name="agended"/>
+	<field name="agended"/>
+	<label name="contract_ref"/>
+	<field name="contract_ref"/>
+    </xpath>
+    <xpath expr="//group[@id='buttons']/button[@name='draft']" position="after">
+	<button name="report" icon="tryton-print"/>
+    </xpath>
+</data>

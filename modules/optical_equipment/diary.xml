@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+	<record model="res.group" id="group_agended_admin">
+            <field name="name">Agended Administration</field>
+        </record>
+	<record model="res.user-res.group"
+            id="user_admin_group_agended_admin">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_agended_admin"/>
+        </record>
+	<record model="ir.action.act_window" id="act_agended_list_form">
+	    <field name="name">Agended</field>
+	    <field name="res_model">optical_equipment_maintenance.diary</field>
+	    <field name="search_value"></field>
+	</record>
+	<record model="ir.ui.view" id= "agended_list_view_tree">
+	    <field name="model">optical_equipment_maintenance.diary</field>
+	    <field name="type">tree</field>
+	    <field name="name">diary_tree</field>
+	</record>
+	<record model="ir.ui.view" id="agended_list_view_form">
+	    <field name="model">optical_equipment_maintenance.diary</field>
+	    <field name="type">form</field>
+	    <field name="name">diary_form</field>
+	</record>
+	<record model="ir.action.act_window.domain" id="act_agended_list_form_domain_draft">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain"
+                eval="[('state', '=', 'draft')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_agended_list_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_agended_list_form_domain_agended">
+            <field name="name">Agended</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain"
+                eval="[('state', '=', 'agended')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_agended_list_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_agended_list_form_domain_in_progress">
+            <field name="name">In progress</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain"
+                eval="[('state', '=', 'in_progress')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_agended_list_form"/>
+        </record>
+	<record model="ir.action.act_window.domain" id="act_agended_list_form_domain_failed">
+            <field name="name">Failed</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain"
+                eval="[('state', '=', 'failed')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_agended_list_form"/>
+        </record>
+	<record model="ir.action.act_window.domain" id="act_agended_list_form_domain_finished">
+            <field name="name">Finished</field>
+            <field name="sequence" eval="40"/>
+            <field name="domain"
+                eval="[('state', '=', 'finished')]"
+                pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="act_agended_list_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_agended_list_form_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="9999"/>
+            <field name="domain"></field>
+            <field name="act_window" ref="act_agended_list_form"/>
+        </record>
+	<record model="ir.sequence.type" id="sequence_type_agended">
+	    <field name="name">Agended</field>
+	</record>
+	<record model="ir.sequence.type-res.group"
+            id="sequence_type_agended_group_admin">
+            <field name="sequence_type" ref="sequence_type_agended"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+        <record model="ir.sequence.type-res.group"
+            id="sequence_type_agended_group_agended_admin">
+            <field name="sequence_type" ref="sequence_type_agended"/>
+            <field name="group" ref="group_agended_admin"/>
+        </record>
+	<record model="ir.sequence" id="sequence_agended">
+	    <field name="name">Agended</field>
+            <field name="sequence_type" ref="sequence_type_agended"/>
+        </record>
+	<menuitem parent="menu_equipment"
+		  name="Diary"
+		  sequence="10"
+		  id="menu_diary"/>
+	<menuitem parent="menu_diary"
+		  action="act_agended_list_form"
+		  sequence="20"
+		  id="menu_agended_list_form"/>
+    </data>
+</tryton>

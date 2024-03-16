@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='general']/group[@id='checkboxes']" position="inside">
+	<newline/>
+	<label name="equipment"/>
+	<field name="equipment"/>
+	<label name="replacement"/>
+	<field name="replacement"/>
+	<newline/>
+	<label name="maintenance_activity"/>
+	<field name="maintenance_activity"/>
+    </xpath>
+    <xpath expr="/form/notebook/page[@id='general']" position="after">
+	<page string="Features" id="features" col="4">
+	    <newline/>
+	    <label name="mark_category"/>
+	    <field name="mark_category"/>
+	    <label name="model_category"/>
+	    <field name="model_category"/>
+	    <newline/>
+	    <label name="reference_category"/>
+	    <field name="reference_category"/>
+	    <label name="equipment_type"/>
+	    <field name="equipment_type"/>
+	    <newline/>
+	    <label name="maintenance_required"/>
+	    <field name="maintenance_required"/>
+	    <label name="calibration"/>
+	    <field name="calibration"/>
+	    <newline/>
+	    <label name="risk"/>
+	    <field name="risk"/>
+	    <label name="use"/>
+	    <field name="use"/>
+	    <newline/>
+	    <label name="biomedical_class"/>
+	    <field name="biomedical_class"/>
+	    <label name="origin_country"/>
+	    <field name="origin_country"/>
+	    <newline/>
+	    <label name="main_tecnology"/>
+	    <field name="main_tecnology"/>
+	    <label name="software_required"/>
+	    <field name="software_required"/>
+	    <label name="software_version"/>
+	    <field name="software_version"/>
+	    <newline/>
+	    <label name="useful_life"/>
+	    <field name="useful_life" xexpand="0"/>
+	    <label name="useful_life" string="Months"/>
+	    <newline/>
+	    <label name="warranty"/>
+	    <field name="warranty" xexpand="0"/>
+	    <label name="warranty" string="Months"/>
+	    <newline/>
+	    <label name="observation"/>
+	    <field name="observation" xexpand="1"/>
+	</page>
+    </xpath>
+    <xpath expr="/form/notebook/page[@id='features']" position="after">
+	<page string="Calibration" id="calibration">
+	    <newline/>
+	    <label name="calibration"/>
+	    <field name="calibration"/>
+	    <newline/>
+	    <label name="uncertainy_pattern"/>
+	    <field name="uncertainy_pattern"/>
+	    <newline/>
+	    <label name="k_pattern"/>
+	    <field name="k_pattern"/>
+	    <newline/>
+	    <label name="use_pattern"/>
+	    <field name="use_pattern"/>
+	    <newline/>
+	    <label name="k_pattern_list"/>
+	    <field name="k_pattern_list"/>
+	    <newline/>
+	    <label name="measuring_range"/>
+	    <field name="measuring_range"/>
+	    <newline/>
+	    <label name="MEP"/>
+	    <field name="MEP"/>
+	    <newline/>
+	    <label name="resolution_type"/>
+	    <field name="resolution_type"/>
+	    <newline/>
+	    <label name="d_resolution"/>
+	    <field name="d_resolution"/>
+	    <newline/>
+	    <label name="a_factor_resolution"/>
+	    <field name="a_factor_resolution"/>
+	    <newline/>
+	    <label name="analog_resolution"/>
+	    <field name="analog_resolution"/>
+	    <newline/>
+	    <label name="Usubi"/>
+	    <field name="Usubi"/>
+	</page>
+	<page string="Maintenance Activities" id="maintenance_activities">
+	    <label name="initial_operation"/>
+	    <field name="initial_operation"/>
+	    <label name="check_equipment"/>
+	    <field name="check_equipment"/>
+	    <label name="check_electric_system"/>
+	    <field name="check_electric_system"/>
+	    <label name="clean_int_ext"/>
+	    <field name="clean_int_ext"/>
+	    <label name="clean_eyes"/>
+	    <field name="clean_eyes"/>
+	    <label name="check_calibration"/>
+	    <field name="check_calibration"/>
+
+	    <newline/>
+	    <separator name="preventive" colspan="4"/>
+	    <label name="preventive_activities"/>
+	    <field name="preventive_activities" colspan="3"/>
+	    
+	</page>
+    </xpath>
+    <xpath expr="/form/notebook/page[@id='measurements']/label[@name='length']" position="before">
+	<newline/>
+	<separator id="measurements_equipment" string="Measurements of Equipment" colspan="4"/> 
+    </xpath>
+    <xpath
+	expr="/form/notebook/page[@id='measurements']" position="inside">
+	<separator id="enviromental_working_conditions" string="Enviromental Working Conditions" colspan="4"/> 
+	<label name="temperature_min"/>
+	<field name="temperature_min"/>
+	<newline/>
+	<label name="temperature_max"/>
+	<field name="temperature_max"/>
+	<field name="temperature_uom"/>
+	<newline/>
+	<label name="moisture_min"/>
+	<field name="moisture_min"/>
+	<newline/>
+	<label name="moisture_max"/>
+	<field name="moisture_max"/>
+	<field name="moisture_uom"/>
+
+	<separator id="electrical_conditions" string="Electrical Conditions" colspan="4"/> 
+	<label name="electrical_equipment"/>
+	<field name="electrical_equipment"/>
+	<newline/>
+	<label name="frequency"/>
+	<field name="frequency"/>
+	<field name="frequency_uom"/>
+	<label name="voltageAC"/>
+	<field name="voltageAC"/>
+	<field name="voltageAC_uom"/>
+	<label name="voltageDC"/>
+	<field name="voltageDC"/>
+	<field name="voltageDC_uom"/>	
+    </xpath>
+</data>

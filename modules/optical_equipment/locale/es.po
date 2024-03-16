@@ -1,0 +1,1597 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.address,campus:"
+msgid "Campus"
+msgstr "Sede"
+
+msgctxt "field:party.address,party_related:"
+msgid "Party Related"
+msgstr "Contacto"
+
+msgctxt "view:product.template:"
+msgid "Features"
+msgstr "Características"
+
+msgctxt "view:product.template:"
+msgid "Calibration"
+msgstr "Calibración"
+
+msgctxt "view:product.template:"
+msgid "Maintenance Activities"
+msgstr "Actividades de Mantenimiento"
+
+msgctxt "view:product.template:"
+msgid "Measurements of Equipment"
+msgstr "Medidas del Equipo"
+
+msgctxt "view:product.template:"
+msgid "Enviromental Working Conditions"
+msgstr "Condiciones Ambientales de Trabajo"
+
+msgctxt "view:product.template:"
+msgid "Electrical Conditions"
+msgstr "Condiciones Electricas"
+
+msgctxt "field:product.template,equipment:"
+msgid "It is equipment"
+msgstr "Es equipo"
+
+msgctxt "field:product.template,electrical_equipment:"
+msgid "Electrical Equipment"
+msgstr "Equipo Eléctrico"
+
+msgctxt "field:product.template,maintenance_activity:"
+msgid "Maintenance Activity"
+msgstr "Actividad de Mantenimiento"
+
+msgctxt "field:product.template,replacement:"
+msgid "Replacement"
+msgstr "Repuesto"
+
+msgctxt "field:product.template,equipment_type:"
+msgid "Equipment type"
+msgstr "Tipo de Equipo"
+
+msgctxt "field:product.template,risk:"
+msgid "Type risk"
+msgstr "Tipo de riesgo"
+
+msgctxt "field:product.template,use:"
+msgid "Use"
+msgstr "Uso"
+
+msgctxt "field:product.template,biomedical_class:"
+msgid "Biomedical Class"
+msgstr "Clase Biomedica"
+
+msgctxt "field:product.template,main_tecnology:"
+msgid "Main tecnology"
+msgstr "Tecnología principal"
+
+msgctxt "field:product.template,calibration:"
+msgid "Apply calibration"
+msgstr "Aplica calibración"
+
+msgctxt "field:product.template,maintenance_required:"
+msgid "Maintenance Required"
+msgstr "Requiere Mantenimiento"
+
+msgctxt "field:product.template,observation:"
+msgid "Observation"
+msgstr "Observación"
+
+msgctxt "field:product.template,mark_category:"
+msgid "Mark"
+msgstr "Marca"
+
+msgctxt "field:product.template,model_category:"
+msgid "Model"
+msgstr "Modelo"
+
+msgctxt "field:product.template,reference_category:"
+msgid "Reference"
+msgstr "Referencia"
+
+msgctxt "field:product.template,origin_country:"
+msgid "Origin Country"
+msgstr "País de origen"
+
+msgctxt "field:product.template,temperature_min:"
+msgid "Temp Min"
+msgstr "Temp Min"
+
+msgctxt "field:product.template,temperature_max:"
+msgid "Temp Max"
+msgstr "Temp Max"
+
+msgctxt "field:product.template,moisture_min:"
+msgid "Moisture Min"
+msgstr "Humedad Min"
+
+msgctxt "field:product.template,moisture_max:"
+msgid "Moisture Max"
+msgstr "Humedad Max"
+
+msgctxt "field:product.template,frequency:"
+msgid "Frequency"
+msgstr "Frecuencia"
+
+msgctxt "field:product.template,voltageAC:"
+msgid "Voltage AC"
+msgstr "Voltaje AC"
+
+msgctxt "field:product.template,voltageDC:"
+msgid "Voltage DC"
+msgstr "Voltaje DC"
+
+msgctxt "field:product.template,useful_life:"
+msgid "Useful life"
+msgstr "Vida útil"
+
+msgctxt "field:product.template,warranty:"
+msgid "Warranty"
+msgstr "Garantía"
+
+msgctxt "field:product.template,uncertainy_pattern:"
+msgid "Uncertainy Pattern"
+msgstr "Incertidumbre Patrón"
+
+msgctxt "field:product.template,use_pattern:"
+msgid "Use Pattern"
+msgstr "Patrón Utilizado"
+
+msgctxt "field:product.template,k_pattern:"
+msgid "K Pattern"
+msgstr "Patrón K"
+
+msgctxt "field:product.template,resolution_type:"
+msgid "Resolution Type"
+msgstr "Tipo de Resolución"
+
+msgctxt "field:product.template,d_resolution:"
+msgid "Resolution d"
+msgstr "Resolución (d)"
+
+msgctxt "field:product.template,analog_resolution:"
+msgid "Analog resolution"
+msgstr "Resolución Analoga"
+
+msgctxt "field:product.template,a_factor_resolution:"
+msgid "(a) Resolution"
+msgstr "Factor a"
+
+msgctxt "field:product.template,k_pattern_list:"
+msgid "List of patterns K"
+msgstr "Lista de patrones K"
+
+msgctxt "field:product.template,preventive_activities:"
+msgid "Preventive Activities"
+msgstr "Actividades Preventivas"
+
+msgctxt "field:optical_equipment.configuration,equipment_sequence:"
+msgid "Equipment Sequence"
+msgstr "Secuencia de Equipos"
+
+msgctxt "field:optical_equipment.equipment,code:"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "field:optical_equipment.equipment,company:"
+msgid "Company"
+msgstr "Compañia"
+
+msgctxt "field:optical_equipment.equipment,state:"
+msgid "State"
+msgstr "Estado"
+
+msgctxt "selection:optical_equipment.equipment,state:"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "selection:optical_equipment.equipment,state:"
+msgid "Registred"
+msgstr "Registrado"
+
+msgctxt "selection:optical_equipment.equipment,state:"
+msgid "UnContrated"
+msgstr "Sin Contrato"
+
+msgctxt "selection:optical_equipment.equipment,state:"
+msgid "Contrated"
+msgstr "Contratado"
+
+msgctxt "field:optical_equipment.equipment,location:"
+msgid "Location"
+msgstr "Ubicación"
+
+msgctxt "field:optical_equipment.equipment,propietary:"
+msgid "Propietary"
+msgstr "Propietario"
+
+msgctxt "field:optical_equipment.equipment,propietary_address:"
+msgid "Propietary Address"
+msgstr "Dirección Equipo"
+
+msgctxt "field:optical_equipment.equipment,product:"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "field:optical_equipment.equipment,refurbish:"
+msgid "Refurbish"
+msgstr "Restaurado"
+
+msgctxt "field:optical_equipment.equipment,equipment_type:"
+msgid "Type"
+msgstr "Tipo de Equipo"
+
+msgctxt "field:optical_equipment.equipment,risk:"
+msgid "Type risk"
+msgstr "Tipo de riesgo"
+
+msgctxt "field:optical_equipment.equipment,use:"
+msgid "Use"
+msgstr "Uso"
+
+msgctxt "field:optical_equipment.equipment,biomedical_class:"
+msgid "Biomedical Class"
+msgstr "Clase Biomédica"
+
+msgctxt "field:optical_equipment.equipment,main_tecnology:"
+msgid "Main tecnology"
+msgstr "Tecnología principal"
+
+msgctxt "field:optical_equipment.equipment,calibration:"
+msgid "Apply calibration"
+msgstr "Aplica Calibración"
+
+msgctxt "field:optical_equipment.equipment,mark_category:"
+msgid "Mark"
+msgstr "Marca"
+
+msgctxt "field:optical_equipment.equipment,model_category:"
+msgid "Model"
+msgstr "Modelo"
+
+msgctxt "field:optical_equipment.equipment,reference_category:"
+msgid "Reference"
+msgstr "Referencia"
+
+msgctxt "field:optical_equipment.equipment,origin_country:"
+msgid "Origin Country"
+msgstr "País de Origen"
+
+msgctxt "field:optical_equipment.equipment,software_version:"
+msgid "Software version"
+msgstr "Versión del Software"
+
+msgctxt "field:optical_equipment.equipment,useful_life:"
+msgid "Useful life"
+msgstr "Vida útil"
+
+msgctxt "field:optical_equipment.equipment,health_register:"
+msgid "Health Register"
+msgstr "Registro Invima"
+
+msgctxt "field:optical_equipment.equipment,warranty:"
+msgid "Warranty"
+msgstr "Garantía"
+
+msgctxt "field:optical_equipment.equipment,serial:"
+msgid "Serial"
+msgstr "Serial"
+
+msgctxt "field:optical_equipment.equipment,subscription_history:"
+msgid "Subscriptions"
+msgstr "Subscripciones"
+
+msgctxt "field:optical_equipment.equipment,maintenance_history:"
+msgid "Maintenances"
+msgstr "Mantenimientos"
+
+msgctxt "field:optical_equipment.equipment,maintenance_frequency:"
+msgid "Maintenance Frequency"
+msgstr "Frequencia de Mantenimiento"
+
+msgctxt "field:optical_equipment.equipment,purchase_origin:"
+msgid "Purchase Origin"
+msgstr "Origen de la Compra"
+
+msgctxt "field:optical_equipment.equipment,propietary:"
+msgid "Propietary"
+msgstr "Propietarios"
+
+msgctxt "view:optical_equipment.equipment:"
+msgid "Contracts"
+msgstr "Contratos"
+
+msgctxt "view:optical_equipment.equipment:"
+msgid "Propietarys"
+msgstr "Propietarios"
+
+msgctxt "view:optical_equipment.equipment:"
+msgid "Maintenances"
+msgstr "Mantenimientos"
+
+msgctxt "view:optical_equipment.equipment:"
+msgid "Origins"
+msgstr "Origenes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_optical_equipment_form_domain_draft"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "model:ir.action.act_window.domain,name:act_optical_equipment_form_domain_registred"
+msgid "Registred"
+msgstr "Registrado"
+
+msgctxt "model:ir.action.act_window.domain,name:act_optical_equipment_form_domain_uncontrated"
+msgid "UnContrated"
+msgstr "Sin Contrato"
+
+msgctxt "model:ir.action.act_window.domain,name:act_optical_equipment_form_domain_contrated"
+msgid "Contrated"
+msgstr "Contratado"
+
+msgctxt "model:ir.action.act_window.domain,name:act_optical_equipment_form_domain_all"
+msgid "All"
+msgstr "Todo"
+
+msgctxt "model:ir.model.button,string:registred_equipment_button"
+msgid "Registred"
+msgstr "Registrar"
+
+msgctxt "model:ir.ui.menu,name:menu_equipment_configuration"
+msgid "Configuration"
+msgstr "Configuraciones"
+
+msgctxt "model:ir.ui.menu,name:menu_optical_equipment_configuration"
+msgid "Configuration"
+msgstr "Configuraciones"
+
+msgctxt "model:ir.ui.menu,name:menu_equipment"
+msgid "Equipment"
+msgstr "Equipos"
+
+msgctxt "model:ir.ui.menu,name:menu_optical_equipment_form"
+msgid "Equipment"
+msgstr "Equipos"
+
+msgctxt "model:ir.ui.menu,name:menu_optical_equipment_serial_form"
+msgid "Serials"
+msgstr "Seriales"
+
+msgctxt "model:ir.ui.menu,name:menu_maintenance_form"
+msgid "Maintenance Lines"
+msgstr "Líneas de Mantenimiento"
+
+msgctxt "model:ir.ui.menu,name:menu_properties_equipments"
+msgid "Properties of Equipments"
+msgstr "Propiedades de Equipos"
+
+msgctxt "model:ir.ui.menu,name:menu_pattern"
+msgid "Pattern Use"
+msgstr "Patrónes de Calibración"
+
+msgctxt "model:ir.sequence,name:sequence_equipment"
+msgid "Equipment"
+msgstr "Equipos"
+
+msgctxt "field:purchase.purchase,equipment_create:"
+msgid "Equipments Creates"
+msgstr "Equipos Creados"
+
+msgctxt "model:ir.model.button,string:purchase_create_equipments"
+msgid "Create Equipments"
+msgstr "Crear Equipos"
+
+msgctxt "field:purchase.line,product_equipment:"
+msgid "Product Equipment"
+msgstr "Es Equipo"
+
+msgctxt "field:purchase.line,software_version:"
+msgid "Software version"
+msgstr "Versión Software"
+
+msgctxt "field:purchase.line,refurbish:"
+msgid "Refurbish"
+msgstr "Restaurado"
+
+msgctxt "view:purchase.line:"
+msgid "Equipment"
+msgstr "Equipo"
+
+msgctxt "field:purchase.line,health_register:"
+msgid "Health Register"
+msgstr "Registro Invima"
+
+msgctxt "model:ir.ui.menu,name:menu_contracts"
+msgid "Contracts Management"
+msgstr "Gestión de Contratos"
+
+msgctxt "model:ir.ui.menu,name:menu_create_contract_initial"
+msgid "Initial Contract"
+msgstr "Generar Primer Contrato"
+
+msgctxt "model:ir.ui.menu,name:menu_create_prorogue"
+msgid "Prorogue to Contract"
+msgstr "Generar Prorroga"
+
+msgctxt "model:ir.ui.menu,name:menu_contract_form"
+msgid "Contracts"
+msgstr "Contratos"
+
+msgctxt "field:optical_equipment.contract,company:"
+msgid "Company"
+msgstr "Compañia"
+
+msgctxt "field:optical_equipment.contract,number:"
+msgid "Number"
+msgstr "Número"
+
+msgctxt "field:optical_equipment.contract,reference:"
+msgid "Reference"
+msgstr "Referencia"
+
+msgctxt "field:optical_equipment.contract,description:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:optical_equipment.contract,party:"
+msgid "Party"
+msgstr "Tercero"
+
+msgctxt "field:optical_equipment.contract,contact:"
+msgid "Contact"
+msgstr "Contacto"
+
+msgctxt "field:optical_equipment.contract,invoice_address:"
+msgid "Invoice Address"
+msgstr "Dirección de Facturación"
+
+msgctxt "field:optical_equipment.contract,start_date:"
+msgid "Start Date"
+msgstr "Fecha Inicio"
+
+msgctxt "field:optical_equipment.contract,end_date:"
+msgid "End Date"
+msgstr "Fecha Final"
+
+msgctxt "field:optical_equipment.contract,state:"
+msgid "State"
+msgstr "Estado"
+
+msgctxt "field:optical_equipment.contract,contract:"
+msgid "Contract"
+msgstr "Contracto Inicial"
+
+msgctxt "field:optical_equipment.contract,maintenance_services:"
+msgid "Prorogues"
+msgstr "Prorrogas"
+
+msgctxt "field:optical_equipment.contract,price_contract:"
+msgid "Price Contract"
+msgstr "Valor del Contrato"
+
+msgctxt "field:optical_equipment.contract,prorogues:"
+msgid "Prorrogation"
+msgstr "Prorrogaciones"
+
+msgctxt "view:optical_equipment.contract:"
+msgid "Validity"
+msgstr "Validez"
+
+msgctxt "view:optical_equipment.contract:"
+msgid "Contracts and Prorogues"
+msgstr "Contratos y Prorrogas"
+
+msgctxt "view:optical_equipment.contract:"
+msgid "Equipments"
+msgstr "Equipos"
+
+msgctxt "field:optical_equipment.contract,equipments:"
+msgid "Equipments"
+msgstr "Equipos"
+
+msgctxt "view:optical_equipment.contract:"
+msgid "Other Info"
+msgstr "Otra Información"
+
+msgctxt "view:optical_equipment.contract:"
+msgid "Current Contract"
+msgstr "Contrato Principal"
+
+msgctxt "selection:optical_equipment.contract,state:"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "selection:optical_equipment.contract,state:"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "selection:optical_equipment.contract,state:"
+msgid "Quotation"
+msgstr "Presupuesto"
+
+msgctxt "selection:optical_equipment.contract,state:"
+msgid "Running"
+msgstr "En Ejecución"
+
+msgctxt "selection:optical_equipment.contract,state:"
+msgid "Closed"
+msgstr "Cerrado"
+
+msgctxt "selection:optical_equipment.contract,state:"
+msgid "Cancelled"
+msgstr "Cancelado"
+
+msgctxt "selection:optical_equipment.contract,state:"
+msgid "Cancelled"
+msgstr "Cancelado"
+
+msgctxt "model:ir.action.act_window.domain,name:act_contract_form_domain_draft"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "model:ir.action.act_window.domain,name:act_contract_form_domain_quotation"
+msgid "Quotation"
+msgstr "Presupuesto"
+
+msgctxt "model:ir.action.act_window.domain,name:act_contract_form_domain_running"
+msgid "Running"
+msgstr "En Ejecución"
+
+msgctxt "model:ir.action.act_window.domain,name:act_contract_form_domain_closed"
+msgid "Closed"
+msgstr "Cerrados"
+
+msgctxt "model:ir.action.act_window.domain,name:act_contract_form_domain_all"
+msgid "All"
+msgstr "Todo"
+
+msgctxt "model:ir.ui.menu,name:menu_diary"
+msgid "Diary"
+msgstr "Agendas"
+
+msgctxt "model:ir.ui.menu,name:menu_agenda_form"
+msgid "Calendar"
+msgstr "Calendario"
+
+msgctxt "model:ir.ui.menu,name:menu_agended_list_form"
+msgid "Agended"
+msgstr "Agenda"
+
+msgctxt "model:ir.ui.menu,name:menu_assing_agended_form"
+msgid "Assing Agended"
+msgstr "Asignar Agenda"
+
+msgctxt "model:ir.ui.menu,name:menu_reassing_agended_form"
+msgid "ReAssing Agended"
+msgstr "Reagendar"
+
+msgctxt "model:ir.action.act_window.domain,name:act_agended_list_form_domain_draft"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "model:ir.action.act_window.domain,name:act_agended_list_form_domain_agended"
+msgid "Agended"
+msgstr "Agendados"
+
+msgctxt "model:ir.action.act_window.domain,name:act_agended_list_form_domain_in_progress"
+msgid "In Progress"
+msgstr "En Proceso"
+
+msgctxt "model:ir.action.act_window.domain,name:act_agended_list_form_domain_failed"
+msgid "Failed"
+msgstr "Fallido"
+
+msgctxt "model:ir.action.act_window.domain,name:act_agended_list_form_domain_finished"
+msgid "Finished"
+msgstr "Finalizado"
+
+msgctxt "model:ir.action.act_window.domain,name:act_agended_list_form_domain_all"
+msgid "All"
+msgstr "Todo"
+
+msgctxt "field:optical_equipment_maintenance.diary,code:"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "field:optical_equipment_maintenance.diary,date_expected:"
+msgid "Expected Date"
+msgstr "Fecha Esperada"
+
+msgctxt "field:optical_equipment_maintenance.diary,date_estimated:"
+msgid "Estimated Date"
+msgstr "Fecha Estimada"
+
+msgctxt "field:optical_equipment_maintenance.diary,date_end:"
+msgid "Date End"
+msgstr "Fecha Efectiva"
+
+msgctxt "field:optical_equipment_maintenance.diary,maintenance_service:"
+msgid "Maintenance Service"
+msgstr "Servicio de Mantenimiento"
+
+msgctxt "field:optical_equipment_maintenance.diary,technical:"
+msgid "Technical"
+msgstr "Técnico"
+
+msgctxt "field:optical_equipment_maintenance.diary,state:"
+msgid "State"
+msgstr "Estado"
+
+msgctxt "selection:optical_equipment_maintenance.diary,state:"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "selection:optical_equipment_maintenance.diary,state:"
+msgid "Agended"
+msgstr "Agendado"
+
+msgctxt "selection:optical_equipment_maintenance.diary,state:"
+msgid "In Progress"
+msgstr "En Proceso"
+
+msgctxt "selection:optical_equipment_maintenance.diary,state:"
+msgid "Failed"
+msgstr "Fallido"
+
+msgctxt "selection:optical_equipment_maintenance.diary,state:"
+msgid "Finished"
+msgstr "Finalizado"
+
+msgctxt "model:ir.ui.menu,name:menu_maintenance_service_form"
+msgid "Services Maintenance"
+msgstr "Servicios de Mantenimiento"
+
+msgctxt "model:ir.action.act_window.domain,name:act_maintenance_service_form_domain_draft"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "model:ir.action.act_window.domain,name:act_maintenance_service_form_domain_agended"
+msgid "Agended"
+msgstr "Agendado"
+
+msgctxt "model:ir.action.act_window.domain,name:act_maintenance_service_form_domain_in_progress"
+msgid "In Progress"
+msgstr "En Proceso"
+
+msgctxt "model:ir.action.act_window.domain,name:act_maintenance_service_form_domain_failed"
+msgid "Failed"
+msgstr "Fallido"
+
+msgctxt "model:ir.action.act_window.domain,name:act_maintenance_service_form_domain_finished"
+msgid "Finished"
+msgstr "Finalizado"
+
+msgctxt "model:ir.action.act_window.domain,name:act_maintenance_service_form_domain_all"
+msgid "All"
+msgstr "Todo"
+
+msgctxt "field:optical_equipment_maintenance.service,code:"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "field:optical_equipment_maintenance.service,technician_responsible:"
+msgid "Technician Responsible"
+msgstr "Técnico Reponsable"
+
+msgctxt "field:optical_equipment_maintenance.service,invima:"
+msgid "Invima"
+msgstr "Invima"
+
+msgctxt "selection:optical_equipment.maintenance,maintenance_type:"
+msgid "Initial"
+msgstr "Inicial"
+
+msgctxt "selection:optical_equipment.maintenance,maintenance_type:"
+msgid "Preventive"
+msgstr "Preventivo"
+
+msgctxt "selection:optical_equipment.maintenance,maintenance_type:"
+msgid "Corrective"
+msgstr "Correctivo"
+
+msgctxt "field:optical_equipment.maintenance,description_activity:"
+msgid "Activity"
+msgstr "Descripción del Mantenimiento"
+
+msgctxt "field:optical_equipment.maintenance,equipment_calibrate:"
+msgid "Calibrate Equipment"
+msgstr "Equipo Calibrable"
+
+msgctxt "field:optical_equipment.maintenance,temperature_min:"
+msgid "Temp Min"
+msgstr "Temp Min"
+
+msgctxt "field:optical_equipment.maintenance,temperature_max:"
+msgid "Temp Max"
+msgstr "Temp Max"
+
+msgctxt "field:optical_equipment.maintenance,moisture_min:"
+msgid "Moisture Min"
+msgstr "Humedad Min"
+
+msgctxt "field:optical_equipment.maintenance,moisture_max:"
+msgid "Moisture Max"
+msgstr "Humedad Max"
+
+msgctxt "field:optical_equipment.maintenance,moisture_uom:"
+msgid "Moisture UOM"
+msgstr "Humedad UOM"
+
+msgctxt "field:optical_equipment.maintenance.line,line_replace:"
+msgid "Replace"
+msgstr "Repuesto"
+
+msgctxt "field:optical_equipment.maintenance.line,line_maintenance_activity:"
+msgid "Maintenance Activity"
+msgstr "Actividad de Mantenimiento"
+
+msgctxt "field:optical_equipment.maintenance.line,maintenance:"
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+msgctxt "field:optical_equipment.maintenance.line,replacement:"
+msgid "Replacement"
+msgstr "Reemplazo"
+
+msgctxt "field:optical_equipment.maintenance.line,maintenance_activity:"
+msgid "Maintenance activity"
+msgstr "Actividad de Mantenimiento"
+
+msgctxt "field:optical_equipment.maintenance.line,quantity:"
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgctxt "field:optical_equipment.maintenance.line,actual_quantity:"
+msgid "Actual Quantity"
+msgstr "Cantidad Actual"
+
+msgctxt "field:optical_equipment.maintenance.line,unit:"
+msgid "Unit"
+msgstr "Unidad"
+
+msgctxt "field:optical_equipment.maintenance.line,product_uom_category:"
+msgid "Product Uom Category"
+msgstr "Categoría de unidad de producto"
+
+msgctxt "field:optical_equipment.maintenance.line,description:"
+msgid "Description"
+msgstr "Detalles"
+
+msgctxt "field:optical_equipment.maintenance.line,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:optical_equipment.maintenance,temperature_uom:"
+msgid "Temperature UOM"
+msgstr "Temperatura UOM"
+
+msgctxt "field:optical_equipment_maintenance.service,reference:"
+msgid "Reference"
+msgstr "Referencia"
+
+msgctxt "field:optical_equipment_maintenance.service,description:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:sale.sale,quote_number:"
+msgid "Quote Number"
+msgstr "Cotización #"
+
+msgctxt "field:sale.sale,payment_term_description:"
+msgid "Payment Term"
+msgstr "Plazo de Pago"
+
+msgctxt "field:sale.sale,description:sale."
+msgid "Description"
+msgstr "Tiempo de Entrega"
+
+msgctxt "field:optical_equipment_maintenance.service,sale_date:"
+msgid "Sale Date"
+msgstr "Fecha de Venta"
+
+msgctxt "field:optical_equipment_maintenance.service,contract_origin:"
+msgid "Contract Base"
+msgstr "Contrato Base"
+
+msgctxt "field:optical_equipment_maintenance.service,sale_origin:"
+msgid "Sale Origin"
+msgstr "Origen de la Venta"
+
+msgctxt "field:optical_equipment_maintenance.service,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:optical_equipment_maintenance.service,maintenance_type:"
+msgid "Maintenance Type"
+msgstr "Tipo de Mantenimiento"
+
+msgctxt "selection:optical_equipment_maintenance.service,maintenance_type:"
+msgid "Initial"
+msgstr "Inicial"
+
+msgctxt "selection:optical_equipment_maintenance.service,maintenance_type:"
+msgid "Preventive"
+msgstr "Preventivo"
+
+msgctxt "selection:optical_equipment_maintenance.service,maintenance_type:"
+msgid "Corrective"
+msgstr "Correctivo"
+
+msgctxt "field:optical_equipment_maintenance.service,propietary:"
+msgid "Propietary"
+msgstr "Propietario"
+
+msgctxt "field:optical_equipment_maintenance.service,propietary_address:"
+msgid "Propietary Address"
+msgstr "Dirección del Propietario"
+
+msgctxt "field:optical_equipment_maintenance.service,lines:"
+msgid "Lines"
+msgstr "Líneas"
+
+msgctxt "field:optical_equipment_maintenance.service,estimated_agended:"
+msgid "Date Maintenance"
+msgstr "Fecha de Mantenimiento"
+
+msgctxt "field:optical_equipment_maintenance.service,history_agended:"
+msgid "History Agended"
+msgstr "Historico Agendas"
+
+msgctxt "field:optical_equipment_maintenance.service,state_agended:"
+msgid "State Agenda"
+msgstr "Estado de la Agenda"
+
+msgctxt "field:optical_equipment_maintenance.service,technical:"
+msgid "Technical"
+msgstr "Técnico"
+
+msgctxt "field:optical_equipment_maintenance.service,state:"
+msgid "State"
+msgstr "Estado"
+
+msgctxt "field:optical_equipment_maintenance.service,temperature_min:"
+msgid "Temp Min"
+msgstr "Temp Mínima"
+
+msgctxt "field:optical_equipment_maintenance.service,temperature_max:"
+msgid "Temp Max"
+msgstr "Temp Máxima"
+
+msgctxt "field:optical_equipment_maintenance.service,temperature_uom:"
+msgid "Temperature UOM"
+msgstr "Temperatura UOM"
+
+msgctxt "field:optical_equipment_maintenance.service,moisture_min:"
+msgid "Moisture Min"
+msgstr "Humedad Mínima"
+
+msgctxt "field:optical_equipment_maintenance.service,moisture_max:"
+msgid "Moisture Max"
+msgstr "Humedad Máxima"
+
+msgctxt "field:optical_equipment_maintenance.service,moisture_uom:"
+msgid "Moisture UOM"
+msgstr "Humedad UOM"
+
+msgctxt "field:party.party,customer_type:"
+msgid "Customer type"
+msgstr "Tipo de Cliente"
+
+msgctxt "field:product.template,software_required:"
+msgid "Software Required"
+msgstr "Software Requerido"
+
+msgctxt "view:product.product:"
+msgid "Calibration"
+msgstr "Calibración"
+
+msgctxt "view:product.product:"
+msgid "Measurements of Equipment"
+msgstr "Medidas del Equipo"
+
+msgctxt "view:product.product:"
+msgid "Enviromental Working Conditions"
+msgstr "Condiciones Ambientales de Trabajo"
+
+msgctxt "view:product.product:"
+msgid "Electrical Conditions"
+msgstr "Condiciones Electricas"
+
+msgctxt "field:product.product,equipment:"
+msgid "It is equipment"
+msgstr "Es equipo"
+
+msgctxt "field:product.product,electrical_equipment:"
+msgid "Electrical Equipment"
+msgstr "Equipo Eléctrico"
+
+msgctxt "field:product.product,maintenance_activity:"
+msgid "Maintenance Activity"
+msgstr "Actividad de Mantenimiento"
+
+msgctxt "field:product.product,replacement:"
+msgid "Replacement"
+msgstr "Repuesto"
+
+msgctxt "field:product.product,equipment_type:"
+msgid "Equipment type"
+msgstr "Tipo de Equipo"
+
+msgctxt "field:product.product,risk:"
+msgid "Type risk"
+msgstr "Tipo de riesgo"
+
+msgctxt "field:product.product,use:"
+msgid "Use"
+msgstr "Uso"
+
+msgctxt "field:product.product,biomedical_class:"
+msgid "Biomedical Class"
+msgstr "Clase Biomedica"
+
+msgctxt "field:product.product,main_tecnology:"
+msgid "Main tecnology"
+msgstr "Tecnología principal"
+
+msgctxt "field:product.product,calibration:"
+msgid "Apply calibration"
+msgstr "Aplica calibración"
+
+msgctxt "field:product.product,observation:"
+msgid "Observation"
+msgstr "Observación"
+
+msgctxt "field:product.product,mark_category:"
+msgid "Mark"
+msgstr "Marca"
+
+msgctxt "field:product.product,model_category:"
+msgid "Model"
+msgstr "Modelo"
+
+msgctxt "field:product.product,reference_category:"
+msgid "Reference"
+msgstr "Referencia"
+
+msgctxt "field:product.product,origin_country:"
+msgid "Origin Country"
+msgstr "País de origen"
+
+msgctxt "field:product.product,temperature_min:"
+msgid "Temp Min"
+msgstr "Temp Min"
+
+msgctxt "field:product.product,temperature_max:"
+msgid "Temp Max"
+msgstr "Temp Max"
+
+msgctxt "field:product.product,moisture_min:"
+msgid "Moisture Min"
+msgstr "Humedad Min"
+
+msgctxt "field:product.product,moisture_max:"
+msgid "Moisture Max"
+msgstr "Humedad Max"
+
+msgctxt "field:product.product,frequency:"
+msgid "Frequency"
+msgstr "Frecuencia"
+
+msgctxt "field:product.product,voltageAC:"
+msgid "Voltage AC"
+msgstr "Voltaje AC"
+
+msgctxt "field:product.product,voltageDC:"
+msgid "Voltage DC"
+msgstr "Voltaje DC"
+
+msgctxt "field:product.product,useful_life:"
+msgid "Useful life"
+msgstr "Vida útil"
+
+msgctxt "field:product.product,warranty:"
+msgid "Warranty"
+msgstr "Garantía"
+
+msgctxt "field:product.product,uncertainy_pattern:"
+msgid "Uncertainy Pattern"
+msgstr "Incertidumbre Patrón"
+
+msgctxt "field:product.product,k_pattern:"
+msgid "K Pattern"
+msgstr "Patrón K"
+
+msgctxt "field:product.product,resolution_type:"
+msgid "Resolution Type"
+msgstr "Tipo de Resolución"
+
+msgctxt "field:product.product,d_resolution:"
+msgid "Resolution d"
+msgstr "Resolución (d)"
+
+msgctxt "field:product.product,analog_resolution:"
+msgid "Analog resolution"
+msgstr "Resolución Analoga"
+
+msgctxt "field:product.product,a_factor_resolution:"
+msgid "(a) Resolution"
+msgstr "Factor a"
+
+msgctxt "field:product.product,software_required:"
+msgid "Software Required"
+msgstr "Software Requerido"
+
+msgctxt "field:optical_equipment.configuration,maintenance_sequence:"
+msgid "Maintenance Sequence"
+msgstr "Secuencia de Mantenimientos"
+
+msgctxt "field:optical_equipment.configuration,agended_sequence:"
+msgid "Agended Sequence"
+msgstr "Secuencia de Agendas"
+
+msgctxt "field:optical_equipment.configuration,contract_sequence:"
+msgid "Contract Sequence"
+msgstr "Secuencia de Contratos"
+
+msgctxt "field:optical_equipment.configuration,temperature_min:"
+msgid "Temp Min"
+msgstr "Temp Mínima"
+
+msgctxt "field:optical_equipment.configuration,temperature_max:"
+msgid "Temp Max"
+msgstr "Temp Máxima"
+
+msgctxt "field:optical_equipment.configuration,temperature_uom:"
+msgid "Temperature UOM"
+msgstr "Temperatura UOM"
+
+msgctxt "field:optical_equipment.configuration,moisture_min:"
+msgid "Moisture Min"
+msgstr "Humedad Mínima"
+
+msgctxt "field:optical_equipment.configuration,moisture_max:"
+msgid "Moisture Max"
+msgstr "Humedad Máxima"
+
+msgctxt "field:optical_equipment.configuration,moisture_uom:"
+msgid "Moisture UOM"
+msgstr "Humedad UOM"
+
+msgctxt "view:optical_equipment_maintenance.diary:"
+msgid "Dates"
+msgstr "Fechas"
+
+msgctxt "model:ir.action,name:act_reassing_agended"
+msgid "ReAssing Agended"
+msgstr "Reagendar"
+
+msgctxt "model:ir.action,name:act_assing_agended"
+msgid "Assing Agended"
+msgstr "Asignar Agenda"
+
+msgctxt "field:optical_equipment_maintenance.agended,maintenance_service:"
+msgid "Maintenaince Service"
+msgstr "Servicio de Mantenimiento"
+
+msgctxt "field:optical_equipment_maintenance.agended,estimated_agended:"
+msgid "Date Maintenance"
+msgstr "Fecha de Mantenimiento"
+
+msgctxt "field:optical_equipment_maintenance.agended,technical:"
+msgid "Technical"
+msgstr "Técnico"
+
+msgctxt "field:optical_equipment_maintenance.reagended,maintenance_service:"
+msgid "Maintenaince Service"
+msgstr "Servicio de Mantenimiento"
+
+msgctxt "field:optical_equipment_maintenance.reagended,estimated_agended:"
+msgid "Date Maintenance"
+msgstr "Fecha de Mantenimiento"
+
+msgctxt "field:optical_equipment_maintenance.reagended,technical:"
+msgid "Technical"
+msgstr "Técnico"
+
+msgctxt "view:optical_equipment_maintenance.service:"
+msgid "Lines Of Mantenaince"
+msgstr "Líneas de Mantenimiento"
+
+msgctxt "view:optical_equipment_maintenance.service:"
+msgid "Agendes"
+msgstr "Agendas"
+
+msgctxt "view:optical_equipment_maintenance.service:"
+msgid "Other Info"
+msgstr "Otra Información"
+
+msgctxt "selection:optical_equipment_maintenance.service,state:"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "selection:optical_equipment_maintenance.service,state:"
+msgid "Agended"
+msgstr "Agendado"
+
+msgctxt "selection:optical_equipment_maintenance.service,state:"
+msgid "In Progress"
+msgstr "En Proceso"
+
+msgctxt "selection:optical_equipment_maintenance.service,state:"
+msgid "Failed"
+msgstr "Fallido"
+
+msgctxt "selection:optical_equipment_maintenance.service,state:"
+msgid "Finished"
+msgstr "Finalizado"
+
+msgctxt "selection:optical_equipment_maintenance.service,state_agended:"
+msgid "No agenda"
+msgstr "Sin Agenda"
+
+msgctxt "selection:optical_equipment_maintenance.service,state_agended:"
+msgid "Agended"
+msgstr "Agendado"
+
+msgctxt "selection:optical_equipment_maintenance.service,state_agended:"
+msgid "In progress"
+msgstr "En proceso"
+
+msgctxt "selection:optical_equipment_maintenance.service,state_agended:"
+msgid "Finish"
+msgstr "Finalizado"
+
+msgctxt "selection:optical_equipment_maintenance.service,state_agended:"
+msgid "Failed"
+msgstr "Fallido"
+
+msgctxt "field:optical_equipment.maintenance,service_maintenance:"
+msgid "Maintenance Service"
+msgstr "Servicio de Mantenimiento"
+
+msgctxt "field:optical_equipment.maintenance,code:"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "field:optical_equipment.maintenance,maintenance_type:"
+msgid "Maintenance Type"
+msgstr "Tipo de Mantenimiento"
+
+msgctxt "field:optical_equipment.maintenance,state:"
+msgid "State"
+msgstr "Estado"
+
+msgctxt "field:optical_equipment.maintenance,company:"
+msgid "Company"
+msgstr "Compañia"
+
+msgctxt "field:optical_equipment.maintenance,propietary:"
+msgid "Propietary"
+msgstr "Propietario"
+
+msgctxt "field:optical_equipment.maintenance,propietary_address:"
+msgid "Propietary Address"
+msgstr "Dirección del Propietario"
+
+msgctxt "field:optical_equipment.maintenance,equipment:"
+msgid "Equipment"
+msgstr "Equipo"
+
+msgctxt "field:optical_equipment.maintenance,maintenance_activity:"
+msgid "Maintenance Activitys"
+msgstr "Actividades de Mantenimiento"
+
+msgctxt "field:optical_equipment.maintenance,patterns_equipments:"
+msgid "K Pattern"
+msgstr "Patron K"
+
+msgctxt "field:optical_equipment.maintenance,lines_calibration:"
+msgid "Lines of Calibration"
+msgstr "Líneas de Calibración"
+
+msgctxt "field:optical_equipment.maintenance,calibration_total:"
+msgid "Calibration Total"
+msgstr "Resultado Calibración"
+
+msgctxt "field:optical_equipment.maintenance,maintenance_lines:"
+msgid "Lines"
+msgstr "Líneas"
+
+msgctxt "view:optical_equipment.maintenance:"
+msgid "Preventive"
+msgstr "Preventivo"
+
+msgctxt "view:optical_equipment.maintenance:"
+msgid "Corrective"
+msgstr "Correctivo"
+
+msgctxt "view:optical_equipment.maintenance:"
+msgid "Enviromental Conditions"
+msgstr "Condiciones Ambientales"
+
+msgctxt "view:optical_equipment.maintenance:"
+msgid "Graph"
+msgstr "Grafíca"
+
+msgctxt "view:optical_equipment.maintenance:"
+msgid "Calibration"
+msgstr "Calibración"
+
+msgctxt "selection:optical_equipment.maintenance,state:"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "selection:optical_equipment.maintenance,state:"
+msgid "Finished"
+msgstr "Finalizado"
+
+msgctxt "model:ir.model.button,string:assing_agended_button"
+msgid "Assing Agended"
+msgstr "Agendar"
+
+msgctxt "model:ir.model.button,string:reassing_agended_button"
+msgid "Reassing Agended"
+msgstr "Reagendar"
+
+msgctxt "model:ir.model.button,string:maintenance_service_draft_button"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "model:ir.model.button,string:maintenance_service_in_progress_button"
+msgid "In progress"
+msgstr "En Proceso"
+
+msgctxt "model:ir.model.button,string:maintenance_service_finished_button"
+msgid "Finished"
+msgstr "Finalizado"
+
+msgctxt "model:ir.model.button,string:maintenance_finished_button"
+msgid "Finished"
+msgstr "Finalizado"
+
+msgctxt "model:ir.model.button,string:maintenance_calibrate_button"
+msgid "Calibrate"
+msgstr "Calibrar"
+
+msgctxt "field:optical_equipment.maintenance.calibration_sample,maintenance:"
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+msgctxt "field:optical_equipment.maintenance.calibration_sample,number_sample:"
+msgid "Sample #"
+msgstr "Muestra #"
+
+msgctxt "field:optical_equipment.maintenance.calibration_sample,value_patterns:"
+msgid "Value Pattern"
+msgstr "Valor del Patrón"
+
+msgctxt "field:optical_equipment.maintenance.calibration_sample,value_equipment:"
+msgid "Value in Equipment"
+msgstr "Valor en Equipo"
+
+msgctxt "field:optical_equipment.maintenance.calibration_sample,mistake:"
+msgid "Mistake"
+msgstr "Error"
+
+msgctxt "field:optical_equipment.maintenance.calibration_sample,mistake_rate:"
+msgid "% Mistake"
+msgstr "% de Error"
+
+msgctxt "field:optical_equipment.maintenance.calibration,maintenance:"
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+msgctxt "field:optical_equipment.maintenance.calibration,diopter:"
+msgid "Diopter"
+msgstr "Dioptría"
+
+msgctxt "field:optical_equipment.maintenance.calibration,dev_std:"
+msgid "Standart Desviation"
+msgstr "Desviación Estándar"
+
+msgctxt "field:optical_equipment.maintenance.calibration,uncertain_type_A:"
+msgid "Uncertain Type A"
+msgstr "Incertidumbre Tipo A"
+
+msgctxt "field:optical_equipment.maintenance.calibration,uncertain_pattern:"
+msgid "Uncertain Pattern"
+msgstr "Patrón de Incertidumbre"
+
+msgctxt "field:optical_equipment.maintenance.calibration,k_c_calibration:"
+msgid "K Crt Calibration"
+msgstr "K Crt Calibración"
+
+msgctxt "field:optical_equipment.maintenance.calibration,uncertain_U_b1:"
+msgid "U_b1"
+msgstr "Incertidumbre b1"
+
+msgctxt "field:optical_equipment.maintenance.calibration,d_resolution:"
+msgid "d_resolution"
+msgstr "D Resolución"
+
+msgctxt "field:optical_equipment.maintenance.calibration,uncertain_U_b2_dig:"
+msgid "U_b2"
+msgstr "Incertidumbre b2 dig"
+
+msgctxt "field:optical_equipment.maintenance.calibration,uncertain_U_b2_ana:"
+msgid "U_b2"
+msgstr "Incertidumbre b2 ana"
+
+msgctxt "field:optical_equipment.maintenance.calibration,uncertain_combinated:"
+msgid "U_combinated"
+msgstr "Incertidumbre Combinada"
+
+msgctxt "field:optical_equipment.maintenance.calibration,uncertain_eff:"
+msgid "U eff"
+msgstr "Incertidumbre eff"
+
+msgctxt "field:optical_equipment.maintenance.calibration,t_student:"
+msgid "T Student"
+msgstr "Distribución T Student"
+
+msgctxt "field:optical_equipment.maintenance.calibration,uncertain_expanded:"
+msgid "Uexpand"
+msgstr "Incertidumbre Expandida"
+
+msgctxt "field:optical_equipment.maintenance.calibration,state:"
+msgid "State"
+msgstr "Estado"
+
+msgctxt "model:ir.action.act_window.domain,name:act_maintenance_form_domain_draft"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "model:ir.action.act_window.domain,name:act_maintenance_form_domain_finished"
+msgid "Finished"
+msgstr "Finalizado"
+
+msgctxt "model:ir.action.act_window.domain,name:act_maintenance_form_domain_all"
+msgid "All"
+msgstr "Todo"
+
+msgctxt "model:ir.sequence,name:sequence_contract"
+msgid "Contract"
+msgstr "Contratos"
+
+msgctxt "model:ir.sequence,name:sequence_agended"
+msgid "Agended"
+msgstr "Agendas"
+
+msgctxt "model:ir.sequence,name:sequence_maintenances"
+msgid "Maintenance"
+msgstr "Mantenimientos"
+
+msgctxt "field:sale.sale,sale_type:"
+msgid "Sale Type"
+msgstr "Tipo de Venta"
+
+msgctxt "field:sale.sale,maintenance_type:"
+msgid "Maintenance Type"
+msgstr "Tipo de Mantenimiento"
+
+msgctxt "field:sale.sale,contract_ref:"
+msgid "Contract Base"
+msgstr "Contrato Base"
+
+msgctxt "field:sale.sale,agended:"
+msgid "Scheduling"
+msgstr "Agendado"
+
+msgctxt "selection:sale.sale,sale_type:"
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+msgctxt "selection:sale.sale,sale_type:"
+msgid "Equipments"
+msgstr "Equipos"
+
+msgctxt "selection:sale.sale,sale_type:"
+msgid "replaces"
+msgstr "Repuestos"
+
+msgctxt "selection:sale.sale,sale_type:"
+msgid "replaces"
+msgstr "Repuestos"
+
+msgctxt "selection:sale.sale,maintenance_type:"
+msgid "Preventive"
+msgstr "Preventivo"
+
+msgctxt "selection:sale.sale,maintenance_type:"
+msgid "Corrective"
+msgstr "Correctivo"
+
+msgctxt "field:optical_equipment_create.contract,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:optical_equipment_create.contract,party:"
+msgid "Party"
+msgstr "Tercero"
+
+msgctxt "field:optical_equipment_create.contract,invoice_address:"
+msgid "Invoice Address"
+msgstr "Dirección de Facturación"
+
+msgctxt "field:optical_equipment_create.contract,contact:"
+msgid "Contact"
+msgstr "Contacto"
+
+msgctxt "field:optical_equipment_create.contract,start_date:"
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+msgctxt "field:optical_equipment_create.contract,end_date:"
+msgid "End Date"
+msgstr "Fecha Final"
+
+msgctxt "field:optical_equipment_create.contract,unit_price:"
+msgid "Unit Price"
+msgstr "Precio Unitario"
+
+msgctxt "field:stock.move,equipment:"
+msgid "Equipment"
+msgstr "Equipo"
+
+msgctxt "field:optical_equipment.change_propietary.form,equipments:"
+msgid "Equipments"
+msgstr "Equipos"
+
+msgctxt "field:optical_equipment.change_propietary.form,old_propietary:"
+msgid "Old Propietary"
+msgstr "Antiguo Propietario"
+
+msgctxt "field:optical_equipment.change_propietary.form,new_propietary:"
+msgid "New Propietary"
+msgstr "Nuevo Propietario"
+
+msgctxt "field:optical_equipment.change_propietary.form,new_address:"
+msgid "New Address"
+msgstr "Nueva Dirección"
+
+msgctxt "field:optical_equipment.change_propietary.form,change_date:"
+msgid "Change Date"
+msgstr "Fecha de Cambio"
+
+
+msgctxt "field:optical_equipment.change_propietary_maintenance.form,maintenance_service:"
+msgid "Maintenance Service"
+msgstr "Servicios de Mantenimiento"
+
+msgctxt "field:optical_equipment.change_propietary_maintenance.form,old_propietary:"
+msgid "Old Propietary"
+msgstr "Antiguo Propietario"
+
+msgctxt "field:optical_equipment.change_propietary_maintenance.form,new_propietary:"
+msgid "New Propietary"
+msgstr "Nuevo Propietario"
+
+msgctxt "field:optical_equipment.change_propietary_maintenance.form,new_address:"
+msgid "New Address"
+msgstr "Nueva Dirección"
+
+msgctxt "field:optical_equipment.change_propietary_maintenance.form,change_date:"
+msgid "Change Date"
+msgstr "Fecha de Cambio"
+
+msgctxt "field:stock.shipment.out,service_maintenance_initial:"
+msgid "Maintenance Initial"
+msgstr "Mantenimiento Inicial"
+
+msgctxt "field:optical_equipment.print_balance_sale_party.start,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:optical_equipment.print_balance_sale_party.start,party:"
+msgid "Party"
+msgstr "Tercero"
+
+msgctxt "field:optical_equipment.print_balance_sale_party.start,start_period:"
+msgid "Start Period"
+msgstr "Periodo Inicial"
+
+msgctxt "field:optical_equipment.print_balance_sale_party.start,end_period:"
+msgid "End Period"
+msgstr "Periodo Final"
+
+msgctxt "field:optical_equipment.print_balance_sale_party.start,party_type:"
+msgid "Party Type"
+msgstr "Tipo"
+
+msgctxt "selection:optical_equipment.print_balance_sale_party.start,party_type:"
+msgid "Customer"
+msgstr "Cliente"
+
+msgctxt "model:ir.ui.menu,name:menu_print_balance_sale_party"
+msgid "Print Balance Sale by Party"
+msgstr "Estado de Cuenta por Tercero"
+
+msgctxt "model:ir.model.button,string:maintenance_initial_button"
+msgid "Maintenance Initial"
+msgstr "Mantenimiento Inicial"
+
+msgctxt "model:ir.model.button,string:maintenance_samples_button"
+msgid "Generate Samples"
+msgstr "Generar Muestras"
+
+msgctxt "model:ir.action,name:report_sale"
+msgid "Sale Equipments"
+msgstr "Venta de Equipos"
+
+msgctxt "model:ir.action,name:report_sale_internal"
+msgid "Sale Equipments Internal"
+msgstr "Venta Interna de Equipos"
+
+msgctxt "model:ir.action,name:report_purchase"
+msgid "Purchase"
+msgstr "Compra de Equipos"
+
+msgctxt "model:ir.action,name:report_maintenance_service"
+msgid "Maintenance Service"
+msgstr "Servicio de Mantenimiento"
+
+msgctxt "model:ir.action,name:report_calibration"
+msgid "Calibration"
+msgstr "Calibración"
+
+msgctxt "model:ir.action,name:report_calibrations"
+msgid "Calibrations"
+msgstr "Calibraciones"
+
+msgctxt "model:ir.action,name:report_maintenance_timeline"
+msgid "Time Line Maintenance Service"
+msgstr "Cronograma de Mantenimiento"
+
+msgctxt "model:ir.action,name:report_service"
+msgid "Service"
+msgstr "Registro de Mantenimiento Preventivo"
+
+msgctxt "model:ir.action,name:report_equipment"
+msgid "Equipment"
+msgstr "Hoja de Vida"
+
+msgctxt "model:ir.action,name:report_history_maintenance"
+msgid "Maintenance History"
+msgstr "Historico de Mantenimiento"
+
+msgctxt "model:ir.action,name:report_historys_maintenances"
+msgid "Maintenances Historys"
+msgstr "Historicos de Mantenimiento"
+
+msgctxt "model:ir.action,name:report_capacitation"
+msgid "Capacitation"
+msgstr "Certificado de Capacitación"
+
+msgctxt "model:ir.action,name:equipment_change_propietary"
+msgid "Change Propietary"
+msgstr "Cambiar Propietario"
+
+msgctxt "model:ir.action,name:equipment_change_propietary_maintenance"
+msgid "Change Propietary Maintenance"
+msgstr "Cambiar Propietario al Servicio de Mantenimiento"
+
+msgctxt "model:ir.action,name:maintenance_create_contract"
+msgid "Create Contract"
+msgstr "Crear Contrato"
+
+msgctxt "model:optical_equipment.use_pattern,name_pattern:schematic_eye"
+msgid "Schematic Eye"
+msgstr "Ojo Esquemático"
+
+msgctxt "model:optical_equipment.use_pattern,name_pattern:trial_lens"
+msgid "Trial Lens"
+msgstr "Lentes de Prueba"
+
+msgctxt "model:optical_equipment.use_pattern,name_pattern:calibration_weights"
+msgid "Calibration Weights"
+msgstr "Pesas de Calibración"
+
+msgctxt "model:optical_equipment.use_pattern,name_pattern:calibration_spheres"
+msgid "Calibration Spheres"
+msgstr "Esferas de Calibración"
+

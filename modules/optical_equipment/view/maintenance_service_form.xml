@@ -1,0 +1,79 @@
+<?xml version="1.0"?> 
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<form col="6">
+    <label name="propietary"/>
+    <field name="propietary"/>
+    <label name="propietary_address"/>
+    <field name="propietary_address"/>
+    <label name="code"/>
+    <field name="code"/>
+    <label name="description"/>
+    <field name="description" colspan="3"/>
+    <label name="reference"/>
+    <field name="reference"/>
+    <label name="sale_origin"/>
+    <field name="sale_origin"/>
+    <label name="sale_date"/>
+    <field name="sale_date"/>
+    <label name="contract_origin"/>
+    <field name="contract_origin"/>
+    <label name="maintenance_type"/>
+    <field name="maintenance_type"/>
+    <newline/>
+    <label name="temperature_min"/>
+    <field name="temperature_min"/>
+    <label name="temperature_max"/>
+    <field name="temperature_max"/>
+    <label name="temperature_uom"/>
+    <field name="temperature_uom"/>
+    <label name="moisture_min"/>
+    <field name="moisture_min"/>
+    <label name="moisture_max"/>
+    <field name="moisture_max"/>
+    <label name="moisture_uom"/>
+    <field name="moisture_uom"/>
+    <notebook colspan="6">
+	<page string="General" id="general" col="2">
+	    <label name="technical"/>
+	    <field name="technical"/>
+	    <newline/>
+	    <label name="estimated_agended"/>
+	    <field name="estimated_agended" widget="date"/>
+	    <label name="estimated_agended" string="Hora"/>
+	    <field name="estimated_agended" widget="time"/>
+	    <label name="state_agended"/>
+	    <field name="state_agended"/>
+	</page>
+	<page string="Lines Of Mantenaince" id="lines_maintenance">
+	    <field name="lines"/>
+	</page>
+	<page string="Agendes" id="agendes">
+	    <group col="-1" id="current_agended">
+		<label name="current_agended"/>
+		<field name="current_agended"/>
+	    </group>
+	    <newline/>
+	    <field name="history_agended"/>
+	</page>
+	<page string="Other Info" id="other_info">
+	    <label name="company"/>
+	    <field name="company"/>
+
+	    <label name="technician_responsible"/>
+	    <field name="technician_responsible"/>
+
+	    <label name="invima"/>
+	    <field name="invima"/>
+	</page>
+    </notebook>
+    <newline/>
+    <label name="state"/>
+    <field name="state"/>
+    <group id="button">
+	<button name="reassing_agended" string="Reassing Agended"/>
+	<button name="assing_agended" string="Assing Agended"/>
+	<button name="in_progress"/>
+	<button name="finished"/>
+    </group>
+</form>

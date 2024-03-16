@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree>
+    <field name="code"/>
+    <field name="date_expected" widget="date"/>
+    <field name="date_expected" string="time" widget="time"/>
+    <field name="date_estimated" widget="date"/>
+    <field name="date_end" widget="date"/>
+    <field name="maintenance_service"/>
+    <field name="technical"/>
+</tree>

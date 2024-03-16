@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+    <record model="ir.action.report" id="report_balance_sale_party">
+      <field name="name">Balance by Party</field>
+      <field name="model"></field>
+      <field name="report_name">optical_equipment.balance_sale_party</field>
+      <field name="report">optical_equipment/report/balance_sale_party.fods</field>
+      <field name="template_extension">ods</field>
+    </record>
+    <record model="ir.ui.view" id="print_balance_sale_party_start_view_form">
+      <field name="model">optical_equipment.print_balance_sale_party.start</field>
+      <field name="type">form</field>
+      <field name="name">print_balance_sale_party_start_form</field>
+    </record>
+    <record model="ir.action.wizard" id="wizard_print_balance_sale_party">
+      <field name="name">Print Balance Sale by Party</field>
+      <field name="wiz_name">optical_equipment.print_balance_sale_party</field>
+    </record>
+    <menuitem
+	parent="sale.menu_reporting"
+	action="wizard_print_balance_sale_party"
+	id="menu_print_balance_sale_party"
+	icon="tryton-print"/>
+  </data>
+</tryton>

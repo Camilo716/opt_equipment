@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!--This file file is part of Tryton. The COPYRIGHT file at the top level
+    of this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <record model="ir.ui.view" id="sale_view_tree">
+        <field name="model">sale.sale</field>
+	<field name="inherit" ref="sale.sale_view_tree"/>
+        <field name="name">sale_tree</field>
+    </record>
+    <record model="ir.ui.view" id="sale_view_form">
+	<field name="model">sale.sale</field>
+	<field name="inherit" ref="sale.sale_view_form"/>
+	<field name="name">sale_form</field>
+    </record>
+    <record model="ir.ui.view" id="product_view_list_sale_line">
+	<field name="model">product.product</field>
+	<field name="inherit" ref="sale.product_view_list_sale_line"/>
+	<field name="name">product_list_sale_line</field>
+    </record>
+    <record model="ir.sequence" id="sequence_quote_sale">
+        <field name="name">Sale Quote</field>
+        <field name="sequence_type" ref="sale.sequence_type_sale"/>
+    </record>
+    <record model="ir.action.report" id="sale.report_sale">
+        <field name="active" eval="False"/>
+    </record>
+    <record model="ir.model.button" id="report_balance_party_sale">
+	<field name="name">report</field>
+	<field name="string">Estado de Cuenta</field>
+	<field name="model" search="[('model', '=', 'sale.sale')]"/>
+    </record>
+    <record model="ir.ui.view" id="confirm_sale_date_view_form">
+      <field name="model">optical_equipment.confirm_sale_date.form</field>
+      <field name="type">form</field>
+      <field name="name">confirm_sale_date_form</field>
+    </record>
+    <record model="ir.action.wizard" id="wizard_confirm_sale_date">
+      <field name="name">Confirm Sale Date</field>
+      <field name="wiz_name">optical_equipment.confirm_sale_date</field>
+    </record>
+    <record model="ir.action.report" id="report_sale">
+        <field name="name">Sale Equipments</field>
+        <field name="model">sale.sale</field>
+        <field name="report_name">sale.sale</field>
+	<field name="report">optical_equipment/report/Sale_Internal.fodt</field>
+        <field name="single" eval="True"/>
+    </record>
+    <record model="ir.action.keyword" id="report_sale_keyword">
+        <field name="keyword">form_print</field>
+        <field name="model">sale.sale,-1</field>
+        <field name="action" ref="report_sale"/>
+    </record>
+    <record model="ir.action.report" id="report_sale_internal">
+        <field name="name">Sale Equipments Internal</field>
+        <field name="model">sale.sale</field>
+        <field name="report_name">sale.sale</field>
+	<field name="report">optical_equipment/report/Sale.fodt</field>
+        <field name="single" eval="True"/>
+    </record>
+    <record model="ir.action.keyword" id="report_sale_internal_keyword">
+        <field name="keyword">form_print</field>
+        <field name="model">sale.sale,-1</field>
+        <field name="action" ref="report_sale_internal"/>
+    </record>
+        <record model="ir.action.report" id="report_payment">
+        <field name="name">Payment</field>
+        <field name="model">account.statement.line</field>
+        <field name="report_name">account.statement.line</field>
+	<field name="report">optical_equipment/report/Payment.fodt</field>
+        <field name="single" eval="True"/>
+    </record>
+    <record model="ir.action.keyword" id="report_payment_keyword">
+        <field name="keyword">form_print</field>
+        <field name="model">account.statement.line,-1</field>
+        <field name="action" ref="report_payment"/>
+    </record>
+</tryton>

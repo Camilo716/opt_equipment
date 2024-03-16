@@ -1,0 +1,1848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:meta><meta:creation-date>2022-11-03T17:09:30.500078764</meta:creation-date><dc:date>2023-12-07T22:30:56.963125878</dc:date><meta:editing-duration>PT5H24M5S</meta:editing-duration><meta:editing-cycles>114</meta:editing-cycles><meta:generator>LibreOffice/7.5.8.2$Linux_X86_64 LibreOffice_project/50$Build-2</meta:generator><meta:document-statistic meta:table-count="6" meta:image-count="1" meta:object-count="0" meta:page-count="5" meta:paragraph-count="98" meta:word-count="273" meta:character-count="3095" meta:non-whitespace-character-count="2902"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="ViewAreaTop" config:type="long">68781</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">36117</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">16425</config:config-item>
+   <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">9264</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">79086</config:config-item>
+     <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">68781</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">36116</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">85205</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
+     <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ZoomFactor" config:type="short">140</config:config-item>
+     <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="KeepRatio" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="LegacySingleLineFontwork" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ConnectorUseSnapRect" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrintEmptyPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AutoFirstLineIndentDisregardLineSpace" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="HeaderSpacingBelowLastPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ProtectBookmarks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ContinuousEndnotes" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintFaxName" config:type="string"/>
+   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverMargin" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FrameAutowidthWithMorePara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RsidRoot" config:type="int">687431</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddFrameOffsets" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">3942955</config:config-item>
+   <config:config-item config:name="FootnoteInColumnToPageEnd" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ProtectFields" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddParaLineSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="HyphenateURLs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ImagePreferredDPI" config:type="int">0</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DropCapPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
+   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TableRowKeep" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="NoNumberingShowFollowBy" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="GutterAtTop" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Sans1" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Serif" svg:font-family="&apos;DejaVu Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Droid Sans Japanese" svg:font-family="&apos;Droid Sans Japanese&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Droid Sans Japanese1" svg:font-family="&apos;Droid Sans Japanese&apos;" style:font-family-generic="swiss"/>
+  <style:font-face style:name="Droid Sans Japanese2" svg:font-family="&apos;Droid Sans Japanese&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="StarSymbol" svg:font-family="StarSymbol"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="graphic">
+   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" draw:start-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:end-line-spacing-vertical="0.1114in" style:writing-mode="lr-tb" style:flow-with-text="false"/>
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:font-independent-line-spacing="false">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:font-name="DejaVu Serif" fo:font-size="12pt" fo:language="es" fo:country="CO" style:letter-kerning="true" style:font-name-asian="DejaVu Sans1" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="DejaVu Sans1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <style:default-style style:family="paragraph">
+   <style:paragraph-properties fo:orphans="2" fo:widows="2" fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="0.4925in" style:writing-mode="lr-tb"/>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="DejaVu Serif" fo:font-size="12pt" fo:language="es" fo:country="CO" style:letter-kerning="true" style:font-name-asian="DejaVu Sans1" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="DejaVu Sans1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false" loext:hyphenation-no-last-word="false" loext:hyphenation-word-char-count="5" loext:hyphenation-zone="no-limit"/>
+  </style:default-style>
+  <style:default-style style:family="table">
+   <style:table-properties table:border-model="collapsing"/>
+  </style:default-style>
+  <style:default-style style:family="table-row">
+   <style:table-row-properties fo:keep-together="auto"/>
+  </style:default-style>
+  <style:style style:name="Standard" style:family="paragraph" style:class="text"/>
+  <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.1665in" fo:margin-bottom="0.0835in" style:contextual-spacing="false" fo:keep-with-next="always"/>
+   <style:text-properties style:font-name="DejaVu Sans" fo:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="DejaVu Sans1" style:font-family-asian="&apos;DejaVu Sans&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="DejaVu Sans1" style:font-family-complex="&apos;DejaVu Sans&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text" style:master-page-name="">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.0972in" style:contextual-spacing="false" fo:line-height="100%" style:page-number="auto"/>
+  </style:style>
+  <style:style style:name="List" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="list">
+   <style:text-properties style:font-size-asian="12pt"/>
+  </style:style>
+  <style:style style:name="Caption" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties fo:margin-top="0.0835in" fo:margin-bottom="0.0835in" style:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard" style:class="index">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:language="zxx" fo:country="none" style:font-size-asian="12pt" style:language-asian="zxx" style:country-asian="none" style:language-complex="zxx" style:country-complex="none"/>
+  </style:style>
+  <style:style style:name="Header_20_and_20_Footer" style:display-name="Header and Footer" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0">
+    <style:tab-stops>
+     <style:tab-stop style:position="3.4626in" style:type="center"/>
+     <style:tab-stop style:position="6.9252in" style:type="right"/>
+    </style:tab-stops>
+   </style:paragraph-properties>
+  </style:style>
+  <style:style style:name="Header" style:family="paragraph" style:parent-style-name="Header_20_and_20_Footer" style:class="extra">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0">
+    <style:tab-stops>
+     <style:tab-stop style:position="3.4626in" style:type="center"/>
+     <style:tab-stop style:position="6.9252in" style:type="right"/>
+    </style:tab-stops>
+   </style:paragraph-properties>
+  </style:style>
+  <style:style style:name="Text" style:family="paragraph" style:parent-style-name="Caption" style:class="extra"/>
+  <style:style style:name="Frame_20_contents" style:display-name="Frame contents" style:family="paragraph" style:parent-style-name="Standard" style:class="extra"/>
+  <style:style style:name="Table_20_Contents" style:display-name="Table Contents" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties fo:orphans="0" fo:widows="0" text:number-lines="false" text:line-number="0"/>
+  </style:style>
+  <style:style style:name="Table_20_Heading" style:display-name="Table Heading" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:class="extra">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Heading_20_1" style:display-name="Heading 1" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:class="text">
+   <style:text-properties fo:font-size="16pt" fo:font-weight="bold" style:font-size-asian="115%" style:font-weight-asian="bold" style:font-size-complex="115%" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Footer" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0">
+    <style:tab-stops>
+     <style:tab-stop style:position="3.4626in" style:type="center"/>
+     <style:tab-stop style:position="6.9252in" style:type="right"/>
+    </style:tab-stops>
+   </style:paragraph-properties>
+   <style:text-properties fo:font-size="9pt" style:font-size-asian="10.5pt"/>
+  </style:style>
+  <style:style style:name="Heading_20_2" style:display-name="Heading 2" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:class="text">
+   <style:text-properties fo:font-size="14pt" fo:font-style="italic" fo:font-weight="bold" style:font-size-asian="14pt" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-style-complex="italic" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Subtitle" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:class="chapter">
+   <style:paragraph-properties fo:margin-top="0.0417in" fo:margin-bottom="0.0835in" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
+  </style:style>
+  <style:style style:name="Title" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:class="chapter">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="28pt" fo:font-weight="bold" style:font-size-asian="28pt" style:font-weight-asian="bold" style:font-size-complex="28pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Quotations" style:family="paragraph" style:parent-style-name="Standard" style:class="html">
+   <style:paragraph-properties fo:margin-left="0.3937in" fo:margin-right="0.3937in" fo:margin-top="0in" fo:margin-bottom="0.1965in" style:contextual-spacing="false" fo:text-indent="0in" style:auto-text-indent="false"/>
+  </style:style>
+  <style:style style:name="Text_20_body_20_indent" style:display-name="Text body indent" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="text">
+   <style:paragraph-properties fo:margin-left="0.1965in" fo:margin-right="0in" fo:text-indent="0in" style:auto-text-indent="false"/>
+  </style:style>
+  <style:style style:name="Heading_20_3" style:display-name="Heading 3" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:class="text">
+   <style:text-properties fo:font-size="14pt" fo:font-weight="bold" style:font-size-asian="14pt" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Placeholder" style:family="text">
+   <style:text-properties fo:font-variant="small-caps" fo:color="#008080" loext:opacity="100%" style:text-underline-style="dotted" style:text-underline-width="auto" style:text-underline-color="font-color"/>
+  </style:style>
+  <style:style style:name="Internet_20_link" style:display-name="Internet link" style:family="text">
+   <style:text-properties fo:color="#000080" loext:opacity="100%" fo:language="zxx" fo:country="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" style:language-asian="zxx" style:country-asian="none" style:language-complex="zxx" style:country-complex="none"/>
+  </style:style>
+  <style:style style:name="Bullet_20_Symbols" style:display-name="Bullet Symbols" style:family="text">
+   <style:text-properties style:font-name="StarSymbol" fo:font-family="StarSymbol" fo:font-size="9pt" style:font-name-asian="StarSymbol" style:font-family-asian="StarSymbol" style:font-size-asian="9pt" style:font-name-complex="StarSymbol" style:font-family-complex="StarSymbol" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="Frame" style:family="graphic">
+   <style:graphic-properties text:anchor-type="paragraph" svg:x="0in" svg:y="0in" fo:margin-left="0.0791in" fo:margin-right="0.0791in" fo:margin-top="0.0791in" fo:margin-bottom="0.0791in" style:wrap="parallel" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="top" style:vertical-rel="paragraph-content" style:horizontal-pos="center" style:horizontal-rel="paragraph-content" fo:background-color="transparent" draw:fill="none" draw:fill-color="#729fcf" fo:padding="0.0591in" fo:border="0.06pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Graphics" style:family="graphic">
+   <style:graphic-properties text:anchor-type="paragraph" svg:x="0in" svg:y="0in" style:wrap="dynamic" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph" fo:background-color="transparent" draw:fill="none" draw:fill-color="#729fcf"/>
+  </style:style>
+  <text:outline-style style:name="Outline">
+   <text:outline-level-style text:level="1" loext:num-list-format="%1%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="2" loext:num-list-format="%2%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="3" loext:num-list-format="%3%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="4" loext:num-list-format="%4%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="5" loext:num-list-format="%5%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="6" loext:num-list-format="%6%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="7" loext:num-list-format="%7%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="8" loext:num-list-format="%8%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="9" loext:num-list-format="%9%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="10" loext:num-list-format="%10%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+  </text:outline-style>
+  <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/>
+  <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
+  <text:linenumbering-configuration text:number-lines="false" text:offset="0.1965in" style:num-format="1" text:number-position="left" text:increment="5"/>
+  <number:currency-style style:name="N130P0" style:volatile="true">
+   <number:currency-symbol number:language="es" number:country="CO">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:currency-style>
+  <number:currency-style style:name="N130">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:currency-symbol number:language="es" number:country="CO">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N130P0"/>
+  </number:currency-style>
+  <style:default-page-layout>
+   <style:page-layout-properties style:writing-mode="lr-tb" style:layout-grid-standard-mode="true"/>
+  </style:default-page-layout>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="Tabla6" style:family="table">
+   <style:table-properties style:width="6.925in" table:align="margins"/>
+  </style:style>
+  <style:style style:name="Tabla6.A" style:family="table-column">
+   <style:table-column-properties style:column-width="3.4618in" style:rel-column-width="32760*"/>
+  </style:style>
+  <style:style style:name="Tabla6.B" style:family="table-column">
+   <style:table-column-properties style:column-width="3.4632in" style:rel-column-width="32775*"/>
+  </style:style>
+  <style:style style:name="Tabla6.A1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Tabla6" style:family="table">
+   <style:table-properties style:width="6.925in" table:align="margins"/>
+  </style:style>
+  <style:style style:name="Tabla6.A" style:family="table-column">
+   <style:table-column-properties style:column-width="3.4618in" style:rel-column-width="32760*"/>
+  </style:style>
+  <style:style style:name="Tabla6.B" style:family="table-column">
+   <style:table-column-properties style:column-width="3.4632in" style:rel-column-width="32775*"/>
+  </style:style>
+  <style:style style:name="Tabla6.A1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Table1" style:family="table">
+   <style:table-properties style:width="6.925in" table:align="margins" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table1.A" style:family="table-column">
+   <style:table-column-properties style:column-width="3.4625in" style:rel-column-width="32767*"/>
+  </style:style>
+  <style:style style:name="Table1.B" style:family="table-column">
+   <style:table-column-properties style:column-width="3.4625in" style:rel-column-width="32768*"/>
+  </style:style>
+  <style:style style:name="Table1.A1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Table2" style:family="table">
+   <style:table-properties style:width="6.925in" table:align="margins" fo:background-color="transparent" style:writing-mode="lr-tb">
+    <style:background-image/>
+   </style:table-properties>
+  </style:style>
+  <style:style style:name="Table2.A" style:family="table-column">
+   <style:table-column-properties style:column-width="3.4625in" style:rel-column-width="32767*"/>
+  </style:style>
+  <style:style style:name="Table2.B" style:family="table-column">
+   <style:table-column-properties style:column-width="3.4625in" style:rel-column-width="32768*"/>
+  </style:style>
+  <style:style style:name="Table2.1" style:family="table-row">
+   <style:table-row-properties fo:background-color="transparent">
+    <style:background-image/>
+   </style:table-row-properties>
+  </style:style>
+  <style:style style:name="Table2.A1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Tabla1_5f_1" style:display-name="Tabla1_1" style:family="table">
+   <style:table-properties style:width="6.925in" table:align="margins"/>
+  </style:style>
+  <style:style style:name="Tabla1_5f_1.A" style:display-name="Tabla1_1.A" style:family="table-column">
+   <style:table-column-properties style:column-width="3.4618in" style:rel-column-width="32760*"/>
+  </style:style>
+  <style:style style:name="Tabla1_5f_1.B" style:display-name="Tabla1_1.B" style:family="table-column">
+   <style:table-column-properties style:column-width="3.4632in" style:rel-column-width="32775*"/>
+  </style:style>
+  <style:style style:name="Tabla1_5f_1.A1" style:display-name="Tabla1_1.A1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border-left="0.5pt solid #000000" fo:border-right="none" fo:border-top="0.5pt solid #000000" fo:border-bottom="0.5pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Tabla1_5f_1.B1" style:display-name="Tabla1_1.B1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border="0.5pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Tabla1_5f_1.A2" style:display-name="Tabla1_1.A2" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border-left="0.5pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.5pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Tabla1_5f_1.B2" style:display-name="Tabla1_1.B2" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border-left="0.5pt solid #000000" fo:border-right="0.5pt solid #000000" fo:border-top="none" fo:border-bottom="0.5pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Tabla1" style:family="table">
+   <style:table-properties style:width="6.9271in" fo:margin-left="0in" table:align="left"/>
+  </style:style>
+  <style:style style:name="Tabla1.A" style:family="table-column">
+   <style:table-column-properties style:column-width="0.8681in"/>
+  </style:style>
+  <style:style style:name="Tabla1.B" style:family="table-column">
+   <style:table-column-properties style:column-width="1.3806in"/>
+  </style:style>
+  <style:style style:name="Tabla1.C" style:family="table-column">
+   <style:table-column-properties style:column-width="4.6785in"/>
+  </style:style>
+  <style:style style:name="Tabla1.A1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border-left="0.5pt solid #000000" fo:border-right="none" fo:border-top="0.5pt solid #000000" fo:border-bottom="0.5pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Tabla1.C1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border="0.5pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Tabla1.A2" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border-left="0.5pt solid #000000" fo:border-right="0.5pt solid #000000" fo:border-top="none" fo:border-bottom="0.5pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Tabla1.A3" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border-left="0.5pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.5pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table4" style:family="table">
+   <style:table-properties style:width="6.925in" table:align="margins"/>
+  </style:style>
+  <style:style style:name="Table4.A" style:family="table-column">
+   <style:table-column-properties style:column-width="3.4625in" style:rel-column-width="32767*"/>
+  </style:style>
+  <style:style style:name="Table4.B" style:family="table-column">
+   <style:table-column-properties style:column-width="3.4625in" style:rel-column-width="32768*"/>
+  </style:style>
+  <style:style style:name="Table4.A1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Table4.B1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.0382in" fo:border-left="none" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="7pt" officeooo:paragraph-rsid="00066dfa" style:font-size-asian="7pt" style:font-size-complex="7pt"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Footer">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="7pt" officeooo:paragraph-rsid="00066dfa" style:font-size-asian="7pt" style:font-size-complex="7pt"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:font-name="Droid Sans Japanese2" fo:font-size="8pt" fo:font-weight="normal" officeooo:paragraph-rsid="0049dca0" style:font-size-asian="8pt" style:font-weight-asian="normal" style:font-size-complex="8pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="7pt" officeooo:paragraph-rsid="0049dca0" style:font-size-asian="7pt" style:font-size-complex="7pt"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="7pt" officeooo:paragraph-rsid="0049dca0" style:font-size-asian="7pt" style:font-size-complex="7pt"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties officeooo:paragraph-rsid="0049dca0"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="7pt" style:text-underline-style="solid" style:text-underline-type="double" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="0266c2a9" officeooo:paragraph-rsid="0049dca0" style:font-size-asian="7pt" style:font-size-complex="7pt"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:font-name="Droid Sans Japanese2" fo:font-size="7pt" style:text-underline-style="solid" style:text-underline-type="double" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold" officeooo:rsid="0266c2a9" officeooo:paragraph-rsid="0049dca0" style:font-size-asian="7pt" style:font-weight-asian="bold" style:font-size-complex="7pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:font-name="Droid Sans Japanese2" fo:font-size="7pt" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:paragraph-rsid="0049dca0" style:font-size-asian="7pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="7pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="7pt" officeooo:paragraph-rsid="00066dfa" style:font-size-asian="7pt" style:font-size-complex="7pt"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Footer">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="7pt" officeooo:paragraph-rsid="00066dfa" style:font-size-asian="7pt" style:font-size-complex="7pt"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="7pt" officeooo:paragraph-rsid="0049dca0" style:font-size-asian="7pt" style:font-size-complex="7pt"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="7pt" officeooo:paragraph-rsid="0049dca0" style:font-size-asian="7pt" style:font-size-complex="7pt"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="7pt" style:text-underline-style="solid" style:text-underline-type="double" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="0266c2a9" officeooo:paragraph-rsid="0049dca0" style:font-size-asian="7pt" style:font-size-complex="7pt"/>
+  </style:style>
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="9pt" fo:font-weight="bold" officeooo:rsid="00061322" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="9pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="00061322" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="9pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="9pt" fo:font-weight="bold" officeooo:rsid="00286adc" officeooo:paragraph-rsid="002a103e" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="9pt" fo:font-weight="bold" officeooo:rsid="00286adc" officeooo:paragraph-rsid="0039d16c" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="9pt" fo:font-weight="bold" officeooo:rsid="00334fb3" officeooo:paragraph-rsid="00334fb3" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="9pt" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000baf52" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000baf52" officeooo:paragraph-rsid="00282c1f" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000d0c4f" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="00111685" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" fo:break-before="page"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:page-number="auto"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" fo:break-before="page" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="0022a7ca" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="0026c073" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" fo:break-before="page" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="002bef4b" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="002f8809" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="00334fb3" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="00334fb3" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="0034686f" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" fo:break-before="page"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="0034686f" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="002f8809" officeooo:paragraph-rsid="002f8809" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="00334fb3" officeooo:paragraph-rsid="00334fb3" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" officeooo:paragraph-rsid="002bef4b" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" officeooo:paragraph-rsid="002bef4b" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" officeooo:paragraph-rsid="002ef140" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" officeooo:paragraph-rsid="002f8809" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="10pt" officeooo:paragraph-rsid="00334fb3" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="8pt" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="00286adc" style:font-size-asian="8pt" style:font-weight-asian="normal" style:font-size-complex="8pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="8pt" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="0039d16c" style:font-size-asian="8pt" style:font-weight-asian="normal" style:font-size-complex="8pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="8pt" style:text-underline-style="none" officeooo:paragraph-rsid="00286adc" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="8pt" style:text-underline-style="none" officeooo:paragraph-rsid="00282c1f" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="8pt" style:text-underline-style="none" officeooo:paragraph-rsid="002a103e" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="8pt" style:text-underline-style="none" officeooo:paragraph-rsid="0039d16c" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="8pt" officeooo:paragraph-rsid="00286adc" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="8pt" officeooo:paragraph-rsid="002a103e" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="8pt" officeooo:paragraph-rsid="0039d16c" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="8pt" fo:font-weight="bold" officeooo:rsid="00286adc" officeooo:paragraph-rsid="00286adc" style:font-size-asian="8pt" style:font-weight-asian="bold" style:font-size-complex="8pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="8pt" fo:font-weight="bold" officeooo:rsid="00286adc" officeooo:paragraph-rsid="002a103e" style:font-size-asian="8pt" style:font-weight-asian="bold" style:font-size-complex="8pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:font-name="Droid Sans Japanese2" fo:font-size="8pt" fo:font-weight="normal" officeooo:paragraph-rsid="0049dca0" style:font-size-asian="8pt" style:font-weight-asian="normal" style:font-size-complex="8pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:font-name="Droid Sans Japanese2" fo:font-size="7pt" style:text-underline-style="solid" style:text-underline-type="double" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold" officeooo:rsid="0266c2a9" officeooo:paragraph-rsid="0049dca0" style:font-size-asian="7pt" style:font-weight-asian="bold" style:font-size-complex="7pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:font-name="Droid Sans Japanese2" fo:font-size="7pt" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:paragraph-rsid="0049dca0" style:font-size-asian="7pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="7pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Header">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties officeooo:paragraph-rsid="0049dca0"/>
+  </style:style>
+  <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Frame_20_contents">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese1" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-weight-complex="normal" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese1" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="003335de" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-weight-complex="normal" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese1" fo:font-size="9.5pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="9.5pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00061322" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="0026c073" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="002bef4b" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="002f8809" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="00334fb3" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="002bef4b" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="002ef140" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="002f8809" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P73" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="003335de" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P74" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="00334fb3" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P75" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="002f8809" officeooo:paragraph-rsid="003335de" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P76" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-weight-complex="normal" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P77" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-weight-complex="normal" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P78" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese2" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="9pt" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P79" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Japanese" fo:font-size="8pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="8pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="P80" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="9pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P81" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="9pt" fo:font-weight="bold" officeooo:rsid="00061322" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P82" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="9pt" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="P83" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P84" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="000a7d47" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P85" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="0012f95a" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P86" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="0012f95a" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P87" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" style:text-underline-style="none" fo:font-weight="bold" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P88" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P89" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00129398" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P90" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" style:text-underline-style="none" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P91" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" style:text-underline-style="none" officeooo:paragraph-rsid="0023d3e5" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P92" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" style:text-underline-style="none" officeooo:paragraph-rsid="002570b4" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P93" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" style:text-underline-style="none" officeooo:paragraph-rsid="0039d16c" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P94" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P95" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P96" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" fo:break-before="page"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P97" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" officeooo:paragraph-rsid="002570b4" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P98" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" fo:break-before="page"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" officeooo:paragraph-rsid="0039d16c" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P99" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="10pt" officeooo:paragraph-rsid="003b2b1c" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P100" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="8pt" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="00286adc" style:font-size-asian="8pt" style:font-weight-asian="normal" style:font-size-complex="8pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P101" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="8pt" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="001f51eb" style:font-size-asian="8pt" style:font-weight-asian="normal" style:font-size-complex="8pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P102" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="8pt" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="002a103e" style:font-size-asian="8pt" style:font-weight-asian="normal" style:font-size-complex="8pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P103" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="8pt" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="0039d16c" style:font-size-asian="8pt" style:font-weight-asian="normal" style:font-size-complex="8pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P104" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="8pt" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" officeooo:paragraph-rsid="003b2b1c" style:font-size-asian="8pt" style:font-weight-asian="normal" style:font-size-complex="8pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P105" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese1" fo:font-size="8pt" officeooo:paragraph-rsid="003b2b1c" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="P106" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="000a7d47" officeooo:paragraph-rsid="001f51eb"/>
+  </style:style>
+  <style:style style:name="P107" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="8pt" officeooo:paragraph-rsid="003c2a2b" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties fo:color="#333333" loext:opacity="100%" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T4" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" fo:font-weight="bold" officeooo:rsid="001cd488" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:text-properties fo:color="#333333" loext:opacity="100%" style:font-name="Droid Sans Japanese2" fo:font-size="7pt" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-size-asian="7pt" style:font-weight-asian="bold" style:font-size-complex="7pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T6" style:family="text">
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="7pt" fo:font-weight="bold" style:font-size-asian="7pt" style:font-weight-asian="bold" style:font-size-complex="7pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T7" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:font-name="Droid Sans Japanese2" fo:font-size="7pt" style:text-underline-style="solid" style:text-underline-type="double" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-size-asian="7pt" style:font-weight-asian="bold" style:font-size-complex="7pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T8" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:font-name="Droid Sans Japanese2" fo:font-size="7pt" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-size-asian="7pt" style:font-weight-asian="bold" style:font-size-complex="7pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T9" style:family="text">
+   <style:text-properties fo:color="#333333" loext:opacity="100%" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T10" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:text-underline-style="none" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T11" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T12" style:family="text">
+   <style:text-properties fo:color="#333333" loext:opacity="100%" style:text-underline-style="none" officeooo:rsid="026544ec"/>
+  </style:style>
+  <style:style style:name="T13" style:family="text">
+   <style:text-properties style:text-underline-style="none" officeooo:rsid="026544ec"/>
+  </style:style>
+  <style:style style:name="T14" style:family="text">
+   <style:text-properties fo:color="#333333" loext:opacity="100%" style:text-underline-style="none" officeooo:rsid="0049dca0"/>
+  </style:style>
+  <style:style style:name="T15" style:family="text">
+   <style:text-properties fo:color="#333333" loext:opacity="100%" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T16" style:family="text">
+   <style:text-properties fo:color="#333333" loext:opacity="100%" style:font-name="Droid Sans Japanese2" fo:font-size="7pt" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-size-asian="7pt" style:font-weight-asian="bold" style:font-size-complex="7pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T17" style:family="text">
+   <style:text-properties fo:color="#333333" loext:opacity="100%" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T18" style:family="text">
+   <style:text-properties fo:color="#333333" loext:opacity="100%" style:text-underline-style="none" officeooo:rsid="026544ec"/>
+  </style:style>
+  <style:style style:name="T19" style:family="text">
+   <style:text-properties fo:color="#333333" loext:opacity="100%" style:text-underline-style="none" officeooo:rsid="0049dca0"/>
+  </style:style>
+  <style:style style:name="T20" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T21" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T22" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" fo:font-weight="bold" officeooo:rsid="001cd488" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T23" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:font-name="Droid Sans Japanese2" fo:font-size="7pt" style:text-underline-style="solid" style:text-underline-type="double" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-size-asian="7pt" style:font-weight-asian="bold" style:font-size-complex="7pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T24" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:font-name="Droid Sans Japanese2" fo:font-size="7pt" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-size-asian="7pt" style:font-weight-asian="bold" style:font-size-complex="7pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T25" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:text-underline-style="none" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T26" style:family="text">
+   <style:text-properties fo:color="#666666" loext:opacity="100%" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="026544ec" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T27" style:family="text">
+   <style:text-properties style:font-name="Droid Sans Japanese2" fo:font-size="7pt" fo:font-weight="bold" style:font-size-asian="7pt" style:font-weight-asian="bold" style:font-size-complex="7pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T28" style:family="text">
+   <style:text-properties style:text-underline-style="none"/>
+  </style:style>
+  <style:style style:name="T29" style:family="text">
+   <style:text-properties style:text-underline-style="none" officeooo:rsid="026544ec"/>
+  </style:style>
+  <style:style style:name="T30" style:family="text">
+   <style:text-properties style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T31" style:family="text">
+   <style:text-properties officeooo:rsid="000a7d47"/>
+  </style:style>
+  <style:style style:name="T32" style:family="text">
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" style:font-style-asian="normal" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="T33" style:family="text">
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="0014ed01" style:font-style-asian="normal" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="T34" style:family="text">
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" officeooo:rsid="000cde7f" style:font-style-asian="normal" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="T35" style:family="text">
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-weight-complex="normal" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="T36" style:family="text">
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-weight-complex="normal" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="T37" style:family="text">
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="000cde7f" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-weight-complex="bold" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="T38" style:family="text">
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000cde7f" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-weight-complex="normal" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="T39" style:family="text">
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:letter-spacing="-0.0075in" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" style:font-style-asian="normal" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="T40" style:family="text">
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:letter-spacing="-0.0071in" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" style:font-style-asian="normal" style:text-emphasize="none"/>
+  </style:style>
+  <style:style style:name="T41" style:family="text">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T42" style:family="text">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="000a7d47" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T43" style:family="text">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="000cde7f" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T44" style:family="text">
+   <style:text-properties officeooo:rsid="00106d28"/>
+  </style:style>
+  <style:style style:name="T45" style:family="text">
+   <style:text-properties officeooo:rsid="00286adc"/>
+  </style:style>
+  <style:style style:name="T46" style:family="text">
+   <style:text-properties fo:font-size="8pt" style:text-underline-style="none" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="T47" style:family="text">
+   <style:text-properties fo:font-size="8pt" style:font-size-asian="8pt" style:font-size-complex="8pt"/>
+  </style:style>
+  <style:style style:name="T48" style:family="text">
+   <style:text-properties style:font-name="Droid Sans Japanese1" style:text-underline-style="none"/>
+  </style:style>
+  <style:style style:name="T49" style:family="text">
+   <style:text-properties officeooo:rsid="002f8809"/>
+  </style:style>
+  <style:style style:name="T50" style:family="text">
+   <style:text-properties fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="T51" style:family="text">
+   <style:text-properties fo:font-size="9pt" fo:font-weight="bold" officeooo:rsid="00286adc" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T52" style:family="text">
+   <style:text-properties fo:font-size="9pt" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00286adc" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
+   <style:graphic-properties style:vertical-pos="middle" style:vertical-rel="baseline" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0in, 0in, 0in, 0in)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true"/>
+  </style:style>
+  <style:style style:name="fr2" style:family="graphic" style:parent-style-name="Frame">
+   <style:graphic-properties style:run-through="foreground" style:wrap="none" style:vertical-pos="middle" style:vertical-rel="baseline" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" fo:padding="0.0591in" fo:border="none" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true">
+    <style:columns fo:column-count="1" fo:column-gap="0in"/>
+   </style:graphic-properties>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="44" style:layout-grid-base-height="0.2165in" style:layout-grid-ruby-height="0in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="true" style:layout-grid-display="true" style:layout-grid-base-width="0.1457in" style:layout-grid-snap-to="true" style:footnote-max-height="0in" loext:margin-gutter="0in">
+    <style:footnote-sep style:width="0.0071in" style:distance-before-sep="0.0398in" style:distance-after-sep="0.0398in" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.1965in" fo:background-color="transparent" draw:fill="none" draw:fill-color="#729fcf"/>
+   </style:header-style>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.278in" style:layout-grid-ruby-height="0.139in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:layout-grid-base-width="0.278in" style:layout-grid-snap-to="true" style:footnote-max-height="0in" loext:margin-gutter="0in">
+    <style:footnote-sep style:width="0.0071in" style:distance-before-sep="0.0398in" style:distance-after-sep="0.0398in" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:style style:name="dp1" style:family="drawing-page">
+   <style:drawing-page-properties draw:background-size="full"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Standard" style:page-layout-name="pm1" draw:style-name="dp1">
+   <style:header>
+    <table:table table:name="Tabla6" table:style-name="Tabla6">
+     <table:table-column table:style-name="Tabla6.A"/>
+     <table:table-column table:style-name="Tabla6.B"/>
+     <table:table-row>
+      <table:table-cell table:style-name="Tabla6.A1" office:value-type="string">
+       <text:p text:style-name="Table_20_Contents"><draw:frame draw:style-name="fr1" draw:name="Imagen2" text:anchor-type="as-char" svg:width="2.7102in" svg:height="0.6055in" draw:z-index="5"><draw:image draw:mime-type="image/jpeg">
+          <office:binary-data>/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoM
+           DAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsN
+           FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAAR
+           CACrApoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAA
+           AgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkK
+           FhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWG
+           h4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl
+           5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREA
+           AgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYk
+           NOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+           hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk
+           5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9U6KKKACiiigAooooAKKKKACiiigAoooo
+           AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+           iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+           AKKKKAE61HNMsETSOcIoySalrxL49fFqHwvpc1pDKBIQQxBqJSUVdlxi5OyOsvPifZQ3MkYk
+           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
+           fBPwL8ZNPWz8aeF9O8RQKMIbuLLoOuFcYYDPPBruTk0DitOVEc8r3ufMU3/BOb4Ijix0PWNH
+           iHSGw1+9jQewBlOBVux/4J4fAe3kSS88Gy65Ihyravq15cj/AL5aXafxFfSeM0YrJUoJ3SRp
+           7eo1bmZzvg/wD4c+H2lLp3hrQdP0CxUY8jT7ZIVOOhO0DJ9zzXRUtFa7bGIUUUVQBRRRQAUU
+           UUAFVb6xiv7WSCVQyOCCD71aprttUn0oA/In9uDwrDpPjvVoI0ACysOB2zXtn/BOzxpP4s+C
+           NzoN5IZLnw3fNZxFjljAwDx/QKGCAdglcR+2vpr6j471eXbndKxzV3/gmjanSdY+JYnytqlr
+           a3DADOMNJuIHc4AFfN5nFSo8z6Nfjp+pvWjeKZ7lrFnNqni+9tLVPMnkunjVegyCQST2AwST
+           2ANc1/a+j6D+1XoXhKxuTJqU/hS5k1KPn59lzEbZickDBe7wOo3HPbPo/inXNK+AHwx17x/4
+           ucQXSRNPJEcFgzHKQKCQC7MQCMgFiqg9Cfgj9grxVq3xa/bA8ZfEPxASXfR7u8nOdywrvi8u
+           IHAyFjjZQTyduTySa+Ey/KVTjVxdZWer+/Zfr5aHn8mlz7R8VyiTxBegH5I2EY/4CAD+ua4v
+           416g/g34UXaA7NY8Q40+1ToyRuDvI7ghAzZ9VA4Oa9L8F+G38Q3dxrGogJYQu0sjP92ST7zA
+           +qrnJ9eBzk48N1/UZ/jt8ZDc2waTQ9MY2liOoc7h5knvkgAdQQuQcNXnZLlbxeK+sVFo3den
+           /BKo0+aSb2PaP2Mvh7/ZFtFdvFgRoCDjvj/P519dCuN+F3hOPwn4Zt4AgWRlBbArsmr9rhHl
+           R11JXYtFFFamYUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+           RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+           UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUyT/Vt9DT6Z
+           J/q2+lAHwN+0n4YOseKNQYR5zIegrq/2HvBMXhG28Z6vdlbaLbEskknAVBlsn2G01674p+Fr
+           +IdWlnMZIZiRx1ya8y8VaJqafD3U9N05ZLXR7q8k3yqcG724QYx/AChIPdmJ42gn57HSk5Rp
+           xV23+S39Ezqk+ZKKPi79u/443/x+8ax6JpTSR+DtGlP2eMHi6mwQZmxxgAkDHByTlhtI9V/4
+           JwfBe6bwt451RB9nOpTW2mPcMBmKFMySMuepYFk9MkE8A1y03wNlvtVz9nO3d2FfYPw1uIfg
+           d8CbCx0+NZNf1Iy3FvBtGY8sV8xuPujqMjksBg845sVTiqSw8tpb93/w7JnFJJI5v9pzx8mg
+           abbfDfwqfJvrqMLdyQE5tbfPKg9d7HOT1ySc5BB6f9mT4NxaJY293LAESNRt+XHT0ri/hP8A
+           CO88U+LZ9V1NnubmaUyzzykklifU5PsMnOB1zzX2NpGlw6RYRW0ChEQY4FejgcIqEb2s/wCt
+           PRC/hxsty6qhVAAwBxin0UV7JgFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+           UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+           RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+           UAFFFFABRRRQBXaFGUjbjI6rx+o6VgeIPCVrqmmQWKQRx28ShEjVQFRQAAAB0AAGAPSunoqH
+           FPUadnc8b8QfDC20bRru4s7Uz3zJ5VtGi8tM5Cp16AEgkngAEkgZNaGm/COOCzh+3Mt1eCKO
+           N5Ap2qqKAqID0RQMAHk8k5JJPqRUc8Uelcbw0JVlVe6Vl5dyuZ3uYfhfwvbeHbTZDGFduprd
+           PSloruSsS3cKKKKYgooooAKKKKACiiigD//Z
+          </office:binary-data>
+         </draw:image>
+        </draw:frame></text:p>
+      </table:table-cell>
+      <table:table-cell table:style-name="Tabla6.A1" office:value-type="string">
+       <text:p text:style-name="P1"><text:placeholder text:placeholder-type="text">&lt;if test=&quot;company and company.header&quot;&gt;</text:placeholder></text:p>
+       <text:p text:style-name="P1"><text:placeholder text:placeholder-type="text">&lt;for each=&quot;line in company.header.split(&apos;\n&apos;)&quot;&gt;</text:placeholder></text:p>
+       <text:p text:style-name="P1"><text:placeholder text:placeholder-type="text">&lt;line&gt;</text:placeholder></text:p>
+       <text:p text:style-name="P1"><text:placeholder text:placeholder-type="text">&lt;/for&gt;</text:placeholder></text:p>
+       <text:p text:style-name="P2"><text:placeholder text:placeholder-type="text">&lt;/if&gt;</text:placeholder></text:p>
+       <text:p text:style-name="P2"><text:placeholder text:placeholder-type="text">&lt;company.rec_name if company else &apos;&apos;&gt;</text:placeholder></text:p>
+       <text:p text:style-name="P3"><text:placeholder text:placeholder-type="text" text:description="if test=&quot;company&quot;">&lt;if test=&quot;company&quot;&gt;</text:placeholder></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">NIT:</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T3"><text:placeholder text:placeholder-type="text">&lt;company.party.identifiers[0].code&gt;</text:placeholder></text:span></text:p>
+       <text:p text:style-name="P5">Regimen Común</text:p>
+       <text:p text:style-name="P5"><text:span text:style-name="T3">Actividad Economica 46</text:span><text:span text:style-name="T4">59</text:span></text:p>
+       <text:p text:style-name="P6"><text:span text:style-name="T5">Dirección:</text:span> <text:span text:style-name="T6"><text:placeholder text:placeholder-type="text">&lt;company.party.addresses[0].street&gt;</text:placeholder></text:span><text:span text:style-name="T7"><text:s/></text:span><text:span text:style-name="T8"><text:placeholder text:placeholder-type="text">&lt;company.party.addresses[0].city&gt;</text:placeholder></text:span></text:p>
+       <text:p text:style-name="P7"><text:span text:style-name="T9">Teléfono:</text:span><text:span text:style-name="T10"> </text:span><text:span text:style-name="T11"><text:placeholder text:placeholder-type="text">&lt;company.party.phone&gt;</text:placeholder></text:span></text:p>
+       <text:p text:style-name="P8"><text:span text:style-name="T12">Celular: </text:span><text:span text:style-name="T13"><text:placeholder text:placeholder-type="text">&lt;company.party.mobile&gt;</text:placeholder></text:span></text:p>
+       <text:p text:style-name="P8"><text:span text:style-name="T14">E-mail</text:span><text:span text:style-name="T12">: </text:span><text:span text:style-name="T13"><text:placeholder text:placeholder-type="text">&lt;company.party.email&gt;</text:placeholder></text:span></text:p>
+       <text:p text:style-name="P9"><text:placeholder text:placeholder-type="text">&lt;/if&gt;</text:placeholder></text:p>
+      </table:table-cell>
+     </table:table-row>
+    </table:table>
+    <text:p text:style-name="Header"/>
+   </style:header>
+  </style:master-page>
+  <style:master-page style:name="First_20_Page" style:display-name="First Page" style:page-layout-name="pm2" draw:style-name="dp1" style:next-style-name="Standard"/>
+ </office:master-styles>
+ <office:body>
+  <office:text text:use-soft-page-breaks="true">
+   <text:sequence-decls>
+    <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
+   </text:sequence-decls>
+   <text:p text:style-name="P16"><text:placeholder text:placeholder-type="text">&lt;for each=&quot;maintenance in records&quot;&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P17"><text:placeholder text:placeholder-type="text">&lt;for each=&quot;line in maintenance.lines&quot;&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P96"><text:placeholder text:placeholder-type="text">&lt;choose test=&quot;&quot;&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P90"><text:placeholder text:placeholder-type="text">&lt;when test=&quot;line.maintenance_type == &apos;initial&apos;&quot;&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P84">REGISTRO DE MANTENIMIENTO <text:span text:style-name="T45">INICIAL</text:span></text:p>
+   <text:p text:style-name="P90"><text:placeholder text:placeholder-type="text">&lt;/when&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P90"><text:placeholder text:placeholder-type="text">&lt;when test=&quot;line.maintenance_type == &apos;preventive&apos;&quot;&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P84">REGISTRO DE MANTENIMIENTO PREVENTIVO</text:p>
+   <text:p text:style-name="P91"><text:placeholder text:placeholder-type="text">&lt;/when&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P91"><text:placeholder text:placeholder-type="text">&lt;when test=&quot;line.maintenance_type == &apos;corrective&apos;&quot;&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P87">REGISTRO DE MANTENIMIENTO CORRECTIVO</text:p>
+   <text:p text:style-name="P90"><text:placeholder text:placeholder-type="text">&lt;/when&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P88"><text:placeholder text:placeholder-type="text">&lt;/choose&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P82"><text:span text:style-name="T42">Fecha</text:span><text:span text:style-name="T31"> </text:span><text:span text:style-name="T36"><text:placeholder text:placeholder-type="text" text:description="maintenance.estimated_agended.date()">&lt;maintenance.estimated_agended.date()&gt;</text:placeholder></text:span></text:p>
+   <text:p text:style-name="P82"><text:span text:style-name="T41">Consecutivo</text:span> <text:span text:style-name="T43"><text:placeholder text:placeholder-type="text">&lt;line.code&gt;</text:placeholder></text:span></text:p>
+   <text:p text:style-name="P106"/>
+   <text:p text:style-name="P83"><text:span text:style-name="T32">INFORMACIÓN</text:span><text:span text:style-name="T39"> </text:span><text:span text:style-name="T32">DEL</text:span><text:span text:style-name="T40"> </text:span><text:span text:style-name="T32">PROPIETARIO</text:span></text:p>
+   <table:table table:name="Table1" table:style-name="Table1">
+    <table:table-column table:style-name="Table1.A"/>
+    <table:table-column table:style-name="Table1.B"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Table1.A1" office:value-type="string">
+      <text:p text:style-name="P80"><text:span text:style-name="T32">Nombre / Razón Social: </text:span><text:span text:style-name="T35"><text:placeholder text:placeholder-type="text">&lt;line.propietary.name&gt;</text:placeholder></text:span></text:p>
+      <text:p text:style-name="P80"><text:span text:style-name="T32">Ciudad: </text:span><text:span text:style-name="T35"><text:placeholder text:placeholder-type="text">&lt;line.propietary_address.subdivision_municipality.name&gt;</text:placeholder></text:span></text:p>
+      <text:p text:style-name="P81"><text:span text:style-name="T32">Teléfono:</text:span><text:span text:style-name="T35"> </text:span><text:span text:style-name="T36"><text:placeholder text:placeholder-type="text">&lt;line.propietary.phone&gt;</text:placeholder></text:span></text:p>
+      <text:p text:style-name="P81"><text:span text:style-name="T33">Movil</text:span><text:span text:style-name="T34">:</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T36"><text:placeholder text:placeholder-type="text">&lt;line.propietary.mobile&gt;</text:placeholder></text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table1.A1" office:value-type="string">
+      <text:p text:style-name="P80"><text:span text:style-name="T32">Tipo Documento: </text:span><text:span text:style-name="T35"><text:placeholder text:placeholder-type="text">&lt;&quot;NIT&quot; if line.propietary.tax_identifier.type==&quot;31&quot; else &quot;CC&quot;&gt;</text:placeholder></text:span></text:p>
+      <text:p text:style-name="P80"><text:span text:style-name="T32">Documento:</text:span><text:span text:style-name="T35"> </text:span><text:span text:style-name="T35"><text:placeholder text:placeholder-type="text">&lt;line.propietary.tax_identifier.code&gt;</text:placeholder></text:span></text:p>
+      <text:p text:style-name="P80"><text:span text:style-name="T32">Dirección:</text:span><text:span text:style-name="T35"> </text:span><text:span text:style-name="T35"><text:placeholder text:placeholder-type="text">&lt;line.propietary_address.street&gt;</text:placeholder></text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="P64"/>
+   <text:p text:style-name="P65">INFORMACIÓN DEL DISPOSITIVO</text:p>
+   <table:table table:name="Table2" table:style-name="Table2">
+    <table:table-column table:style-name="Table2.A"/>
+    <table:table-column table:style-name="Table2.B"/>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" office:value-type="string">
+      <text:p text:style-name="P15"><text:span text:style-name="T32">Nombre del Dispositivo: </text:span><text:span text:style-name="T36"><text:placeholder text:placeholder-type="text">&lt;line.equipment.product.name&gt;</text:placeholder></text:span><text:span text:style-name="T36"><text:s text:c="2"/></text:span></text:p>
+      <text:p text:style-name="P15"><text:span text:style-name="T32">Marca: </text:span><text:span text:style-name="T36"><text:placeholder text:placeholder-type="text">&lt;line.equipment.mark_category.name&gt;</text:placeholder></text:span><text:span text:style-name="T36"><text:s text:c="11"/></text:span></text:p>
+      <text:p text:style-name="P15"><text:span text:style-name="T34">Serial:</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T36"><text:placeholder text:placeholder-type="text">&lt;line.equipment.serial&gt;</text:placeholder></text:span><text:span text:style-name="T36"><text:s text:c="2"/></text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table2.A1" office:value-type="string">
+      <text:p text:style-name="P15"><text:span text:style-name="T32">Modelo:</text:span><text:span text:style-name="T35"> </text:span><text:span text:style-name="T36"><text:placeholder text:placeholder-type="text">&lt;line.equipment.model_category.name&gt;</text:placeholder></text:span></text:p>
+      <text:p text:style-name="P15"><text:span text:style-name="T32">Referencia: </text:span><text:span text:style-name="T36"><text:placeholder text:placeholder-type="text">&lt;line.equipment.reference_category.name&gt;</text:placeholder></text:span></text:p>
+      <text:p text:style-name="P15"><text:span text:style-name="T34">Registro Invima:</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T36"><text:placeholder text:placeholder-type="text">&lt;line.equipment.health_register&gt;</text:placeholder></text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="P95"><text:placeholder text:placeholder-type="text">&lt;choose test=&quot;&quot;&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P92"><text:placeholder text:placeholder-type="text">&lt;when test=&quot;line.maintenance_type == &apos;preventive&apos; or line.maintenance_type == &apos;initial&apos;&quot;&gt;</text:placeholder></text:p>
+   <table:table table:name="Tabla1_1" table:style-name="Tabla1_5f_1">
+    <table:table-column table:style-name="Tabla1_5f_1.A"/>
+    <table:table-column table:style-name="Tabla1_5f_1.B"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Tabla1_5f_1.A1" office:value-type="string">
+      <text:p text:style-name="P78">Verificación inicial de funcionamiento:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabla1_5f_1.B1" office:value-type="string">
+      <text:p text:style-name="P63"><text:placeholder text:placeholder-type="text">&lt;&quot;SI APLICA&quot; if line.initial_operation else &quot;NO APLICA&quot;&gt;</text:placeholder></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Tabla1_5f_1.A2" office:value-type="string">
+      <text:p text:style-name="P78">Revisión del Equipo:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabla1_5f_1.B2" office:value-type="string">
+      <text:p text:style-name="P63"><text:placeholder text:placeholder-type="text">&lt;&quot;SI APLICA&quot; if line.check_equipment else &quot;NO APLICA&quot;&gt;</text:placeholder></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Tabla1_5f_1.A2" office:value-type="string">
+      <text:p text:style-name="P78">Revisión del sistema eléctrico:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabla1_5f_1.B2" office:value-type="string">
+      <text:p text:style-name="P63"><text:placeholder text:placeholder-type="text">&lt;&quot;SI APLICA&quot; if line.check_electric_system else &quot;NO APLICA&quot;&gt;</text:placeholder></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <text:soft-page-break/>
+    <table:table-row>
+     <table:table-cell table:style-name="Tabla1_5f_1.A2" office:value-type="string">
+      <text:p text:style-name="P78">Limpieza interior y exterior:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabla1_5f_1.B2" office:value-type="string">
+      <text:p text:style-name="P63"><text:placeholder text:placeholder-type="text">&lt;&quot;SI APLICA&quot; if line.clean_int_ext else &quot;NO APLICA&quot;&gt;</text:placeholder></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Tabla1_5f_1.A2" office:value-type="string">
+      <text:p text:style-name="P78">Limpieza de lentes y espejos:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabla1_5f_1.B2" office:value-type="string">
+      <text:p text:style-name="P63"><text:placeholder text:placeholder-type="text">&lt;&quot;SI APLICA&quot; if line.clean_eyes else &quot;NO APLICA&quot;&gt;</text:placeholder></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Tabla1_5f_1.A2" office:value-type="string">
+      <text:p text:style-name="P78">Verificar Calibración:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabla1_5f_1.B2" office:value-type="string">
+      <text:p text:style-name="P63"><text:placeholder text:placeholder-type="text">&lt;&quot;SI APLICA&quot; if line.check_calibration else &quot;NO APLICA&quot;&gt;</text:placeholder></text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="P48"><text:placeholder text:placeholder-type="text">&lt;/when&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P90"><text:placeholder text:placeholder-type="text">&lt;when test=&quot;line.maintenance_type == &apos;corrective&apos;&quot;&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P89">Trabajo Realizado</text:p>
+   <table:table table:name="Tabla1" table:style-name="Tabla1">
+    <table:table-column table:style-name="Tabla1.A"/>
+    <table:table-column table:style-name="Tabla1.B"/>
+    <table:table-column table:style-name="Tabla1.C"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Tabla1.A1" office:value-type="string">
+      <text:p text:style-name="P85">Repuesto</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabla1.A1" office:value-type="string">
+      <text:p text:style-name="P86">Actividad de Mantenimiento</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabla1.C1" office:value-type="string">
+      <text:p text:style-name="P86">Descripción</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Tabla1.A2" table:number-columns-spanned="3" office:value-type="string">
+      <text:p text:style-name="P94"><text:placeholder text:placeholder-type="text">&lt;for each=&quot;line_maintenance in line.maintenance_lines&quot;&gt;</text:placeholder></text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Tabla1.A3" office:value-type="string">
+      <text:p text:style-name="P94"><text:placeholder text:placeholder-type="text">&lt;&quot;X&quot; if line_maintenance.line_replace else &quot;&quot;&gt;</text:placeholder></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabla1.A3" office:value-type="string">
+      <text:p text:style-name="P94"><text:placeholder text:placeholder-type="text">&lt;&quot;X&quot; if line_maintenance.line_maintenance_activity else &quot;&quot;&gt;</text:placeholder></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Tabla1.A2" office:value-type="string">
+      <text:p text:style-name="P94"><text:placeholder text:placeholder-type="text">&lt;line_maintenance.maintenance_activity.name if line.line_maintenance_activity else line.replacement.name&gt;</text:placeholder></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Tabla1.A2" table:number-columns-spanned="3" office:value-type="string">
+      <text:p text:style-name="P94"><text:placeholder text:placeholder-type="text">&lt;/for&gt;</text:placeholder></text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="P90"><text:placeholder text:placeholder-type="text">&lt;/when&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P104"><text:placeholder text:placeholder-type="text">&lt;/choose&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P99"><text:placeholder text:placeholder-type="text">&lt;choose test=&quot;&quot;&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P93"><text:placeholder text:placeholder-type="text">&lt;when test=&quot;line.maintenance_type != &apos;initial&apos;&quot;&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P53"><text:placeholder text:placeholder-type="text">&lt;choose test=&quot;&quot;&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P107"><text:span text:style-name="T28"><text:placeholder text:placeholder-type="text">&lt;when test=&quot;line.equipment.product.preventive_activities&quot;&gt;</text:placeholder></text:span></text:p>
+   <text:p text:style-name="P107"><text:span text:style-name="T52"/></text:p>
+   <text:p text:style-name="P107"><text:span text:style-name="T51">Actividades Realizadas:</text:span></text:p>
+   <text:p text:style-name="P53"><text:placeholder text:placeholder-type="text">&lt;for each=&quot;description in (line.equipment.product.preventive_activities or &apos;&apos;).split(&apos;\n&apos;)&quot;&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P53"><text:placeholder text:placeholder-type="text">&lt;description&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P53"><text:placeholder text:placeholder-type="text">&lt;/for&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P50"><text:placeholder text:placeholder-type="text">&lt;/when&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P46"><text:placeholder text:placeholder-type="text">&lt;/choose&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P50"><text:placeholder text:placeholder-type="text">&lt;/when&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P93"><text:soft-page-break/><text:placeholder text:placeholder-type="text">&lt;/choose&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P102"/>
+   <text:p text:style-name="P25">Observaciones:</text:p>
+   <text:p text:style-name="P76"><text:placeholder text:placeholder-type="text">&lt;line.description_activity&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P25">Fecha del <text:span text:style-name="T44">p</text:span>róximo mantenimiento <text:span text:style-name="T38"><text:placeholder text:placeholder-type="text">&lt;str(line.next_maintenance)[0:11]&gt;</text:placeholder></text:span></text:p>
+   <text:p text:style-name="P77"/>
+   <text:p text:style-name="P77"/>
+   <table:table table:name="Table4" table:style-name="Table4">
+    <table:table-column table:style-name="Table4.A"/>
+    <table:table-column table:style-name="Table4.B"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Table4.A1" office:value-type="string">
+      <text:p text:style-name="P44"><text:placeholder text:placeholder-type="text">&lt;if test=&quot;line.technician_signature&quot;&gt;</text:placeholder></text:p>
+      <text:p text:style-name="P44"><draw:frame draw:style-name="fr2" draw:name="image: (line.technician_signature,  &apos;image/png&apos;)" text:anchor-type="as-char" svg:width="1.6173in" svg:height="0.7673in" draw:z-index="0">
+        <draw:text-box>
+         <text:p text:style-name="P60"/>
+         <text:p text:style-name="Text">Texto <text:sequence text:ref-name="refText0" text:name="Text" text:formula="ooow:Text+1" style:num-format="1">1</text:sequence>: </text:p>
+        </draw:text-box>
+       </draw:frame></text:p>
+      <text:p text:style-name="P74"><text:placeholder text:placeholder-type="text">&lt;/if&gt;</text:placeholder></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table4.B1" office:value-type="string">
+      <text:p text:style-name="P21"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table4.A1" office:value-type="string">
+      <text:p text:style-name="P69"><text:placeholder text:placeholder-type="text">&lt;line.technician_responsible&gt;</text:placeholder></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table4.A1" office:value-type="string">
+      <text:p text:style-name="P39">RECIBIDO A SATISFACCIÓN</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table4.A1" office:value-type="string">
+      <text:p text:style-name="P34"><text:span text:style-name="T32">INVIMA :</text:span><text:span text:style-name="T32"><text:placeholder text:placeholder-type="text">&lt;line.invima&gt;</text:placeholder></text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table4.A1" office:value-type="string">
+      <text:p text:style-name="P39">NOMBRE</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="P36"/>
+   <text:p text:style-name="P36"/>
+   <text:p text:style-name="P37"/>
+   <text:p text:style-name="P36"/>
+   <text:p text:style-name="P36"><text:placeholder text:placeholder-type="text">&lt;/for&gt;</text:placeholder></text:p>
+   <text:p text:style-name="P36"><text:placeholder text:placeholder-type="text">&lt;/for&gt;</text:placeholder></text:p>
+  </office:text>
+ </office:body>
+</office:document>

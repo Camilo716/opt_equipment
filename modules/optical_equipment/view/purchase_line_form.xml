@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--This file file is part of Tryton. The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath
+	expr="/form/notebook/page[@id='notes']" position="before">
+	<page string="Equipment" id="equipment">
+	    <label name="address_equipment"/>
+	    <field name="address_equipment"/>
+	    <newline/>
+	    <label name="serial_equipment"/>
+	    <field name="serial_equipment"/>
+	    <newline/>
+	    <label name="software_version"/>
+	    <field name="software_version"/>
+	    <newline/>
+	    <label name="health_register"/>
+	    <field name="health_register"/>
+	    <newline/>
+	    <label name="refurbish"/>
+	    <field name="refurbish"/>
+	</page>
+    </xpath>
+    <xpath
+        expr="/form/notebook/page[@id='general']/field[@name='product']" position="after">
+        <label name="product_equipment"/>
+        <field name="product_equipment"/>
+    </xpath>
+</data>

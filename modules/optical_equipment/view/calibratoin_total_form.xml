@@ -1,0 +1,35 @@
+<?xml version="1.0"?> 
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="diopter"/>
+    <field name="diopter"/>
+    <label name="dev_std"/>
+    <field name="dev_std"/>
+    <label name="uncertain_type_A"/>
+    <field name="uncertain_type_A"/>
+    <label name="uncertain_pattern"/>
+    <field name="uncertain_pattern"/>
+    <label name="k_c_calibration"/>
+    <field name="k_c_calibration"/>
+    <label name="uncertain_U_b1"/>
+    <field name="uncertain_U_b1"/>
+    <label name="d_resolution"/>
+    <field name="d_resolution"/>
+    <label name="uncertain_U_b2_dig"/>
+    <field name="uncertain_U_b2_dig"/>
+    <label name="uncertain_U_b2_ana"/>
+    <field name="uncertain_U_b2_ana"/>
+    <label name="uncertain_combinated"/>
+    <field name="uncertain_combinated"/>
+    <label name="uncertain_eff"/>
+    <field name="uncertain_eff"/>
+    <label name="t_student"/>
+    <field name="t_student"/>
+    <label name="uncertain_expanded"/>
+    <field name="uncertain_expanded"/>
+    <label name="graph_dates"/>
+    <field name="graph_dates"/>
+    <label name="state"/>
+    <field name="state"/>
+</form>

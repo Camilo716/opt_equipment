@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form col="6">
+    <label name="party"/>
+    <field name="party"/>
+    <label name="invoice_address"/>
+    <field name="invoice_address"/>
+    <label name="number"/>
+    <field name="number"/>
+    <newline/>
+    <label name="contact"/>
+    <field name="contact"/>
+    <newline/>
+    <label name="description"/>
+    <field name="description" colspan="3"/>
+    <label name="reference"/>
+    <field name="reference"/>
+    <newline/>
+    <separator id="validity" string="Validity" colspan="6"/>
+    <label name="start_date"/>
+    <field name="start_date"/>
+    <label name="end_date"/>
+    <field name="end_date"/>
+    <notebook colspan="6">
+	<page string="Contracts and Prorogues" id="contracts">
+	    <field name="maintenance_services"/>
+	</page>
+	<page string="Equipments" id="equipments">
+	    <field name="current_equipments"/>
+	</page>
+	<page string="History Equipments" id="history_equipments">
+	    <field name="history_equipments"/>
+	</page>
+	<page string="Other Info" id="other">
+	    <label name="company"/>
+	    <field name="company"/>
+	</page>
+    </notebook>
+    <label name="price_contract"/>
+    <field name="price_contract"/>
+    <newline/>
+    <label name="state"/>
+    <field name="state"/>
+    <group col="6" id="button">
+	<button name="draft"/>
+	<button name="closed"/>
+	<button name="cancelled"/>
+	<button name="running"/>
+    </group>
+</form>

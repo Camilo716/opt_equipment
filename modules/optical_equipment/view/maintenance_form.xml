@@ -1,0 +1,90 @@
+<?xml version="1.0"?> 
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+     this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="code"/>
+    <field name="code"/>
+    <label name="propietary"/>
+    <field name="propietary"/>
+    <label name="propietary_address"/>
+    <field name="propietary_address"/>
+    <label name="maintenance_type"/>
+    <field name="maintenance_type"/>
+    <label name="equipment"/>
+    <field name="equipment"/>
+    <label name="service_maintenance"/>
+    <field name="service_maintenance"/>
+    <label name="equipment_calibrate"/>
+    <field name="equipment_calibrate"/>
+    <newline/>
+    <label name="description_activity"/>
+    <field name="description_activity" colspan="3"/>
+    <notebook colspan="6">
+	<page string="Preventive" id="preventive">
+	    <label name="initial_operation"/>
+	    <field name="initial_operation"/>
+	    <label name="check_equipment"/>
+	    <field name="check_equipment"/>
+	    <label name="check_electric_system"/>
+	    <field name="check_electric_system"/>
+	    <label name="clean_int_ext"/>
+	    <field name="clean_int_ext"/>
+	    <label name="clean_eyes"/>
+	    <field name="clean_eyes"/>
+	    <label name="check_calibration"/>
+	    <field name="check_calibration"/>
+	</page>
+	<page string="Corrective" id="corrective">
+	    <field name="maintenance_lines"/>
+	</page>
+	<page string="Enviromental Conditions" id="enviromental_conditions_calibration">
+	    <group col="4" colspan="4" id="conditions">
+		<label name="temperature_min"/>
+		<field name="temperature_min"/>
+		<newline/>
+		<label name="temperature_max"/>
+		<field name="temperature_max"/>
+		<label name="temperature_uom"/>
+		<field name="temperature_uom"/>
+		<newline/>
+		<label name="moisture_min"/>
+		<field name="moisture_min"/>
+		<newline/>
+		<label name="moisture_max"/>
+		<field name="moisture_max"/>
+		<label name="moisture_uom"/>
+		<field name="moisture_uom"/>
+	    </group>
+	</page>
+	<page string="Calibration" id="calibration">
+	    <label name="patterns_equipments"/>
+	    <field name="patterns_equipments"/>
+	    <newline/>
+	    <group colspan="6" yexpand="1" id="lines_calibration">
+		<field name="lines_calibration"/>
+		<newline/>
+		<field name="calibration_total"/>
+	    </group>
+	</page>
+	<page string="Graph" id="graph">
+	    <field name="graph_calibration"/>
+	</page>
+    </notebook>
+    <newline/>
+    <label name="technician_responsible"/>
+    <field name="technician_responsible"/>
+
+    <label name="invima"/>
+    <field name="invima"/>
+
+    <label name="state"/>
+    <field name="state"/>
+    <group id="button">
+      <button name="in_progress"/>
+      <button name="finished"/>
+      <button name="samples"/>
+      <button name="calibrate"/>
+    </group>
+</form>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level 
+this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="old_propietary"/>
+    <field name="old_propietary"/>
+    <newline/>
+    <field name="maintenance_service" colspan="3"/>
+    <newline/>
+    <label name="new_propietary"/>
+    <field name="new_propietary" colspan="3"/>
+    <label name="new_address"/>
+    <field name="new_address" colspan="3"/>
+    <label name="change_date"/>
+    <field name="change_date" colspan="3"/>
+</form>

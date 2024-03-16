@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--This file file is part of Tryton. The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath
+	expr="/form/field[@name='invoice_address']" position="after">
+	    <label name="equipment_create"/>
+	    <field name="equipment_create"/>
+    </xpath>
+    <xpath expr="//button[@name='process']" position="after">
+        <button name="create_equipments"/>
+    </xpath>
+</data>

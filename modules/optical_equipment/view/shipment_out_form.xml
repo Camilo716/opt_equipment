@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--This file file is part of Tryton. The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath
+	expr="//field[@name='warehouse']" position="after">
+	<newline/>
+	<label name="service_maintenance_initial"/>
+	<field name="service_maintenance_initial"/>
+    </xpath>
+    <xpath
+	expr="//button[@name='wait']" position="after">
+	<button name="maintenance_initial"/>
+    </xpath>
+</data>
