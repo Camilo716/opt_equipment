@@ -29,6 +29,8 @@ class OpticalEquipment(DeactivableMixin, Workflow, ModelSQL, ModelView):
     _states = {
         'readonly': Eval('state') != 'draft',
     }
+    
+    _states_product = {'readonly': Eval('product', True)}
 
     _depends = ['state']
 
@@ -68,12 +70,12 @@ class OpticalEquipment(DeactivableMixin, Workflow, ModelSQL, ModelView):
                               )
     refurbish = fields.Boolean("Refurbish",
                                states=_states,)
-    equipment_type = fields.Char('type', states={'readonly': If('product', True)})
-    risk = fields.Char('Type risk', states={'readonly': If('product', True)})
-    use = fields.Char('Use', states={'readonly': If('product', True)})
-    biomedical_class = fields.Char('Biomedical Class', states={'readonly': If('product', True)})
-    main_tecnology = fields.Char('Main tecnology', states={'readonly': If('product', True)})
-    calibration = fields.Boolean("Apply calibration", states={'readonly': If('product', True)})
+    equipment_type = fields.Char('type', states=_states_product)
+    risk = fields.Char('Type risk', states=_states_product)
+    use = fields.Char('Use', states=_states_product)
+    biomedical_class = fields.Char('Biomedical Class', states=_states_product)
+    main_tecnology = fields.Char('Main tecnology', states=_states_product)
+    calibration = fields.Boolean("Apply calibration", states=_states_product)
     mark_category = fields.Many2One('product.category', 'Mark', required=True,
                                     domain=[('parent', '=', None),
                                             ('accounting', '=', False)],

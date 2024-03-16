@@ -91,7 +91,7 @@ class Template(metaclass=PoolMeta):
     refurbish = fields.Boolean('Refurbish')
     software_required = fields.Boolean("Software Required")
     software_version = fields.Char("Software version",
-                                   states={'invisible': If(~Eval('software_required'), True)},
+                                   states={'invisible': ~Eval('software_required', True)},
                                    depends={'software_required'})
 
     # These are measurements required for the equipments, are in this place
@@ -103,13 +103,14 @@ class Template(metaclass=PoolMeta):
                                       domain=[
                                           ('category', '=', Id(
                                               'optical_equipment', "uom_cat_temperature"))],
-                                      states={'invisible': If(Eval('temperature_min') is None, True)})
+                                      #states={'invisible': If(Eval('temperature_min') is None, True)}
+                                      )
     frequency = fields.Float("Frequency")
     frequency_uom = fields.Many2One('product.uom', "Frequency UOM",
                                     domain=[
                                         ('category', '=', Id(
                                             'optical_equipment', 'uom_cat_frequency'))],
-                                    states={'invisible': If(Eval('frequency') is None, True)}
+                                    #states={'invisible': If(Eval('frequency') is None, True)}
                                     )
     moisture_min = fields.Float("Moisture Min")
     moisture_max = fields.Float("Moisture Max")
@@ -117,7 +118,7 @@ class Template(metaclass=PoolMeta):
                                    domain=[
                                        ('category', '=', Id(
                                            'optical_equipment', 'uom_cat_relative_humedity'))],
-                                   states={'invisible': If(Eval('moisture_min') is None, True)},
+                                   #states={'invisible': If(Eval('moisture_min') is None, True)},
                                    )
     electrical_equipment = fields.Boolean("Electrical Equipment")
     frequency = fields.Float("Frequency",
@@ -126,8 +127,8 @@ class Template(metaclass=PoolMeta):
                                     domain=[
                                         ('category', '=', Id(
                                             'optical_equipment', 'uom_cat_frequency'))],
-                                    states={'invisible': If(Eval('frequency') is None, True) |
-                                            ~Eval('electrical_equipment', True)},
+                                    # states={'invisible': If(Eval('frequency') is None, True) |
+                                            #~Eval('electrical_equipment', True)},
                                     )
     voltageAC = fields.Float("Voltage AC",
                              states={'invisible': ~Bool(Eval('electrical_equipment'))})
@@ -135,8 +136,8 @@ class Template(metaclass=PoolMeta):
                                     domain=[
                                         ('category', '=', Id(
                                             'optical_equipment', 'uom_cat_electrical_tension'))],
-                                    states={'invisible': If(Eval('voltageAC') is None, True) |
-                                            ~Eval('electrical_equipment', True)},
+                                    #states={'invisible': If(Eval('voltageAC') is None, True) |
+                                    #        ~Eval('electrical_equipment', True)},
                                     )
     voltageDC = fields.Float("Voltage DC",
                              states={'invisible': ~Bool(Eval('electrical_equipment'))})
@@ -144,8 +145,9 @@ class Template(metaclass=PoolMeta):
                                     domain=[
                                         ('category', '=', Id(
                                             'optical_equipment', 'uom_cat_electrical_tension'))],
-                                    states={'invisible': If(Eval('voltageDC') is None, True) |
-                                            ~Eval('electrical_equipment', True)},)
+                                    #states={'invisible': If(Eval('voltageDC') is None, True) |
+                                    #        ~Eval('electrical_equipment', True)},
+                                    )
 
     useful_life = fields.Integer("Useful life")
     warranty = fields.Integer("Warranty")
@@ -168,11 +170,14 @@ class Template(metaclass=PoolMeta):
                                         ('digital', "Digital")], "Resolution Type",
                                        states={'required': Eval('calibration', False)},)
     d_resolution = fields.Float("Resolution d",
-                                states={'invisible': If(Eval('resolution_type') != 'digital', True)},)
+                                # states={'invisible': If(Eval('resolution_type') != 'digital', True)},
+                                )
     analog_resolution = fields.Float("Analog resolution",
-                                     states={'invisible': If(Eval('resolution_type') != 'analoga', True), },)
+                                    # states={'invisible': If(Eval('resolution_type') != 'analoga', True), },
+                                    )
     a_factor_resolution = fields.Float("(a) Resolution",
-                                       states={'invisible': If(Eval('resolution_type') != 'analoga', True)},)
+                                      # states={'invisible': If(Eval('resolution_type') != 'analoga', True)},
+                                      )
     Usubi = fields.Integer("Usub i", states={'required': Eval('calibration', False)},)
 
     # maintenance activities

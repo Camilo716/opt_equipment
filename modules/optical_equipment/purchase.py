@@ -98,7 +98,8 @@ class Line(metaclass=PoolMeta):
     origin_country = fields.Many2One('country.country',"Origin Country")
     address_equipment = fields.Many2One('party.address', "Direccion", required=True)
     serial_equipment = fields.Char("Serial", size=None,
-                                   states={'invisible': If(Eval('quantity') > 1, True)})
+                                   #states={'invisible': If(Eval('quantity') > 1, True)}
+                                   )
     refurbish = fields.Boolean("Refurbish")
     product_equipment = fields.Boolean("Product Equipment",
                                        states={'readonly': True})

@@ -7,8 +7,8 @@
 [ ! -d "$SRC" ] && die "no se ubica ruta en SRC"
 
 # dependencias minimas
-pip3 install psycopg2 proteus==7.0.0 inotify honcho qrcode==6.1 pyshp==2.3.1 shapely==2.0.2
-pip3 install trytond-party trytond-company trytond-product trytond-product_image trytond-currency trytond-notification_email
+pip3 install psycopg2 proteus==7.0.0 inotify honcho qrcode==6.1 pyshp==2.3.1 shapely==2.0.2 scipy matplotlib
+pip3 install trytond-party trytond-company trytond-product trytond-product_image trytond-currency trytond-notification_email trytond-product_attribute trytond-account_invoice_stock trytond-purchase trytond-sale trytond-product_measurements
 
 for module in modules/*/; do
  

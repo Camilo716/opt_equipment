@@ -34,8 +34,9 @@ class Move(metaclass=PoolMeta):
     "Stock Move"
     __name__ = "stock.move"
 
-    return_equipment = fields.Boolean("Devolución", states={'invisible': If(~Eval('product_equipment'), True),
-                                                            'readonly': (Eval('state').in_(['cancelled', 'done'])), }
+    return_equipment = fields.Boolean("Devolución", 
+                                      #states={'invisible': If(~Eval('product_equipment'), True),
+                                      #                      'readonly': (Eval('state').in_(['cancelled', 'done'])), }
                                       )
     equipment = fields.Many2One('optical_equipment.equipment', "Equipment",
                                 domain=[If(Eval('return_equipment', True),
@@ -43,12 +44,12 @@ class Move(metaclass=PoolMeta):
                                            ('state', '=', 'registred')),
                                         ('product', '=', Eval('product'))
                                         ],
-                                states={'invisible': If(~Eval('product_equipment'), True),
-                                        'readonly': (Eval('state').in_(['cancelled', 'done'])), },
+                                #states={'invisible': If(~Eval('product_equipment'), True),
+                                #        'readonly': (Eval('state').in_(['cancelled', 'done'])), },
                                 depends=['product_equipment', 'move_type'])
     equipment_serial = fields.Function(fields.Char('Serial',
-                                                   states={'readonly': True,
-                                                           'invisible': If(~Eval('product_equipment'), True)},
+                                                   #states={'readonly': True,
+                                                   #        'invisible': If(~Eval('product_equipment'), True)},
                                                    depends=['product_equipment']),
                                        'get_equipment_serial')
     product_equipment = fields.Function(fields.Boolean("It Equipment"), 'get_product_equipment')

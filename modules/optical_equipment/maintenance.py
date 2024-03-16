@@ -31,8 +31,9 @@ class MaintenanceService(Workflow, ModelSQL, ModelView):
     _rec_name = 'rec_name'
     _order_name = 'code'
 
-    _states = {'readonly': If(Eval('state') != 'draft', True)}
-
+    #_states = {'readonly': If(Eval('state') != 'draft', True)}
+    _states = {}
+    
     code = fields.Char("Code", readonly=True, )
     reference = fields.Char("Reference",
                             help="The identification of an external origin.")
@@ -40,7 +41,8 @@ class MaintenanceService(Workflow, ModelSQL, ModelView):
     sale_date = fields.Char("Sale Date")
     contract_origin = fields.Reference(
         "Contract Base", selection='get_origin_contract',
-        states={'readonly': If(Eval('state') == 'finished', True)})
+        #states={'readonly': If(Eval('state') == 'finished', True)}
+        )
     sale_origin = fields.Reference(
         "Sale Origin", selection='get_origin',
         states={'readonly': True})
@@ -76,33 +78,43 @@ class MaintenanceService(Workflow, ModelSQL, ModelView):
                               ('finished', "Finished")
                               ], "State", required=True, readonly=True, sort=True)
     rec_name = fields.Function(fields.Char('rec_name'), 'get_rec_name')
-    temperature_min = fields.Float("Temp Min", states={
-        'readonly': If(Eval('state') == 'finished', True),
-        'required': If(Eval('state') == 'in_progress', True)})
-    temperature_max = fields.Float("Temp Max", states={
-        'readonly': If(Eval('state') == 'finished', True),
-        'required': If(Eval('state') == 'in_progress', True)})
+    temperature_min = fields.Float("Temp Min", 
+                                   #states={
+       # 'readonly': If(Eval('state') == 'finished', True),
+       # 'required': If(Eval('state') == 'in_progress', True)}
+    )
+    temperature_max = fields.Float("Temp Max", 
+                                   #states={
+        # 'readonly': If(Eval('state') == 'finished', True),
+        # 'required': If(Eval('state') == 'in_progress', True)}
+        )
     temperature_uom = fields.Many2One('product.uom', 'Temperature UOM',
                                       domain=[
                                           ('category', '=', Id(
                                               'optical_equipment', "uom_cat_temperature"))],
-                                      states={'invisible': If(Eval('temperature_min') is None, True),
-                                              'readonly': (Eval('state') == 'finished'),
-                                              'required': If(Eval('state') == 'in_progress', True)},)
-    moisture_min = fields.Float("Moisture Min", states={
-        'readonly': If(Eval('state') == 'finished', True),
-        'required': If(Eval('state') == 'in_progress', True)})
-    moisture_max = fields.Float("Moisture Max", states={
-        'readonly': If(Eval('state') == 'finished', True),
-        'required': If(Eval('state') == 'in_progress', True)})
+                                      #states={'invisible': If(Eval('temperature_min') is None, True),
+                                      #        'readonly': (Eval('state') == 'finished'),
+                                      #        'required': If(Eval('state') == 'in_progress', True)},
+                                      )
+    moisture_min = fields.Float("Moisture Min", 
+                                # states={
+        # 'readonly': If(Eval('state') == 'finished', True),
+        # 'required': If(Eval('state') == 'in_progress', True)}
+        )
+    moisture_max = fields.Float("Moisture Max", 
+                                # states={
+        #'readonly': If(Eval('state') == 'finished', True),
+        #'required': If(Eval('state') == 'in_progress', True)}
+        )
     moisture_uom = fields.Many2One('product.uom', "Moisture UOM",
                                    domain=[
                                        ('category', '=', Id(
                                            'optical_equipment', 'uom_cat_relative_humedity'))],
-                                   states={'invisible': If(Eval('moisture_min') is None, True),
-                                           'readonly': Eval('state') == 'finished',
-                                           'required': If(Eval('state') == 'in_progress', True)},)
-
+                                   #states={'invisible': If(Eval('moisture_min') is None, True),
+                                   #        'readonly': Eval('state') == 'finished',
+                                   #        'required': If(Eval('state') == 'in_progress', True)},
+                                   )
+#
     technician_responsible = fields.Char('Technician Responsible')
     invima = fields.Char('Invima')
     technician_signature = fields.Binary('Technician Signature')
@@ -367,16 +379,18 @@ class MaintenanceServiceLine(Workflow, ModelSQL, ModelView):
                                       domain=[
                                           ('category', '=', Id(
                                               'optical_equipment', "uom_cat_temperature"))],
-                                      states={'invisible': If(Eval('temperature_min') is None, True),
-                                              'readonly': (Eval('state') == 'finished')},)
+                                      #states={'invisible': If(Eval('temperature_min') is None, True),
+                                      #        'readonly': (Eval('state') == 'finished')},
+                                      )
     moisture_min = fields.Float("Moisture Min")
     moisture_max = fields.Float("Moisture Max")
     moisture_uom = fields.Many2One('product.uom', "Moisture UOM",
                                    domain=[
                                        ('category', '=', Id(
                                            'optical_equipment', 'uom_cat_relative_humedity'))],
-                                   states={'invisible': If(Eval('moisture_min') is None, True),
-                                           'readonly': Eval('state') == 'finished'},)
+                                   #states={'invisible': If(Eval('moisture_min') is None, True),
+                                    #       'readonly': Eval('state') == 'finished'},
+                                    )
     graph_calibration = fields.Binary('Graphs')
     rec_name = fields.Function(fields.Char('rec_name'), 'get_rec_name')
 
@@ -418,11 +432,14 @@ class MaintenanceServiceLine(Workflow, ModelSQL, ModelView):
         })
         cls._buttons.update({
             'in_progress': {'invisible': Eval('state').in_(['draft', 'in_progress', 'finished'])},
-            'finished': {'invisible': (Eval('state').in_(['finished'])) |
-                         ((Eval('maintenance_type') == 'corrective') & (Eval('maintenance_lines') == ()))},
-            'samples': {'invisible': (Eval('state').in_(['finished'])) | (Eval('lines_calibration') != ()) | (~Eval('equipment_calibrate'))},
-            'calibrate': {'invisible': (Eval('lines_calibration') == ()) | (Eval('state').in_(['finished'])),
-                          'depends': ['state'], }
+            'finished': {},
+            #'finished': {'invisible': (Eval('state').in_(['finished'])) |
+            #             ((Eval('maintenance_type') == 'corrective') & (Eval('maintenance_lines') == ()))},
+            'samples': {},
+            #'samples': {'invisible': (Eval('state').in_(['finished'])) | (Eval('lines_calibration') != ()) | (~Eval('equipment_calibrate'))},
+            'calibrate': {}
+            #'calibrate': {'invisible': (Eval('lines_calibration') == ()) | (Eval('state').in_(['finished'])),
+            #              'depends': ['state'], }
         })
 
     @classmethod
@@ -808,14 +825,17 @@ class MaintenanceLine(ModelSQL, ModelView):
 
     line_replace = fields.Boolean(
         "Replace",
-        states={
-            'readonly': If(
-                Eval('line_maintenance_activity') == True,
-                True)})
+        #states={
+        #    'readonly': If(
+        #        Eval('line_maintenance_activity') == True,
+        #        True)}
+        )
     line_maintenance_activity = fields.Boolean(
-        "Maintenance Activity", states={
-            'readonly': If(
-                Eval('line_replace') == True, True)})
+        "Maintenance Activity", 
+        #states={
+         #   'readonly': If(
+         #       Eval('line_replace') == True, True)}
+         )
     maintenance = fields.Many2One(
         'optical_equipment.maintenance',
         'Maintenance',
@@ -823,14 +843,14 @@ class MaintenanceLine(ModelSQL, ModelView):
     )
     replacement = fields.Many2One('product.product', 'Replacement', ondelete='RESTRICT',
                                   domain=[('replacement', '=', True)],
-                                  states={'invisible': (If(Eval('line_maintenance_activity') == True, True)) | (If(Eval('line_replace') == False, True)),
-                                          'required': If(Eval('line_replace') == True, True)},
+                                  #states={'invisible': (If(Eval('line_maintenance_activity') == True, True)) | (If(Eval('line_replace') == False, True)),
+                                  #        'required': If(Eval('line_replace') == True, True)},
                                   depends={'line_replace'})
     maintenance_activity = fields.Many2One('product.product', 'Maintenance activity',
                                            domain=[('maintenance_activity', '=', True)],
-                                           states={'invisible': If(Eval('line_replace') == True, True) |
-                                                   (If(Eval('line_maintenance_activity') == False, True)),
-                                                   'required': If(Eval('line_maintenance_actitvity') == True, True)},
+                                           #states={'invisible': If(Eval('line_replace') == True, True) |
+                                           #        (If(Eval('line_maintenance_activity') == False, True)),
+                                           #        'required': If(Eval('line_maintenance_actitvity') == True, True)},
                                            depends={'line_maintenance_activity'})
 
     quantity = fields.Float("Quantity", required=True, digits='unit')
@@ -898,7 +918,7 @@ class MaintenanceActivity(ModelView, ModelSQL):
     'Maintenance Activitys'
     __name__ = 'optical_equipment_maintenance.activity'
 
-    maintenance = fields.Many2One('optical_equipment.maintenance')
+    maintenance = fields.Many2One('optical_equipment.maintenance', 'Maintenance')
     product = fields.Many2One('product.product', 'Product',
                               domain=[('maintenance_activity', '=', True)])
 

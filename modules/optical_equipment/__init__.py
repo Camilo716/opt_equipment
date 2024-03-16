@@ -41,7 +41,6 @@ def register():
         sale.Sale,
         sale.SaleDate,
         sale.SaleLine,
-        balance_sale_party.BalanceSalePartyStart,
         maintenance.MaintenanceService,
         maintenance.MaintenanceServiceLine,
         maintenance.MaintenanceLine,
