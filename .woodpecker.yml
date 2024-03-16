@@ -1,0 +1,33 @@
+# 
+# variables que puedo usar? https://woodpecker-ci.org/docs/0.15/usage/environment#built-in-environment-variables
+
+steps:
+  style:
+    image: python:3.9
+    commands:
+      - pip3 install flake8
+      - flake8
+
+  tests:
+    image: python:3.9
+    environment:
+      - SRC=/app
+      - DB_CACHE=/tmp
+      - DB_NAME=trytontest
+      - TRYTOND_DATABASE_URI=postgresql://tryton:tryton@postgres:5432/
+    commands:
+      - pip3 install psycopg2 proteus qrcode==6.1 image==1.5.33
+      - mkdir /app
+      - mv modules /app
+      - mv .dev /app
+      - cd /app
+      - /bin/bash .dev/install_module.sh
+      - python -m unittest discover -s modules
+
+services:
+  postgres:
+    image: postgres:12
+    environment:
+      - POSTGRES_USER=tryton
+      - POSTGRES_PASSWORD=tryton
+      - POSTGRES_DB=demo
