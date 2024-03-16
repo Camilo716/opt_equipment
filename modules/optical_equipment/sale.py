@@ -1,18 +1,16 @@
 from trytond.pool import Pool, PoolMeta
-from trytond.model import ModelView, ModelSQL, fields
-from trytond.modules.currency.fields import Monetary
-from trytond.pyson import Eval, Bool, If, Get, Equal
+from trytond.model import ModelView, fields
+from trytond.pyson import Eval, If
 from decimal import Decimal
-from trytond.modules.product import price_digits
 from trytond.transaction import Transaction
 from trytond.model import Workflow
 from trytond.modules.company.model import (
-    employee_field, set_employee, reset_employee)
+    set_employee)
 
 from trytond.exceptions import UserError
 
 from trytond.wizard import (
-    Button, StateAction, StateTransition, StateView, Wizard)
+    Button, StateAction, StateView, Wizard)
 
 
 class Sale(metaclass=PoolMeta):
@@ -20,29 +18,39 @@ class Sale(metaclass=PoolMeta):
     __name__ = 'sale.sale'
 
     quote_number = fields.Char("Quote Number", readonly=True)
-    sale_type = fields.Selection([('maintenance', 'Maintenance'),
-                                  ('equipments', 'Equipments'),
-                                  ('replaces', 'Replaces')], "Sale Type", required=True,
-                                 states={'readonly': Eval('state') != 'draft'})
-    maintenance_type = fields.Selection([('', ""),
-                                         ('preventive', 'Preventive'),
-                                         ('corrective', 'Corrective')
-                                         ], "Maintenance Type",
-                                        states={
-        'invisible': Eval('sale_type') != "maintenance",
-        'required': Eval('sale_type') == "maintenance",
-        'readonly': Eval('state') != 'draft'},
+
+    sale_type = fields.Selection([
+            ('maintenance', 'Maintenance'),
+            ('equipments', 'Equipments'),
+            ('replaces', 'Replaces')],
+        "Sale Type", required=True,
+        states={
+            'readonly': Eval('state') != 'draft'})
+
+    maintenance_type = fields.Selection([
+            ('', ""),
+            ('preventive', 'Preventive'),
+            ('corrective', 'Corrective')],
+        "Maintenance Type",
+        states={
+            'invisible': Eval('sale_type') != "maintenance",
+            'required': Eval('sale_type') == "maintenance",
+            'readonly': Eval('state') != 'draft'},
         depends=['sale_type'])
 
-    contract_ref = fields.Reference("Contract Base", selection='get_origin_contract',
-                                    domain={'optical_equipment.contract': [
-                                        ('party', '=', Eval('party')),
-                                        ('state', '=', 'closed'),
-                                    ]},
-                                    states={'invisible': (Eval('sale_type') != 'maintenance')},
-                                    search_context={
-                                        'related_party': Eval('party'),
-                                    },)
+    contract_ref = fields.Reference(
+        "Contract Base", selection='get_origin_contract',
+        domain={
+            'optical_equipment.contract': [
+                ('party', '=', Eval('party')),
+                ('state', '=', 'closed'),
+                ]},
+        states={
+            'invisible': (
+                Eval('sale_type') != 'maintenance')},
+        search_context={
+            'related_party': Eval('party'), })
+
     agended = fields.Boolean("Scheduling", states={
         'invisible': (Eval('sale_type') != 'maintenance')})
     payment_term_description = fields.Char("Payment Term", states={
@@ -129,7 +137,8 @@ class Sale(metaclass=PoolMeta):
                     except UserError:
                         raise UserError(str('Validation Error'))
             else:
-                raise UserError(gettext('optical_equipment.msg_not_sequence_quote'))
+                raise UserError(
+                    gettext('optical_equipment.msg_not_sequence_quote'))
 
     @ classmethod
     def copy(cls, sales, default=None):
@@ -158,8 +167,6 @@ class Sale(metaclass=PoolMeta):
     @ ModelView.button
     @ Workflow.transition('quotation')
     def quote(cls, sales):
-        pool = Pool()
-        AdvancePaymentCondition = pool.get('sale.advance_payment.condition')
         for sale in sales:
             sale.check_for_quotation()
         cls.set_quote_number(sales)
@@ -192,7 +199,8 @@ class Sale(metaclass=PoolMeta):
                         state_agended='no_agenda',
                         propietary=sale.party,
                         propietary_address=sale.shipment_address,
-                        contract_origin=sale.contract_ref if sale.contract_ref else None,
+                        contract_origin=sale.contract_ref
+                        if sale.contract_ref else None,
                         sale_origin=sale,
                         sale_date=sale.sale_date,
                         state="draft"
@@ -224,17 +232,22 @@ class SaleLine(metaclass=PoolMeta):
             If(Eval('_parent_sale.sale_type') == 'maintenance',
                [('type', '=', 'service'),
                 ('maintenance_activity', '=', True)], []))
-        cls.product.domain.append(If(Eval('_parent_sale.sale_type') == 'replaces',
-                                     [('replacement', '=', True)], []))
+        cls.product.domain.append(
+            If(Eval('_parent_sale.sale_type') == 'replaces',
+                [('replacement', '=', True)], []))
 
     def on_change_with_unit_digits(self, name=None):
         if self.unit:
             return self.unit.digits
         return 2
 
-    @fields.depends('product', 'unit', 'quantity', 'sale',
-                    '_parent_sale.party', '_parent_sale.sale_type', methods=['_get_tax_rule_pattern',
-                                                                             '_get_context_sale_price', 'on_change_with_amount'])
+    @fields.depends(
+        'product', 'unit', 'quantity', 'sale',
+        '_parent_sale.party', '_parent_sale.sale_type',
+        methods=[
+            '_get_tax_rule_pattern',
+            '_get_context_sale_price',
+            'on_change_with_amount'])
     def on_change_product(self):
         Product = Pool().get('product.product')
         if not self.product:
@@ -253,7 +266,8 @@ class SaleLine(metaclass=PoolMeta):
                 self.product_equipment = False
                 party = self.sale.party
 
-            # Set taxes before unit_price to have taxes in context of sale price
+            # Set taxes before unit_price
+            # to have taxes in context of sale price
             taxes = []
             pattern = self._get_tax_rule_pattern()
             for tax in self.product.customer_taxes_used:
@@ -276,8 +290,10 @@ class SaleLine(metaclass=PoolMeta):
                 self.unit_digits = self.product.sale_uom.digits
 
             with Transaction().set_context(self._get_context_sale_price()):
-                self.unit_price = Product.get_sale_price([self.product],
-                                                         self.quantity or 0)[self.product.id]
+                self.unit_price = Product.get_sale_price(
+                    [self.product],
+                    self.quantity or 0
+                )[self.product.id]
 
                 if self.unit_price:
                     self.unit_price = self.unit_price.quantize(
@@ -356,7 +372,8 @@ class ConfirmSaleDate(Wizard):
 
     start = StateView('optical_equipment.confirm_sale_date.form',
                       'optical_equipment.confirm_sale_date_view_form', [
-                          Button('Confirmar', 'confirm_date', 'tryton-ok', default=True),
+                          Button('Confirmar', 'confirm_date',
+                                 'tryton-ok', default=True),
                       ])
 
     confirm_date = StateAction('sale.act_sale_form')
