@@ -1,8 +1,7 @@
 # This file is part of Tryton.  The COPYRIGHT file at the top level of
 # this repository contains the full copyright notices and license terms.
 from trytond.model import ModelSQL, ModelView, fields
-from trytond.wizard import (
-    Button, StateAction, StateView, Wizard)
+from trytond.wizard import Button, StateAction, StateView, Wizard
 from trytond.pool import Pool
 
 from datetime import timedelta
@@ -13,24 +12,29 @@ class AgendedInitial(ModelView):
     __name__ = 'optical_equipment_maintenance.agended'
 
     maintenance_service = fields.Many2One(
-        'optical_equipment_maintenance.service', "Maintenaince Service",
-        required=True, domain=[('state', '=', 'draft')])
+        'optical_equipment_maintenance.service',
+        'Maintenaince Service',
+        required=True,
+        domain=[('state', '=', 'draft')],
+    )
 
-    estimated_agended = fields.DateTime("Date Maintenance", required=True)
+    estimated_agended = fields.DateTime('Date Maintenance', required=True)
 
-    technical = fields.Many2One('company.employee', "Technical", required=True)
+    technical = fields.Many2One('company.employee', 'Technical', required=True)
 
 
 class AssingAgended(Wizard):
     'Assing Agended'
     __name__ = 'optical_equipment_maintenance.assing_agended'
 
-    start = StateView('optical_equipment_maintenance.agended',
-                      'optical_equipment.assing_agended_view_form', [
-                          Button('Cancel', 'end', 'tryton-cancel'),
-                          Button('Assing', 'assing_agended',
-                                 'tryton-ok', default=True),
-                      ])
+    start = StateView(
+        'optical_equipment_maintenance.agended',
+        'optical_equipment.assing_agended_view_form',
+        [
+            Button('Cancel', 'end', 'tryton-cancel'),
+            Button('Assing', 'assing_agended', 'tryton-ok', default=True),
+        ],
+    )
 
     assing_agended = StateAction(
         'optical_equipment.act_maintenance_service_form')
@@ -48,16 +52,15 @@ class AssingAgended(Wizard):
         Config = pool.get('optical_equipment.configuration')
         config = Config(3)
 
-        MaintenanceService = pool.get('optical_equipment_maintenance.service')
-        diary = Diary(code=config.agended_sequence.get(),
-                      maintenance_service=self.start.maintenance_service,
-                      date_expected=self.start.estimated_agended,
-                      date_estimated=self.start.estimated_agended
-                      + timedelta(days=15),
-                      date_end=self.start.estimated_agended
-                      + timedelta(days=15),
-                      technical=self.start.technical.id,
-                      state='agended')
+        diary = Diary(
+            code=config.agended_sequence.get(),
+            maintenance_service=self.start.maintenance_service,
+            date_expected=self.start.estimated_agended,
+            date_estimated=self.start.estimated_agended + timedelta(days=15),
+            date_end=self.start.estimated_agended + timedelta(days=15),
+            technical=self.start.technical.id,
+            state='agended',
+        )
         diary.save()
 
         maintenanceService = self.start.maintenance_service
@@ -75,22 +78,28 @@ class ReAgended(ModelView):
     'Agended maintenance service'
     __name__ = 'optical_equipment_maintenance.reagended'
 
-    maintenance_service = fields.Many2One('optical_equipment_maintenance.service', "Maintenaince Service",
-                                          required=True, domain=[('state', '=', 'failed')])
-    estimated_agended = fields.DateTime("Date Maintenance", required=True)
-    technical = fields.Many2One('company.employee', "Technical", required=True)
+    maintenance_service = fields.Many2One(
+        'optical_equipment_maintenance.service',
+        'Maintenaince Service',
+        required=True,
+        domain=[('state', '=', 'failed')],
+    )
+    estimated_agended = fields.DateTime('Date Maintenance', required=True)
+    technical = fields.Many2One('company.employee', 'Technical', required=True)
 
 
 class ReAssingAgended(Wizard):
     'Assing Agended'
     __name__ = 'optical_equipment_maintenance.reassing_agended'
 
-    start = StateView('optical_equipment_maintenance.reagended',
-                      'optical_equipment.reassing_agended_view_form', [
-                          Button('Cancel', 'end', 'tryton-cancel'),
-                          Button('Assing', 'assing_agended',
-                                 'tryton-ok', default=True),
-                      ])
+    start = StateView(
+        'optical_equipment_maintenance.reagended',
+        'optical_equipment.reassing_agended_view_form',
+        [
+            Button('Cancel', 'end', 'tryton-cancel'),
+            Button('Assing', 'assing_agended', 'tryton-ok', default=True),
+        ],
+    )
 
     assing_agended = StateAction(
         'optical_equipment.act_maintenance_service_form')
@@ -106,14 +115,14 @@ class ReAssingAgended(Wizard):
         pool = Pool()
         Diary = pool.get('optical_equipment_maintenance.diary')
 
-        diary = Diary(maintenance_service=self.start.maintenance_service,
-                      date_expected=self.start.estimated_agended,
-                      date_estimated=self.start.estimated_agended
-                      + timedelta(days=15),
-                      date_end=self.start.estimated_agended
-                      + timedelta(days=15),
-                      technical=self.start.technical.id,
-                      state='agended')
+        diary = Diary(
+            maintenance_service=self.start.maintenance_service,
+            date_expected=self.start.estimated_agended,
+            date_estimated=self.start.estimated_agended + timedelta(days=15),
+            date_end=self.start.estimated_agended + timedelta(days=15),
+            technical=self.start.technical.id,
+            state='agended',
+        )
         diary.save()
 
         maintenanceService = self.start.maintenance_service
@@ -130,5 +139,6 @@ class ServiceMaintenanceAgended(ModelSQL):
     __name__ = 'optical_equipment_maintenance.service-maintenance.diary'
 
     maintenance_service = fields.Many2One(
-        'optical_equipment_maintenance.service', "Maintenance Service")
-    agended = fields.Many2One('optical_equipment_maintenance.diary', "Agended")
+        'optical_equipment_maintenance.service', 'Maintenance Service'
+    )
+    agended = fields.Many2One('optical_equipment_maintenance.diary', 'Agended')
