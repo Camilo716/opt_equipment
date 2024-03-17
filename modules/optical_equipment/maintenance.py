@@ -20,6 +20,7 @@ import math as mt
 
 from io import BytesIO
 from trytond.exceptions import UserError
+from trytond.i18n import gettext
 
 _digits = (16, 2)
 
@@ -982,7 +983,7 @@ class MaintenanceLine(ModelSQL, ModelView):
             self.unit = None
             return
 
-        if not self.unit or self.unit.category != category:
+        if not self.unit:
             self.unit = self.replacement.sale_uom
 
     @fields.depends('maintenance_activity', 'quantity', 'unit')
@@ -993,7 +994,7 @@ class MaintenanceLine(ModelSQL, ModelView):
             return
 
         self.quantity = 1
-        if not self.unit or self.unit.category != category:
+        if not self.unit:
             self.unit = self.maintenance_activity.sale_uom
 
 

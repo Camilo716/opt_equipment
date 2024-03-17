@@ -8,9 +8,10 @@ from trytond.modules.company.model import (
     set_employee)
 
 from trytond.exceptions import UserError
-
 from trytond.wizard import (
     Button, StateAction, StateView, Wizard)
+from trytond.i18n import gettext
+from trytond.modules.sale.exceptions import PartyLocationError
 
 
 class Sale(metaclass=PoolMeta):

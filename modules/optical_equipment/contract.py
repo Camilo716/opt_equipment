@@ -11,6 +11,7 @@ from trytond.modules.product import price_digits
 
 import datetime
 from datetime import timedelta, date
+from trytond.i18n import gettext
 
 
 class Cron(metaclass=PoolMeta):
