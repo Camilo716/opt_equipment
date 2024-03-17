@@ -12,4 +12,4 @@ Imports::
 
 Activate modules::
 
-    >>> config = activate_modules('sale_opportunity_management')
+    >>> config = activate_modules('optical_equipment')
